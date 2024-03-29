@@ -6,4 +6,6 @@ unset all_proxy
 curl --socks5 127.0.0.1:7890 http://cip.cc
 curl --socks5 127.0.0.1:7890 myip.ipip.net
 
+# 4. 使用http的代理，查看IP
+curl -x 127.0.0.1:7890 http://cip.cc
 
