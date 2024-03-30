@@ -28,3 +28,7 @@ git remote
 git remote prune 远程地址的别名
 git remote prune origin
 
+# 五、修改git的仓库地址
+git remote set-url origin git@git地址
+
+
