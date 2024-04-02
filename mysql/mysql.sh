@@ -8,3 +8,5 @@ SELECT GROUP_CONCAT(column_name) FROM information_schema. COLUMNS where table_na
 SELECT column_name FROM information_schema. COLUMNS where table_name = ''
 # 替换
 update table_name set content=replace(content,'a','b') 
+# 添加账号
+grant all privileges on *.* to 'username'@'%' identified by 'password';
