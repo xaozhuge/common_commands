@@ -6,3 +6,6 @@
 
 # 二、清理日志，并保证继续产生日志
 sudo sh -c 'echo "" > /var/log/cron'
+
+# 三、判断上条执行的命令
+[ $? -eq 0 ] && echo "success" || echo "fail"
