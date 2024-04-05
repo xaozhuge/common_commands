@@ -7,3 +7,9 @@ docker ps -a --format "{{.Names}}"
 
 3. 进入容器
 docker exec -it $name /bin/sh
+
+# 4. 容器外上传到容器内
+docker cp test.txt php56_c:/tmp
+
+
+
