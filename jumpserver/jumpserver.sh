@@ -10,6 +10,11 @@ echo "例如 sudo useradd nosudo"$server_ip
 echo "例如 sudo passwd nosudo"$server_ip
 echo "例如 密码参考 md5(nosudo#"$add_date"?四位随机字母)"
 
+echo "二、添加有sudo权限的用户"
+echo "例如 sudo useradd withsudo"$server_ip
+echo "例如 sudo passwd withsudo"$server_ip
+echo "例如 密码参考 md5(withsudo#"$add_date"?四位随机字母)"
+
 
 
 
