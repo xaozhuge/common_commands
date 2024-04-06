@@ -15,6 +15,11 @@ echo "例如 sudo useradd withsudo"$server_ip
 echo "例如 sudo passwd withsudo"$server_ip
 echo "例如 密码参考 md5(withsudo#"$add_date"?四位随机字母)"
 
+echo "三、给sudo账号开启权限"
+echo "例如 sudo chmod +w  /etc/sudoers"
+echo "例如 sudo vi /etc/sudoers"
+echo "例如添加 withsudo"$server_ip" ALL=(ALL) NOPASSWD: ALL"
+echo "例如 sudo chmod -w  /etc/sudoers"
 
 
 
