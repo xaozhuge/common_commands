@@ -17,5 +17,8 @@ echo "例如 华为云: Command (m for help): w"
 echo "2. 格式化分区"
 echo "例如 华为云: mkfs -t ext4 /dev/vdb1"
 
-
+echo "3. 添加分区信息"
+echo "例如 华为云: echo '/dev/vdb1 /hwdata ext4 defaults 0 0' >> /etc/fstab"
+echo "验证分区信息: cat /etc/fstab|grep hwdata"
+cat /etc/fstab|grep hwdata
 
