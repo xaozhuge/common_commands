@@ -22,3 +22,8 @@ echo "例如 华为云: echo '/dev/vdb1 /hwdata ext4 defaults 0 0' >> /etc/fstab
 echo "验证分区信息: cat /etc/fstab|grep hwdata"
 cat /etc/fstab|grep hwdata
 
+echo "4. 挂载新分区"
+echo "例如 华为云: cd /;mkdir hwdata;mount -a"
+echo "验证挂载效果 df -h|grep hwdata"
+df -h|grep hwdata
+
