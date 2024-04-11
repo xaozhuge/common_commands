@@ -10,3 +10,8 @@ SELECT column_name FROM information_schema. COLUMNS where table_name = ''
 update table_name set content=replace(content,'a','b') 
 # 添加账号
 grant all privileges on *.* to 'username'@'%' identified by 'password';
+# 重启
+/etc/init.d/mysqld restart
+
+
+
