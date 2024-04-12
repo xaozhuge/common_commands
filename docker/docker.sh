@@ -11,5 +11,7 @@ docker exec -it $name /bin/sh
 # 4. 容器外上传到容器内
 docker cp test.txt php56_c:/tmp
 
+# 5. 运行容器
+docker run -t -d openjdk:8
 
 
