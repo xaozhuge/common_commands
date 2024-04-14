@@ -12,6 +12,8 @@ update table_name set content=replace(content,'a','b')
 grant all privileges on *.* to 'username'@'%' identified by 'password';
 # 重启
 /etc/init.d/mysqld restart
+# 从文件中获取账号、密码
+read username password <<< `cat server.txt |awk -F ':' '{print $1,$2}'`
 
 
 
