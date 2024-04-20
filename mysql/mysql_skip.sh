@@ -8,7 +8,9 @@ skip-grant-tables
 mysql
 # 5、切换数据库
 use mysql
-
-
+# 6、更新密码 
+update user set password=password("密码") where user="用户名";
+# 7、刷新权限
+flush privileges;
 
 
