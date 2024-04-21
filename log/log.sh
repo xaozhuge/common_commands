@@ -9,7 +9,10 @@
 # 3. 清理日志，并保证继续产生日志
 sudo sh -c 'echo "" > /var/log/cron'
 
-# 4、判断上条执行的命令
+# 4. 判断上条执行的命令
 [ $? -eq 0 ] && echo "success" || echo "fail"
+
+# 5. 登录成功的日志
+grep "Accepted" /var/log/secure | awk '{print $1,$2,$3,$9,$11}'
 
 
