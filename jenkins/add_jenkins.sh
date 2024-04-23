@@ -15,8 +15,10 @@ echo "例如 sudo vi /etc/sudoers"
 echo "例如添加 jenkins ALL=(ALL) NOPASSWD: ALL"
 echo "例如 sudo chmod -w  /etc/sudoers"
 
-
-
+echo "三、配置免密登录"
+echo "例如 su -s /bin/bash jenkins"
+echo "例如 ssh-copy-id -i ~/.ssh/id_rsa.pub jenkins@"$server_ip
+echo "例如 ssh jenkins@"$server_ip
 
 
 
