@@ -9,6 +9,11 @@ echo "例如 sudo useradd jenkins"
 echo "例如 sudo passwd jenkins"
 echo "例如 密码参考 md5(jenkins)#"$conf_date"?八位随机字母"
 
+echo "二、给jenkins账号开启权限"
+echo "例如 sudo chmod +w  /etc/sudoers"
+echo "例如 sudo vi /etc/sudoers"
+echo "例如添加 jenkins ALL=(ALL) NOPASSWD: ALL"
+echo "例如 sudo chmod -w  /etc/sudoers"
 
 
 
