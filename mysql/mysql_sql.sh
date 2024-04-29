@@ -8,6 +8,9 @@ SELECT GROUP_CONCAT(column_name) FROM information_schema. COLUMNS where table_na
 # 3. 查询表的所有字段
 SELECT column_name FROM information_schema. COLUMNS where table_name = ''
 
+# 4. 替换
+update table_name set field_name=replace(field_name,'before','after') 
+
 
 
 
