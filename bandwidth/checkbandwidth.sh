@@ -16,3 +16,4 @@ echo $nowtime >> $logpath
 echo '出网带宽' >> $logpath
 cat $tmplog|grep '=>' >> $logpath
 echo  >> $logpath
+
