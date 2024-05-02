@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#变量设置
+#1. 变量设置
 nowtime=`date "+%Y-%m-%d %H:%M:%S"`
 interface=eth0
 numtime=5
