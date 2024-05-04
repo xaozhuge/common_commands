@@ -5,8 +5,8 @@ git config user.name
 git config user.email
 
 
-二、修改用户、邮箱
-1. 修改当前用户 
+# 二、修改用户、邮箱
+# 1. 修改当前用户 
 git config --global user.name "用户名"
 git config --local user.name "用户名"
 2. 修改当前邮箱 
