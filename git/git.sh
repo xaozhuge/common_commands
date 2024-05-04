@@ -1,5 +1,5 @@
-一、查看用户、邮箱
-1. 查看当前用户 
+# 一、查看用户、邮箱
+# 1. 查看当前用户 
 git config user.name
 2. 查看当前邮箱 
 git config user.email
