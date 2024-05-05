@@ -14,7 +14,7 @@ git config --global user.email "邮箱"
 git config --local user.email "邮箱"
 
 # 三、git默认追踪
-1、查看是否开启权限追踪
+# 1. 查看是否开启权限追踪
 cat .git/config | grep filemode
 
 2、不追踪权限
