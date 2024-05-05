@@ -9,7 +9,7 @@ git config user.email
 # 1. 修改当前用户 
 git config --global user.name "用户名"
 git config --local user.name "用户名"
-2. 修改当前邮箱 
+# 2. 修改当前邮箱 
 git config --global user.email "邮箱" 
 git config --local user.email "邮箱"
 
