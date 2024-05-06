@@ -11,6 +11,9 @@ SELECT column_name FROM information_schema. COLUMNS where table_name = ''
 # 4. 替换
 update table_name set field_name=replace(field_name,'before','after') 
 
+# 5. 查询表的字段注释
+SELECT COLUMN_NAME,COLUMN_COMMENT FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='database_name' AND TABLE_NAME='table_name';
+
 
 
 
