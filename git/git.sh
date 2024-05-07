@@ -17,7 +17,7 @@ git config --local user.email "邮箱"
 # 1. 查看是否开启权限追踪
 cat .git/config | grep filemode
 
-2、不追踪权限
+# 2. 不追踪权限
 git config core.filemode false
 
 四、删除、更新 不存在的远程分支
