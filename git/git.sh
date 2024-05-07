@@ -21,7 +21,7 @@ cat .git/config | grep filemode
 git config core.filemode false
 
 # 四、删除、更新 不存在的远程分支
-1、查看远程地址的别名
+# 1. 查看远程地址的别名
 git remote
 
 2、删除、更新 不存在的远程分支
