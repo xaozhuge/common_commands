@@ -6,7 +6,8 @@ path='/alidata/www/crontab/'
 # 2. 定义日期
 time=`date +%Y%m%d`
 
-
+# 3. 备份crontab
+crontab -l >> $path$time.log
 
 
 
