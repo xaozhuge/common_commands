@@ -9,6 +9,9 @@ echo "服务器
 4:查看开机启动项
 5:前往php日志、慢查询目录
 6:前往nginx日志目录
+7:前往script目录
+8:重启 openresty/1.19.3.1
+9:重启 php-fpm73/7.3.27
 "
 read -p "where code you will go?": NUM
 
@@ -33,6 +36,16 @@ case $NUM in
     6)
     cd /alidata/log/nginx/access;
     pwd;
+    ;;
+    7)
+    cd /alidata/www/script.com;
+    pwd;
+    ;;
+    8)
+    sudo /usr/local/openresty/bin/openresty -s reload -c /alidata/server/nginx/conf/nginx.conf;
+    ;;
+    9)
+    sudo /etc/init.d/php-fpm73 restart;
     ;;
 esac
 
