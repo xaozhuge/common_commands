@@ -6,3 +6,8 @@
 echo "alias test='cd /alidata/www/test.com/demo1'" >> /etc/bashrc
 # demo2
 echo "alias bak='source /alidata/www/script.com/bak.sh'" >> /etc/bashrc
+# demo3
+echo "alias remark='cat /alidata/www/script.com/remark'" >> /etc/bashrc
+# 4. 加载配置
+source /etc/bashrc
+
