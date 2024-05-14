@@ -4,5 +4,7 @@ sudo nginx -s reload
 /etc/init.d/nginx start
 # 3. 停止运行
 /etc/init.d/nginx stop
+# 4. 重启
+/etc/init.d/nginx restart
 
 
