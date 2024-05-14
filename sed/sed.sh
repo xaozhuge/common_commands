@@ -9,3 +9,7 @@ sed -i '1,10000d' filename
 sed -i '' 's/before/after/g' 文件名
 # 3.2 Linux
 sed -i 's/before/after/g' 文件名
+# 3.3 分隔符，这里的/ 可以被替换成其他字符，例如 #
+sed -i 's#before#after#g' 文件名
+
+
