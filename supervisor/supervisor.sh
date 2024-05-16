@@ -10,3 +10,8 @@ systemctl enable supervisord.service
 
 # 4. 重启 supervisor 服务
 systemctl restart supervisord.service
+
+# 二、supervisor 配置
+# 1. 配置文件地址
+/etc/supervisord.d
+
