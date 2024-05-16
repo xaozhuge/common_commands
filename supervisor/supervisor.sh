@@ -14,4 +14,15 @@ systemctl restart supervisord.service
 # 二、supervisor 配置
 # 1. 配置文件地址
 /etc/supervisord.d
+# 2. 配置文件名 demo
+gocronweb.ini
+# 3. 配置文件内容 demo 
+[program:gocronweb]
+directory=/alidata/gocron/gocron-linux-amd64
+command=/alidata/gocron/gocron-linux-amd64/gocron web
+autostart=true
+autorestart=true
+stdout_logfile=/alidata/log/supervisor/gocronwebstd.log
+stderr_logfile=/alidata/log/supervisor/gocronweberr.log
+
 
