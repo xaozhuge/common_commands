@@ -7,3 +7,6 @@ systemctl start supervisord.service
 
 # 3. 开机启动 supervisor服务
 systemctl enable supervisord.service 
+
+# 4. 重启 supervisor 服务
+systemctl restart supervisord.service
