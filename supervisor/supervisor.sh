@@ -29,5 +29,7 @@ stderr_logfile=/alidata/log/supervisor/gocronweberr.log
 # 1. 启动、关闭 gocronweb
 supervisorctl start gocronweb
 supervisorctl stop gocronweb
+# 2. 查看运行状态
+supervisorctl status
 
 
