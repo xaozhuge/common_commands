@@ -9,4 +9,7 @@ docker save -o nginx_221102 nginx:1.22
 # docker load < 本地名称
 docker load < nginx_221102
 
+# 4. 删除所有悬空镜像
+
+
 
