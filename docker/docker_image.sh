@@ -12,4 +12,8 @@ docker load < nginx_221102
 # 4. 删除所有悬空镜像
 docker image prune
 
+# 5. 查看 mynginx:latest 镜像的详细信息
+docker inspect mynginx:latest
+
+
 
