@@ -17,6 +17,9 @@ docker inspect mynginx:latest
 
 # 6. docker image 代表 Docker 镜像子命令，用于管理 Docker 镜像
 
+# 7. docker image prune 是 docker image 的一个子命令，用于清理 Docker 镜像。
+# 它会查找并删除未被任何容器使用的镜像
+
 
 
 
