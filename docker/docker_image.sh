@@ -26,7 +26,8 @@ docker inspect mynginx:latest
 	# 	7.2.2 "label=stage=builder_test": 这个部分定义了过滤条件。
 	# 	它仅匹配具有标签 "stage=builder_test" 的镜像。
 	# 	7.2.3 label: 表示根据镜像的标签进行筛选。
-
+	# 	7.2.4 stage=builder_test: 这部分指定了要匹配的标签的键和值。 
+	# 	它查找具有键 "stage" 和值 "builder_test" 的标签。
 
 
 
