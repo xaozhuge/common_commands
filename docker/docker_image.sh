@@ -20,6 +20,8 @@ docker inspect mynginx:latest
 # 7. docker image prune 是 docker image 的一个子命令，用于清理 Docker 镜像。
 # 它会查找并删除未被任何容器使用的镜像
 	# 7.1 --force: 这是 docker image prune 的一个选项，用于强制删除镜像。
+	# 7.2 --filter "label=stage=builder_test": 
+	# 这也是 docker image prune 的一个选项，用于指定要删除的镜像的筛选条件
 
 
 
