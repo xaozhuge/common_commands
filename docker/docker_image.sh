@@ -22,6 +22,12 @@ docker inspect mynginx:latest
 	# 7.1 --force: 这是 docker image prune 的一个选项，用于强制删除镜像。
 	# 7.2 --filter "label=stage=builder_test": 
 	# 这也是 docker image prune 的一个选项，用于指定要删除的镜像的筛选条件
+	# 	7.2.1 --filter: 表示使用过滤器来指定要处理的镜像
+	# 	7.2.2 "label=stage=builder_test": 这个部分定义了过滤条件。
+	# 	它仅匹配具有标签 "stage=builder_test" 的镜像。
+	# 	7.2.3 label: 表示根据镜像的标签进行筛选。
+
+
 
 
 
