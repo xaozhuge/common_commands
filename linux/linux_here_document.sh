@@ -6,3 +6,8 @@ text
 EOF
 # 1.1 command 是你要执行的命令
 # 1.2 <<EOF 表示开始 Here Document
+# 1.3 EOF 是结束符，可以是任意字符串，但通常使用 EOF
+# 1.4 在 <<EOF 和 结束符 之间的所有文本都会作为输入传递给 command
+
+
+
