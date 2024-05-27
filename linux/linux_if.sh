@@ -8,3 +8,7 @@ if [ $? -ne 0 ]; then
   echo "有问题，构建失败"
   exit 1
 fi
+
+# 3. 判断前置命令是否等于0
+[ $? -eq 0 ] && echo "success" || echo "fail"
+
