@@ -6,3 +6,9 @@
 
 # 4. 使用 POSIX 标准 Shell（通常是 /bin/sh）
 #!/bin/sh
+
+# 5. 使用 Bash Shell
+#!/bin/bash
+
+# 6. 使用 Python 解释器
+#!/usr/bin/env python3
