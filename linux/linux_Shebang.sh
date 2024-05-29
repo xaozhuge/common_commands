@@ -12,3 +12,6 @@
 
 # 6. 使用 Python 解释器
 #!/usr/bin/env python3
+
+# 7. 在许多 Unix 和类 Unix 系统中，/bin/sh 实际上是一个符号链接，指向系统的默认 Shell
+/bin/sh -> bash
