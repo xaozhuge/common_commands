@@ -9,3 +9,6 @@ if [ $? -ne 0 ]; then
 fi
 pwd
 EOF
+
+# 2. ssh 远程执行命令
+ssh root@192.168.1.1 "cd /alidata/www;ls"
