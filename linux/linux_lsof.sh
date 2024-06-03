@@ -6,3 +6,15 @@ lsof -U
 lsof -U | grep php-fpm
 # 2.2 查看特定套接字文件的使用情况
 lsof /run/php/php7.4-fpm.sock
+
+# 3. -u 选项用于列出由特定用户(www)打开的所有文件
+lsof -u www
+
+# 4. -i 选项用于列出所有网络接口相关的文件(网络套接字), 文件类型是IPv4或IPv6
+# 4.1 包括TCP套接字和UDP套接字,以及其他与网络连接相关的文件
+lsof -i
+# 4.2 查看所有TCP连接,查看所有UDP连接
+lsof -i tcp
+lsof -i udp
+# 4.3 查看特定端口的网络连接
+lsof -i :80
