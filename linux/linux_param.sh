@@ -12,3 +12,16 @@ git branch |grep zzz|xargs git branch -D
 # 4. xargs 的默认行为是将输入数据附加到命令的末尾, 下面命令等同
 echo "file1 file2 file3" | xargs rm
 rm file1 file2 file3
+
+# 5. -I选项和{}占位符 有些命令需要标准输入的数据插入到特定位置, 下面命令等同
+echo "file1 file2 file3" | xargs -I {} mv {} /backup
+mv file1 /backup
+mv file2 /backup
+mv file3 /backup
+
+# 6. xargs 的默认行为是将输入数据按照空格、换行符和制表符分隔成独立的参数
+# 无论输入数据中包含哪种分隔符, 它们都会被视为等价的分隔符
+# xargs 会将这些分隔符统一处理, 将分隔符之间的每一段文本作为单独的命令行参数
+
+
+
