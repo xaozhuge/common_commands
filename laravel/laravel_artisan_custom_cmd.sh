@@ -10,3 +10,9 @@ php artisan synctomysql
 php artisan synctomysql user_table
 # 2.4 {date?} 是一个可选参数, 运行命令时可以选择提供这个参数. 它代表同步操作的日期
 php artisan synctomysql user_table 2024-06-01
+
+# 3. 处理参数, 在命令的 handle 方法中, 通过 $this->argument 方法来获取传递的参数
+$tablename = $this->argument('tablename');
+
+# 4. $description 属性提供了一个简短的命令描述, 当用户查看命令列表或帮助信息时会显示
+protected $description = 'Sync data to MySQL database';
