@@ -16,3 +16,16 @@ $tablename = $this->argument('tablename');
 
 # 4. $description 属性提供了一个简短的命令描述, 当用户查看命令列表或帮助信息时会显示
 protected $description = 'Sync data to MySQL database';
+
+# 5. 注册命令
+# 5.1 Laravel通过扫描app/Console/Commands目录中的命令类来实现自动发现
+# 5.2 只要命令类正确定义, 并且文件位于app/Console/Commands目录中, Laravel就会自动注册这些命令
+php artisan list
+
+# 6. 使用命令
+php artisan synctomysql user_table
+php artisan synctomysql user_table 2024-06-01
+
+
+
+
