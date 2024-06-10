@@ -9,3 +9,8 @@
 # 5. PHP-FPM可以通过两种主要方式与Web服务器(如Nginx)通信：Unix套接字和TCP/IP套接字
 # 5.1 Unix套接字   listen = /run/php-fpm/www.sock
 # 5.2 TCP/IP套接字 listen = 127.0.0.1:9000
+
+# 6. 查看mysql的套接字
+lsof -U | grep mysql
+lsof /tmp/mysql.sock
+
