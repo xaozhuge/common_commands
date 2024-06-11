@@ -8,3 +8,9 @@ cd ;source .bash_profile;pwd;
 tiup cluster start tidb
 tiup cluster stop tidb
 tiup cluster restart tidb
+
+# 3. 查看集群的状态
+tiup cluster display tidb
+
+
+
