@@ -2,4 +2,4 @@
 var=$(pwd)
 var=`pwd`
 
-
+# 2. 反引号 `command` 用于执行 command 并将其输出作为字符串返回
