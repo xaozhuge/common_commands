@@ -3,3 +3,6 @@ var=$(pwd)
 var=`pwd`
 
 # 2. 反引号 `command` 用于执行 command 并将其输出作为字符串返回
+
+# 3. eval 是一个内建的 shell 命令, 用于将传递给它的字符串作为 shell 命令来执行
+
