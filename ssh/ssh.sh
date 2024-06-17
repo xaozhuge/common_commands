@@ -8,3 +8,5 @@ ssh -p 端口 root@192.168.1.1
 # 3.1 ssh 用于基本的 SSH 连接和远程命令执行。
 ssh user@hostname
 ssh user@hostname "ls -l"
+# 3.2 ssh -t 请求分配一个伪终端，适用于需要终端支持的单个命令或程序
+ssh -t user@hostname "top"
