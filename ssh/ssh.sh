@@ -10,3 +10,8 @@ ssh user@hostname
 ssh user@hostname "ls -l"
 # 3.2 ssh -t 请求分配一个伪终端，适用于需要终端支持的单个命令或程序
 ssh -t user@hostname "top"
+# 3.3 ssh -tt 强制分配一个或多个伪终端，适用于需要严格终端环境的场景，如多级跳转或运行复杂交互脚本
+ssh -tt user@hostname "sudo ./interactive_script.sh"
+
+
+
