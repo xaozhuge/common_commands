@@ -4,3 +4,6 @@
 cat /var/log/vsftpd.log
 # 1.2 修改配置文件 max_per_ip=4
 vi /etc/vsftpd/vsftpd.conf
+# 1.3 重新启动ftp服务
+/usr/sbin/vsftpd /etc/vsftpd/vsftpd.conf
+
