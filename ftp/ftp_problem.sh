@@ -2,3 +2,5 @@
 [pid 10396] CONNECT: Client "IP", "Connection refused: too many sessions for this address."
 # 1.1 查看问题
 cat /var/log/vsftpd.log
+# 1.2 修改配置文件 max_per_ip=4
+vi /etc/vsftpd/vsftpd.conf
