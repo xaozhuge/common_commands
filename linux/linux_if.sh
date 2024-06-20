@@ -12,3 +12,8 @@ fi
 # 3. 判断前置命令是否等于0
 [ $? -eq 0 ] && echo "success" || echo "fail"
 
+# 4. 判断文件是否存在且是否可执行
+if [ -x /usr/libexec/path_helper ]; then
+    eval `/usr/libexec/path_helper -s`
+fi
+
