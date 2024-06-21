@@ -6,3 +6,7 @@ drop database 数据库名称;
 
 # 3. 显示数据库列表, 主要有s
 show databases;
+
+# 4. 切换数据库
+use 数据库名称;
+
