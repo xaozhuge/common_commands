@@ -1,8 +1,10 @@
 #!/bin/sh
 echo "请先配置 server_ip/dbname/passwd/proxyip"
+# server_ip 数据库IP
 server_ip=server_ip
 dbname=dbname
 passwd=passwd
+# proxyip 堡垒机IP
 proxyip=proxyip
 
 echo "1、添加线上只读权限的用户-未存在账号"
