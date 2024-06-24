@@ -18,3 +18,6 @@ find 目录 -type f -mmin -60
 # 7. 查找最近一小时内修改过的目录
 find 目录 -type d -mmin -60
 
+# 8. 修改目录/文件的所有权(所有者和组)
+sudo chown -R username:group 目录/文件
+
