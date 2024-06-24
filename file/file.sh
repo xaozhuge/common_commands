@@ -10,12 +10,11 @@ gzip -d 2024-04-11.log.gz
 
 # 5. 生成软链接, 路径为绝对路径
 ln -s 已存在 新生成
+ln -s /alidata/privatedb /alidata/server/mysql/data/privatedb
 
 # 6. 查找最近一小时内修改过的文件
 find 目录 -type f -mmin -60
 
 # 7. 查找最近一小时内修改过的目录
 find 目录 -type d -mmin -60
-
-
 
