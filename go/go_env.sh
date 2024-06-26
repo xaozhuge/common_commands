@@ -3,3 +3,7 @@ go env
 
 # 2. 获取env变量的值
 go env GOPROXY
+
+# 3. 写入环境变量配置
+go env -w GOPROXY=https://goproxy.cn,direct
+
