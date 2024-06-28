@@ -26,9 +26,11 @@ stdout_logfile=/alidata/log/supervisor/gocronwebstd.log
 stderr_logfile=/alidata/log/supervisor/gocronweberr.log
 
 # 三、启动、关闭服务（通过端口或者返回值）
-# 1. 启动、关闭 gocronweb
+# 1. 启动/关闭/重启 gocronweb
 supervisorctl start gocronweb
 supervisorctl stop gocronweb
+supervisorctl restart gocronweb
+
 # 2. 查看运行状态
 supervisorctl status
 
