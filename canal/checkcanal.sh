@@ -27,14 +27,15 @@ contains_keyword() {
 tail -F "$FILE_TO_MONITOR" | while read -r line; do
     if contains_keyword "$line"; then
         if [ -f "$isnotice" ]; then
-            echo `date "+%Y-%m-%d %H:%M:%S"`" 已推送异常,退出..." >> checklog
+            echo `date "+%Y-%m-%d %H:%M:%S"`" 已推送异常,退出..." >> $checklog
             exit 0
         fi
-        echo `date "+%Y-%m-%d %H:%M:%S"`" 异常" >> checklog
-        `curl -X POST -H "Content-Type: application/json" -d "{\"content\":\"$line\", \"remind\":\"\"}" $url`
+        echo `date "+%Y-%m-%d %H:%M:%S"`" 异常 $line" >> $checklog
+        echo `date "+%Y-%m-%d %H:%M:%S"`" 异常 $line"
+        curl -X POST -H "Content-Type: application/json" -d "{\"content\":\"$line\", \"remind\":\"\"}" $url
         touch $isnotice
     else
-        echo `date "+%Y-%m-%d %H:%M:%S"`" 正常" >> checklog
+        echo `date "+%Y-%m-%d %H:%M:%S"`" 正常 $line" >> $checklog
     fi
 done
 
