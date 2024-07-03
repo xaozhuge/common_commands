@@ -10,3 +10,8 @@ go 1.21.0
 require (
 	github.com/gin-gonic/gin v1.9.1
 )
+
+# 5. indirect 表示这个依赖是间接依赖, 而不是直接依赖. 间接依赖是通过其他依赖引入的
+require (
+	github.com/google/uuid v1.6.0 // indirect
+)
