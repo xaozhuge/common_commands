@@ -6,3 +6,7 @@ module mymodule.com/project
 # 3. go 语句指定使用的 Go 版本. 这个版本通常是你用来开发和测试模块的 Go 版本
 go 1.21.0
 
+# 4. require 语句列出了模块的依赖项及其版本
+require (
+	github.com/gin-gonic/gin v1.9.1
+)
