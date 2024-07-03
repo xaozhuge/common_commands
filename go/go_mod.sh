@@ -15,3 +15,13 @@ require (
 require (
 	github.com/google/uuid v1.6.0 // indirect
 )
+
+# 6. 常用命令
+# 6.1 初始化新的模块, 创建 go.mod 文件
+go mod init [module-path]
+# 6.2 整理现有的 go.mod 文件, 添加缺失的模块, 删除不用的模块
+go mod tidy
+# 6.3 下载 go.mod 文件中指定的所有依赖
+go mod download
+# 6.4 将所有依赖复制到项目的 vendor 目录中. 根据 go.mod 文件中声明的依赖来创建一个 vendor 目录
+go mod vendor
