@@ -21,6 +21,3 @@ echo "例如 sudo vi /etc/sudoers"
 echo "例如添加 withsudo"$server_ip" ALL=(ALL) NOPASSWD: ALL"
 echo "例如 sudo chmod -w  /etc/sudoers"
 
-
-
-
