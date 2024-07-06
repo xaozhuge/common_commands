@@ -10,3 +10,7 @@ var=`pwd`
 array=($(ls))
 # 4.1 输出数组的第一个元素
 echo ${array[0]}
+# 4.2 输出数组的全部元素
+echo ${array[*]}
+echo ${array[@]}
+
