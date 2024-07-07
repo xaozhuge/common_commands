@@ -12,3 +12,9 @@
 # 4. pluck 方法将获取匹配条件的所有记录中id字段的值, 并以数组的形式返回
 ->pluck('id')->toArray()
 
+# 5. 多个where条件
+->where('id', 1)->where('sex', "男")
+
+# 6. 删除
+->delete()
+
