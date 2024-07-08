@@ -12,3 +12,11 @@
 #   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
 #   PRIMARY KEY (`id`)
 # ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='服务器管理';
+
+# mysql 账号
+user=
+# mysql 密码
+password=
+# 临时服务器列表
+server_list=~/script/server_list.txt
+
