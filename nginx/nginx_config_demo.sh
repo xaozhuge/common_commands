@@ -9,6 +9,7 @@ server {
 
     return 444;
 
+	access_log  /alidata/log/nginx/access/default/$host.log;
 }
 
 
