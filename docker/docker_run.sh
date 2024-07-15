@@ -14,3 +14,7 @@ docker run --name CONTAINER_NAME IMAGE
 docker run -p HOST_PORT:CONTAINER_PORT IMAGE
 # 2.4 挂载卷(-v):使用 -v 将主机目录挂载到容器目录
 docker run -v HOST_DIR:CONTAINER_DIR IMAGE
+# 2.5 交互式终端(-it):使用 -it 选项,可以与容器进行交互(通常用于调试或进入容器内部)
+docker run -it IMAGE
+# 2.6 自动删除(--rm):使用 --rm 选项, 容器停止后会自动删除
+docker run --rm IMAGE
