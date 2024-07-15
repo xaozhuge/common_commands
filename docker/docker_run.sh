@@ -10,3 +10,7 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 docker run -d IMAGE
 # 2.2 命名容器(--name):使用 --name 为容器指定一个名称
 docker run --name CONTAINER_NAME IMAGE
+# 2.3 绑定端口(-p):使用 -p 将主机端口映射到容器端口
+docker run -p HOST_PORT:CONTAINER_PORT IMAGE
+# 2.4 挂载卷(-v):使用 -v 将主机目录挂载到容器目录
+docker run -v HOST_DIR:CONTAINER_DIR IMAGE
