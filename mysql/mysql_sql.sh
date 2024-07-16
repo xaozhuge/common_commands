@@ -14,6 +14,9 @@ update table_name set field_name=replace(field_name,'before','after')
 # 5. 查询表的字段注释
 SELECT COLUMN_NAME,COLUMN_COMMENT FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='database_name' AND TABLE_NAME='table_name';
 
+# 6. 字段为json
+select JSON_EXTRACT(field_name, '$.json_fieldname') as aliasname
+
 
 
 
