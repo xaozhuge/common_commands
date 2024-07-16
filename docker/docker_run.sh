@@ -18,3 +18,8 @@ docker run -v HOST_DIR:CONTAINER_DIR IMAGE
 docker run -it IMAGE
 # 2.6 自动删除(--rm):使用 --rm 选项, 容器停止后会自动删除
 docker run --rm IMAGE
+# 2.7 环境变量(-e):使用 -e 传递环境变量到容器
+docker run -e ENV_VAR_NAME=value IMAGE
+# 2.8 指定工作目录(-w):使用 -w 指定容器内的工作目录
+docker run -w /path/to/workdir IMAGE
+
