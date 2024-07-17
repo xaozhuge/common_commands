@@ -32,3 +32,8 @@ CMD ["echo", "Hello, World!"]
 # 4.1 docker run -it ubuntu : 运行后会输出 Hello, World!, 然后容器退出
 # 4.2 docker run -it ubuntu /bin/sh : 运行后会启动 /bin/sh shell, 进入交互模式, 你可以在容器内执行命令
 
+# 5. 保持容器运行
+# 5.1 使用一个保持运行的命令
+docker run -d ubuntu tail -f /dev/null
+# 5.2 启动交互式 shell
+docker run -d -it ubuntu /bin/sh
