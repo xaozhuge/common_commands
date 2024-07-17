@@ -23,3 +23,6 @@ docker run -e ENV_VAR_NAME=value IMAGE
 # 2.8 指定工作目录(-w):使用 -w 指定容器内的工作目录
 docker run -w /path/to/workdir IMAGE
 
+# 3. 拉取并运行一个 Ubuntu 容器, 启动一个交互式终端会话, 运行/bin/sh shell
+docker run -it ubuntu /bin/sh
+
