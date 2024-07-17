@@ -26,3 +26,9 @@ docker run -w /path/to/workdir IMAGE
 # 3. 拉取并运行一个 Ubuntu 容器, 启动一个交互式终端会话, 运行/bin/sh shell
 docker run -it ubuntu /bin/sh
 
+# 4. 指定具体的命令(如/bin/sh)可以覆盖镜像的默认命令, 提供更多的灵活性和控制. 假如 Dockerfile 内容如下
+FROM ubuntu:latest
+CMD ["echo", "Hello, World!"]
+# 4.1 docker run -it ubuntu : 运行后会输出 Hello, World!, 然后容器退出
+# 4.2 docker run -it ubuntu /bin/sh : 运行后会启动 /bin/sh shell, 进入交互模式, 你可以在容器内执行命令
+
