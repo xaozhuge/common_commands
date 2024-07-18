@@ -27,3 +27,8 @@ mysql -u$user -p$password  -e \
 "use test;
 select concat('(',id,')|',user,'|',ip_public,'|',ip_private,'|',remark) from server where user <> '';" \
 2>&1 | grep -v 'Using a password' |grep -v remark`
+
+for info in $list; do
+    echo $info >> $server_list
+done
+
