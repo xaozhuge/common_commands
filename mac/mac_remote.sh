@@ -21,3 +21,9 @@ password=
 server_list=~/script/server_list.txt
 
 echo > $server_list
+
+list=`
+mysql -u$user -p$password  -e \
+"use test;
+select concat('(',id,')|',user,'|',ip_public,'|',ip_private,'|',remark) from server where user <> '';" \
+2>&1 | grep -v 'Using a password' |grep -v remark`
