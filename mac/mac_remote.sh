@@ -20,3 +20,4 @@ password=
 # 临时服务器列表
 server_list=~/script/server_list.txt
 
+echo > $server_list
