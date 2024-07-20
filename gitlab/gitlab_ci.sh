@@ -7,3 +7,8 @@ stages:
 	- build
 	- deploy
 
+# 3. jobbuild是作业的名称. stage: build 指定了这个作业属于 build 阶段. script: 是作业中需要执行的命令列表
+jobbuild:
+	stage: build
+	script:
+		- shell cmd
