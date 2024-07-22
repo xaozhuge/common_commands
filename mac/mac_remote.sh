@@ -32,3 +32,15 @@ for info in $list; do
     echo $info >> $server_list
 done
 
+echo "which server will you use?"
+
+content=`cat $server_list`
+for info in $content; do
+    array=(${info//|/ })  
+    echo "${array[0]}:${array[4]}(${array[2]}|${array[3]})"
+done
+
+echo
+echo
+echo
+
