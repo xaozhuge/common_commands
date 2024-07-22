@@ -46,3 +46,5 @@ echo
 
 read -p "where code you will go?": NUM
 read user ip_public <<< `cat $server_list |grep "(${NUM})|"|awk -F '|' '{print $2,$3}'`
+
+ssh $user@$ip_public
