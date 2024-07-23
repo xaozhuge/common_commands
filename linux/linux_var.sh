@@ -17,3 +17,5 @@ echo ${array[@]}
 # 5. 参数替换
 # 5.1 表示将变量 var 中所有匹配 pattern 的部分替换为 replacement
 ${var//pattern/replacement}
+# 5.2 用于将字符串 info 中的每个竖线字符 "|" 替换为空格字符" "
+${info//|/ }
