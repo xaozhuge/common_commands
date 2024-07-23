@@ -28,6 +28,8 @@ mysql -u$user -p$password  -e \
 select concat('(',id,')|',user,'|',ip_public,'|',ip_private,'|',remark) from server where user <> '';" \
 2>&1 | grep -v 'Using a password' |grep -v remark`
 
+# 注意: 在shell脚本中,for循环中的in是按照空白(包括空格、制表符、换行符等)来分割字符串的
+# 而不是按行来遍历命令的输出
 for info in $list; do
     echo $info >> $server_list
 done
