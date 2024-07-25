@@ -8,3 +8,6 @@ c.Get(key string)(value interface{}, exists bool)
 # 3. 获取POST表单参数
 c.PostForm(key string)
 
+# 4. 设置HTTP状态码
+c.Status(code int)
+
