@@ -5,3 +5,6 @@ c *gin.Context
 # 2. 获取上下文中存储的值
 c.Get(key string)(value interface{}, exists bool)
 
+# 3. 获取POST表单参数
+c.PostForm(key string)
+
