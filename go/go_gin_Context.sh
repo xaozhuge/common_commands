@@ -11,3 +11,6 @@ c.PostForm(key string)
 # 4. 设置HTTP状态码
 c.Status(code int)
 
+# 5. 发送JSON响应
+c.JSON(code int, obj interface{})
+
