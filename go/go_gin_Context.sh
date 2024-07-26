@@ -14,3 +14,7 @@ c.Status(code int)
 # 5. 发送JSON响应
 c.JSON(code int, obj interface{})
 
+# 6. 用于将请求体的数据绑定到指定结构体变量的方法
+# 支持根据请求的Content-Type自动选择合适的绑定器(JSON、表单)
+c.ShouldBind(&param)
+Page int `json:"page" form:"page"`
