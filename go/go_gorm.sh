@@ -2,3 +2,6 @@
 # db 是 *gorm.DB 类型的一个变量, 表示 gorm.DB 结构体的一个实例
 db *gorm.DB
 
+# 2. 告诉ORM, 后续的操作是针对User模型对应的数据库表
+db.Model(&User{})
+
