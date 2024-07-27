@@ -5,3 +5,6 @@ db *gorm.DB
 # 2. 告诉ORM, 后续的操作是针对User模型对应的数据库表
 db.Model(&User{})
 
+# 3. 从数据库中查询指定表的第一条记录, 并将结果存储在varname中, varname通常是一个结构体类型
+db.First(&varname)
+
