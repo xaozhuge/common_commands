@@ -8,3 +8,9 @@ db.Model(&User{})
 # 3. 从数据库中查询指定表的第一条记录, 并将结果存储在varname中, varname通常是一个结构体类型
 db.First(&varname)
 
+# 4. 用于指定查询结果按照 id 字段降序排序
+db.Order("id desc") 
+
+# 5. 从数据库中查询所有符合条件的记录, 并将这些记录存储在 varname 中, 这里的varname 通常是一个结构体的切片
+db.Find(&varname)
+
