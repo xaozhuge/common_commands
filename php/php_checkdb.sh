@@ -44,3 +44,10 @@ function checkdb($servername, $username, $password, $port, $dbname, $sql, $conte
     // 关闭连接
     $conn = null;
 }
+
+function nowms() {
+    list($t1, $t2) = explode(' ', microtime());
+    return (float)sprintf('%.0f',(floatval($t1)+floatval($t2))*1000);
+}
+
+?>
