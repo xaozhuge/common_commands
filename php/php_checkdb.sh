@@ -30,7 +30,12 @@ function checkdb($servername, $username, $password, $port, $dbname, $sql, $conte
         $end_time   = nowms();
         $use_time   = $end_time - $start_time;
 
-        
+        // 输出数据
+        while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+            echo "2. SQL执行结果: id: " . $row["id"]. " - Update: " . $row["update_time"]. PHP_EOL;
+            break;
+        }
+        echo "3. SQL消耗时间:{$use_time}ms";
     } catch (PDOException $e) {
         echo "1. 数据库连接失败: " . $e->getMessage();
     }
