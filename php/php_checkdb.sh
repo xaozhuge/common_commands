@@ -24,6 +24,12 @@ function checkdb($servername, $username, $password, $port, $dbname, $sql, $conte
         $conn = new PDO($dsn, $username, $password, $options);
         echo "1. 数据库连接成功".PHP_EOL;
 
+        // 执行 SQL 查询
+        $start_time = nowms();
+        $stmt = $conn->query($sql);
+        $end_time   = nowms();
+        $use_time   = $end_time - $start_time;
+
         
     } catch (PDOException $e) {
         echo "1. 数据库连接失败: " . $e->getMessage();
@@ -33,4 +39,3 @@ function checkdb($servername, $username, $password, $port, $dbname, $sql, $conte
     // 关闭连接
     $conn = null;
 }
-
