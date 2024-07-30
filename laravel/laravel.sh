@@ -7,3 +7,6 @@ sudo mkdir -p storage/framework/sessions
 sudo mkdir -p storage/framework/views
 sudo chmod -R  777 storage
 
+# 2. 定时任务
+* * * * * sudo -u www /alidata/server/php73/bin/php /alidata/www/script.com/artisan user:update
+
