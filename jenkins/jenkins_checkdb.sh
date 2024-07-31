@@ -11,3 +11,9 @@ echo -n "带宽:"; sudo iftop -i eth1 -t -s 2 -nN  2>&1|grep "send rate";\
 echo -n "带宽:"; sudo iftop  -t -s 2 -nN  2>&1 | egrep "=>|<="|xargs -l2 |awk "{print \$8,\$4,\$5,\$6}"|grep -v "192.168.0";\
 echo;'
 echo ''
+
+# 1. 注意
+# 1.1 jenkins里注意结尾的 ; 和 \
+# 1.2 注意 ssh 单引号包双引号, 还是双引号包单引号
+# 1.3 注意 ssh 里 \$
+
