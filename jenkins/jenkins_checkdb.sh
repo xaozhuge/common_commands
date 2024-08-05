@@ -26,3 +26,6 @@ sudo /alidata/server/php/bin/php /root/script/checkdb.php
 # 4. 统计php-fpm数
 ps aux|grep php-fpm|wc -l
 
+# 5. 统计负载
+w|grep load
+
