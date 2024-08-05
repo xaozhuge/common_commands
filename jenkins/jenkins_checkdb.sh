@@ -29,3 +29,6 @@ ps aux|grep php-fpm|wc -l
 # 5. 统计负载
 w|grep load
 
+# 6. 统计内存
+free|grep Mem|awk '{print $3/$2 * 100}'
+
