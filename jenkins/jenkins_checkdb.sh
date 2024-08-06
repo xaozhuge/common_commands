@@ -35,3 +35,9 @@ free|grep Mem|awk '{print $3/$2 * 100}'
 # 7. 统计CPU
 top -bn1| grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1}'
 
+# 8. 带宽
+# 8.1 有公网网卡
+sudo iftop -i eth1 -t -s 2 -nN  2>&1|grep "send rate"
+# 8.2 内外网在一起
+sudo iftop  -t -s 2 -nN  2>&1 | egrep "=>|<="|xargs -l2 |awk '{print $8,$4,$5,$6}'|grep -v "内网IP"
+
