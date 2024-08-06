@@ -17,3 +17,8 @@ if [ -x /usr/libexec/path_helper ]; then
     eval `/usr/libexec/path_helper -s`
 fi
 
+# 5. 判断指定路径是否存在且为普通文件, 普通文件: 不是目录、设备文件或其他特殊文件的文件
+if [ ! -f $file ];then
+# 5.1 [ 是 test 命令的另一种形式, 用于进行条件测试
+# 5.2 [ 和 ] 之间的空格是必要的, 因为 [ 实际上是 test 命令的别名
+
