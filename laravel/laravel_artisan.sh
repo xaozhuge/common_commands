@@ -6,3 +6,5 @@ php artisan route:cache
 php artisan config:clear
 php artisan config:cache
 
+# 3. 缓存路由和缓存配置
+php artisan optimize
