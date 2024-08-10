@@ -24,3 +24,10 @@ foreach ($domain_list as $v) {
         $https_list[$ssl_expire_date][] = $domain;
     }
 }
+
+echo "不支持https:".PHP_EOL;
+array_walk($unhttps_list, function(&$v) {
+    echo $v.PHP_EOL;
+});
+
+    
