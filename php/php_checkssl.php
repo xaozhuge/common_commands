@@ -31,3 +31,9 @@ array_walk($unhttps_list, function(&$v) {
 });
 
     
+foreach ($https_list as $k=>$v) {
+    echo PHP_EOL."证书到期时间为$k:".PHP_EOL;
+    array_walk($v, function(&$m) {
+        echo $m.PHP_EOL;
+    });
+}
