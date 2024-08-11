@@ -37,3 +37,19 @@ foreach ($https_list as $k=>$v) {
         echo $m.PHP_EOL;
     });
 }
+
+function getCertInfo($domain){
+    set_time_limit(100);
+    $context = stream_context_create([
+        'ssl' => [
+            'capture_peer_cert' => true,
+            'capture_peer_cert_chain' => true,
+        ],
+    ]);
+
+    $client  = @stream_socket_client("ssl://". $domain. ":443", $errno, $errstr, 30, STREAM_CLIENT_CONNECT, $context);
+
+    
+}
+
+?>
