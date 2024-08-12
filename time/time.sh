@@ -8,3 +8,4 @@ nowtime=`date "+%Y-%m-%d %H:%M:%S"`
 date -d "now" +"%Y%m%d"
 date -d "yesterday" +"%Y%m%d"
 date -d "3 days ago" +"%Y%m%d"
+date -d "4 minute ago" +"%Y-%m-%d %H:%M:00"
