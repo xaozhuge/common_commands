@@ -4,3 +4,6 @@
 cat temp.log| uniq 
 cat temp.log| sort | uniq
 
+# 2. -c 选项会在输出的每一行前面显示一个计数, 表示该行在输入中连续出现的次数
+cat temp.log| sort | uniq -c
+
