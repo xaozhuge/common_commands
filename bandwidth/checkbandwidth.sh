@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#1. 变量设置
+# 1. 变量设置
 nowtime=`date "+%Y-%m-%d %H:%M:%S"`
 interface=eth0
 numtime=5
@@ -17,3 +17,5 @@ echo '出网带宽' >> $logpath
 cat $tmplog|grep '=>' |grep -v "=> 192.168.0" >> $logpath
 echo  >> $logpath
 
+# 2. 定时任务
+# * * * * * /data/script/checkbandwidth.sh
