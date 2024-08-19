@@ -14,6 +14,6 @@ tmplog=/tmp/tmp-bandwidth.log
 echo  >> $logpath
 echo $nowtime >> $logpath
 echo '出网带宽' >> $logpath
-cat $tmplog|grep '=>' >> $logpath
+cat $tmplog|grep '=>' |grep -v "=> 192.168.0" >> $logpath
 echo  >> $logpath
 
