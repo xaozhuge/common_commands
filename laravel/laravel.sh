@@ -12,3 +12,7 @@ sudo chmod -R  777 storage
 
 # 3. 找出时间异常的SQL
 tail -f laravel.log | awk -F 'Time: ' '{split($2, a, ","); if (a[1] > 1000) print $0}'
+
+# 4. 查看laravelk版本
+php artisan --version
+cat vendor/laravel/framework/src/Illuminate/Foundation/Application.php|grep VERSION
