@@ -10,3 +10,6 @@
 # 3. -t 禁用交互模式(通常在终端中运行iftop时会有图形界面交互), 只输出文本
 /usr/sbin/iftop -t
 
+# 4. -n 禁用 DNS 解析, 显示纯 IP 地址, 而不是将其解析为主机名
+/usr/sbin/iftop -n
+
