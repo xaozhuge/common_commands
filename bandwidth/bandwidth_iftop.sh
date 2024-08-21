@@ -7,3 +7,6 @@
 # iftop 默认每秒刷新一次显示, 该选项将其更改为每2秒刷新一次
 /usr/sbin/iftop -o 2s
 
+# 3. -t 禁用交互模式(通常在终端中运行iftop时会有图形界面交互), 只输出文本
+/usr/sbin/iftop -t
+
