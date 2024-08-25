@@ -13,3 +13,6 @@
 # 4. -n 禁用 DNS 解析, 显示纯 IP 地址, 而不是将其解析为主机名
 /usr/sbin/iftop -n
 
+# 5. -N 禁用端口号到服务名的解析, 直接显示端口号
+/usr/sbin/iftop -N
+
