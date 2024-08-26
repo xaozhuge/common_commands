@@ -20,3 +20,6 @@
 # 这个参数控制iftop运行多长时间后自动退出, 并输出结果到终端。
 /usr/sbin/iftop -s 5
 
+# 7. -i eth1 选择特定的网络接口进行监控, 网络接口的名称(如: eth0 或 eth1)
+/usr/sbin/iftop -i eth1
+
