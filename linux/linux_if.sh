@@ -34,3 +34,6 @@ if [[ $date -eq "" ]] # 推荐
 # > 和 < 是 用于字符串比较, 并且只能用于[[ ]] 不能用于[ ]
 if [[ $count -gt 100 ]]; then
 if [[ "$time" > "02:00:00" ]] && [[ "$time" < "04:00:00" ]]; then
+
+# 8. -d $logpath 表示检查$logpath是否存在并且是一个目录
+if [[ ! -d $logpath ]];then
