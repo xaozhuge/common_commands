@@ -21,7 +21,9 @@ ${var//pattern/replacement}
 # 5.2 用于将字符串 info 中的每个竖线字符 "|" 替换为空格字符" "
 ${info//|/ }
 
-# 6. <<< 是 Here String 特性, 它将命令替换的输出结果作为 read 命令的标准输入
-# 6.1 先将res变量的内容通过echo输出, 然后通过awk命令提取出第5和第6列的内容
-# 6.2 read 命令从标准输入读取内容, 并按空格分隔将值赋给变量 user 和 time
-read user time <<< $(echo $res | awk '{print $5, $6}')
+# 6. 变量$date和${date}的区别, 复杂的场景使用${date}
+variable="hello"
+# 6.1 输出为空, 因为Shell认为这是一个名为 `variable_world` 的未定义变量
+echo $variable_world    
+
+
