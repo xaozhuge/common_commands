@@ -25,5 +25,6 @@ ${info//|/ }
 variable="hello"
 # 6.1 输出为空, 因为Shell认为这是一个名为 `variable_world` 的未定义变量
 echo $variable_world    
-
+# 6.2 输出 hello_world, Shell正确解析了`${variable}`为`hello`
+echo ${variable}_world  
 
