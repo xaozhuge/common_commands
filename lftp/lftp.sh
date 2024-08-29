@@ -9,3 +9,6 @@ get $tm_sales
 by
 EOF
 
+# 3. lcd 命令是lftp的内部命令, 用于在本地更改当前工作目录(Local Change Directory)
+lcd ${srcdir}
+
