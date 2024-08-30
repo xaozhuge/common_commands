@@ -12,3 +12,5 @@ EOF
 # 3. lcd 命令是lftp的内部命令, 用于在本地更改当前工作目录(Local Change Directory)
 lcd ${srcdir}
 
+# 4. get 命令是lftp的内部命令, 用于从远程服务器下载文件
+get $base_info
