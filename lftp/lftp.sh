@@ -14,3 +14,6 @@ lcd ${srcdir}
 
 # 4. get 命令是lftp的内部命令, 用于从远程服务器下载文件
 get $base_info
+
+# 5. by(或bye)是lftp的内部命令, 用于断开与远程服务器的连接并退出lftp
+by
