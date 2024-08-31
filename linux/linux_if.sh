@@ -4,6 +4,11 @@ if [ -n "${CONTRAINERID}" ]; then
   sudo docker rm -f ${CONTRAINERID}
 fi
 
+# 1. -z "$pid" -z 操作符用于检查字符串的长度是否为零. 
+# 如果字符串长度为零(即字符串为空), 则条件为真
+# 注意 -z 和 -n 的区别
+if [[ -z "$pid" ]]; then
+
 # 2. 判断前置命令是否不等于0
 if [ $? -ne 0 ]; then
   echo "有问题，构建失败"
