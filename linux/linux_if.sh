@@ -1,4 +1,5 @@
-# 1. 判断变量 "CONTRAINERID" 是否为空
+# 1. 检查字符串的长度是否非零, 如果字符串有内容(即，长度不为零), 则返回真(true)
+# 判断变量 "CONTRAINERID" 是否不为空
 if [ -n "${CONTRAINERID}" ]; then
   sudo docker rm -f ${CONTRAINERID}
 fi
