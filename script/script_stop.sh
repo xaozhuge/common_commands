@@ -11,3 +11,8 @@ if [[ -z "$pid" ]]; then
     echo "" >> $log
     exit
 fi
+
+ps aux|grep "python3 main.py"|grep -v 'grep'|awk '{print $2}'|xargs kill -9
+
+echo ${nowtime}" 程序停止" >> $log
+echo "" >> $log
