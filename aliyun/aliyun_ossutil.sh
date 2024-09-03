@@ -6,3 +6,7 @@ ossutil --version
 
 # 2. 使用 ossutil 配置阿里云OSS访问密钥和其他信息
 ossutil config
+
+# 3. 上传单个文件
+ossutil cp /localpath/file.txt oss://your-bucket-name/remotepath/file.txt
+
