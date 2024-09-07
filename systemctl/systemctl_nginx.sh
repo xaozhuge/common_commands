@@ -13,3 +13,6 @@ sudo systemctl reload nginx
 # 5. 查看 Nginx 服务状态
 sudo systemctl status nginx
 
+# 6. 启用 Nginx 服务开机自启
+sudo systemctl enable nginx
+
