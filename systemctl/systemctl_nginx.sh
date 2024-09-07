@@ -10,3 +10,6 @@ sudo systemctl restart nginx
 # 4. 重新加载 Nginx 配置（不重启服务）
 sudo systemctl reload nginx
 
+# 5. 查看 Nginx 服务状态
+sudo systemctl status nginx
+
