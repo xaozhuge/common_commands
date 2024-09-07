@@ -7,3 +7,6 @@ sudo systemctl stop nginx
 # 3. 重启 Nginx 服务
 sudo systemctl restart nginx
 
+# 4. 重新加载 Nginx 配置（不重启服务）
+sudo systemctl reload nginx
+
