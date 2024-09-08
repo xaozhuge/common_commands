@@ -16,3 +16,6 @@ sudo systemctl status nginx
 # 6. 启用 Nginx 服务开机自启
 sudo systemctl enable nginx
 
+# 7. 禁用 Nginx 服务开机自启
+sudo systemctl disable nginx
+
