@@ -19,3 +19,6 @@ sudo systemctl enable nginx
 # 7. 禁用 Nginx 服务开机自启
 sudo systemctl disable nginx
 
+# 8. 创建或修改服务文件后, 重新加载 systemd 配置以使其生效
+sudo systemctl daemon-reload
+
