@@ -15,3 +15,7 @@ sudo yum install pcre-devel
 # 4. 出现问题: ./configure: error: SSL modules require the OpenSSL library.
 yum -y install openssl openssl-devel
 
+# 5. 出现问题: nginx: [emerg] getpwnam("www") failed in nginx.conf:3
+groupadd www
+useradd -g www www
+
