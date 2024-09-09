@@ -12,3 +12,6 @@ make && make install
 # 3. 出现问题: ./configure: error: the HTTP rewrite module requires the PCRE library.
 sudo yum install pcre-devel
 
+# 4. 出现问题: ./configure: error: SSL modules require the OpenSSL library.
+yum -y install openssl openssl-devel
+
