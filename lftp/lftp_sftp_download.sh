@@ -14,3 +14,10 @@ fi
 base_info=${desdirfirst}/base_info.csv
 new_media=${desdirfirst}/new_media.csv
 
+lftp -u ${USER},${PASSWORD} sftp://${IP}:${PORT}<<EOF
+lcd ${srcdir}
+get $base_info
+get $new_media
+by
+EOF
+
