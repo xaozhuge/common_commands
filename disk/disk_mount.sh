@@ -27,3 +27,6 @@ echo "例如 华为云: cd /;mkdir hwdata;mount -a"
 echo "验证挂载效果 df -h|grep hwdata"
 df -h|grep hwdata
 
+echo "5. 软链生成 /alidata"
+ln -s /hwdata /alidata
+
