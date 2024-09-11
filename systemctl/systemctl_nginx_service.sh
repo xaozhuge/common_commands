@@ -11,3 +11,6 @@ ExecReload=/hwdata/server/nginx-122/sbin/nginx -s reload
 ExecStop=/hwdata/server/nginx-122/sbin/nginx -s stop
 PrivateTmp=true
 
+[Install]
+WantedBy=multi-user.target
+
