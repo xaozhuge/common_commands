@@ -21,3 +21,7 @@ find 目录 -type d -mmin -60
 # 8. 修改目录/文件的所有权(所有者和组)
 sudo chown -R username:group 目录/文件
 
+# 9. 获取文件包含目录
+find "$(pwd)" -name 文件名
+
+
