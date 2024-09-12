@@ -25,3 +25,5 @@ sudo chown -R username:group 目录/文件
 find "$(pwd)" -name 文件名
 realpath 文件名
 
+# 10. 查看第256行的内容
+sed -n '256p' 文件名
