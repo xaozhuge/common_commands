@@ -23,5 +23,5 @@ sudo chown -R username:group 目录/文件
 
 # 9. 获取文件包含目录
 find "$(pwd)" -name 文件名
-
+realpath 文件名
 
