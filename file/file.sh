@@ -27,3 +27,5 @@ realpath 文件名
 
 # 10. 查看第256行的内容
 sed -n '256p' 文件名
+head -n 256 文件名 | tail -n 1
+
