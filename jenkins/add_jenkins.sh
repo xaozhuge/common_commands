@@ -20,5 +20,6 @@ echo "例如 su -s /bin/bash jenkins"
 echo "例如 ssh-copy-id -i ~/.ssh/id_rsa.pub jenkins@"$server_ip
 echo "例如 ssh jenkins@"$server_ip
 
-
+echo "四、配置jenkins"
+echo "密钥地址 /var/lib/jenkins/.ssh/id_rsa"
 
