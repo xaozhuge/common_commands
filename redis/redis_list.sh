@@ -10,3 +10,6 @@ lpop mylist
 # 4. rpop 从列表的右侧(尾部)弹出并返回最后一个元素
 rpop mylist
 
+# 5. lrange 获取列表中指定范围内的元素. 索引从0开始,-1表示列表的最后一个元素(获取整个列表)
+lrange mylist 0 -1 
+
