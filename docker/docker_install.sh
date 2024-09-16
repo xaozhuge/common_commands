@@ -7,3 +7,7 @@ yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 ls /etc/yum.repos.d/
 
+# 3. 安装 docker docker-compose
+yum -y install docker-ce
+yum -y install docker-compose
+
