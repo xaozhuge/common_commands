@@ -15,3 +15,11 @@ yum -y install docker-compose
 systemctl enable docker
 systemctl start docker
 
+# 5. 修改docker的存储路径,并配置镜像加速
+docker info|grep  "Docker Root Dir"
+vi /etc/docker/daemon.json
+{
+  "registry-mirrors": [],
+  "data-root": "/alidata/docker"
+}
+
