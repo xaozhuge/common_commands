@@ -11,3 +11,7 @@ ls /etc/yum.repos.d/
 yum -y install docker-ce
 yum -y install docker-compose
 
+# 4. 配置docker开机启动 并 启动docker
+systemctl enable docker
+systemctl start docker
+
