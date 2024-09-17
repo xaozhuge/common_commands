@@ -23,3 +23,7 @@ vi /etc/docker/daemon.json
   "data-root": "/alidata/docker"
 }
 
+# 6. 重启docker并验证
+systemctl restart docker
+docker info|grep  "Docker Root Dir"
+
