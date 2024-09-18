@@ -11,6 +11,8 @@ echo "1、添加线上只读权限的用户-未存在账号"
 echo "grant SELECT on "$dbname".* to 'readdb"$server_ip"'@'"$proxyip"' identified by '"$passwd"';"
 echo "2、添加线上只读权限的用户-已存在账号"
 echo "grant SELECT on "$dbname".* to 'readdb"$server_ip"'@'"$proxyip"';"
+echo "3、添加线上所有权限的用户-未存在账号"
+echo "grant all privileges on *.* to 'alldb"$server_ip"'@'"$proxyip"' identified by '"$passwd"';"
 
 echo "刷新权限"
 echo "flush privileges;"
