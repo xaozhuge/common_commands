@@ -36,3 +36,6 @@ head -n 257 文件名 | tail -n 3
 # 11. 删除第256行的内容
 # Linux
 sed -i '256d' 文件名
+# Mac
+sed -i '' '256d' 文件名
+
