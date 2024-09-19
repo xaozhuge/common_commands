@@ -12,4 +12,9 @@ curl -d '{"key1":"value1", "key2":"value2"}'
 # 4. 使用 --data-urlencode 选项自动对传递的数据进行 URL 编码，包括转义特殊字符，例如 /
 curl --data-urlencode "path=controller/method"
 
+# 5. curl模板
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
+-d "json转get参数" \
+--data-urlencode "需要url转码的参数" \
+"https://domain/method"
 
