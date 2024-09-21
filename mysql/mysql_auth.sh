@@ -7,3 +7,7 @@ GRANT SELECT ON 数据库名称.* TO 'readdb+数据库IP'@'堡垒机IP';
 
 # 3. 用于让 用户的修改和权限的更改 立即生效
 flush privileges;
+
+# 4. 删除账号
+DROP USER 'readdb+数据库IP'@'堡垒机IP';
+
