@@ -20,4 +20,5 @@
 
 # 7. 数据表实例
 use Illuminate\Support\Facades\DB;
+DB::table('表名')->where()
 
