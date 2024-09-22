@@ -22,3 +22,6 @@
 use Illuminate\Support\Facades\DB;
 DB::table('表名')->where()
 
+# 8. 更新数据
+->update($update_data)
+
