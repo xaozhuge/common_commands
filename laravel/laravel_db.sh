@@ -18,3 +18,6 @@
 # 6. 删除
 ->delete()
 
+# 7. 数据表实例
+use Illuminate\Support\Facades\DB;
+
