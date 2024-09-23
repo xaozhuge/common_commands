@@ -12,3 +12,6 @@ CREATE TABLE `数据表名称` (
 # 2. 删除数据表
 drop table 数据表名称;
 
+# 3. 显示数据表列表, 主要有s
+show tables;
+
