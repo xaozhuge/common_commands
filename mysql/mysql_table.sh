@@ -9,3 +9,6 @@ CREATE TABLE `数据表名称` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='备注'
 
+# 2. 删除数据表
+drop table 数据表名称;
+
