@@ -2,3 +2,6 @@
 vi /etc/my.cnf
 slow_query_log = 1
 
+# 2. 配置慢日志的位置
+slow_query_log_file=/alidata/log/mysql/mysql_slow.log
+
