@@ -17,8 +17,3 @@ docker cp kafka_c:/data/kafka/config/server.properties /root
 # 6. 运行容器
 docker run -t -d openjdk:8
 
-# 7. 容器外执行命令
-docker exec kafka_c sh -c "cd /data/kafka/bin; ./kafka-topics.sh --list --bootstrap-server 127.0.0.1:9092"
-docker exec nginx122_c nginx -s reload
-
-
