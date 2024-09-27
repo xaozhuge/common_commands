@@ -34,3 +34,8 @@ Model::where('id', $id)->value('name');
 # value() 只返回匹配条件的第一条记录的指定字段的值. 如果没有匹配的记录, 返回 null
 ->value('name')
 
+# 11. 按照字段排序
+->orderBy('name', 'desc')
+# orderByRaw 适用于复杂的排序逻辑(如函数、表达式)
+->orderByRaw('name desc')
+
