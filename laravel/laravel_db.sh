@@ -30,3 +30,7 @@ DB::table('表名')->where()
 Model::query()->where('id', $id)->value('name');
 Model::where('id', $id)->value('name');
 
+# 10. value() 方法会从查询结果中获取指定字段的值
+# value() 只返回匹配条件的第一条记录的指定字段的值. 如果没有匹配的记录, 返回 null
+->value('name')
+
