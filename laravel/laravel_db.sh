@@ -39,3 +39,7 @@ Model::where('id', $id)->value('name');
 # orderByRaw 适用于复杂的排序逻辑(如函数、表达式)
 ->orderByRaw('name desc')
 
+# 12. paginate($num) 是 Laravel 的分页方法, 它将查询的结果分页. $num 是每页的记录数量
+# 包含分页相关信息(如当前页、总页数、每页显示数量、总条数等) 以及 查询到的数据
+->paginate($num)
+
