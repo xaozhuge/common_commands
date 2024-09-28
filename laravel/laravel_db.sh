@@ -46,3 +46,10 @@ Model::where('id', $id)->value('name');
 # 13. 如果 test 方法依赖于模型的具体实例(例如访问或修改实例属性, 例如方法里使用$this)
 $list = (new TestModel())->test($id_list);
 
+# 14. select() 用于指定要查询的列. 可以选择特定的列来返回, 而不是默认查询所有列
+# $field 是一个包含列名的数组
+$field = ["id as newid","title"];
+->select($field)
+# 适用于复杂 SQL 操作的场景, 如使用数据库函数、聚合操作等
+->selectRaw($field)
+
