@@ -43,3 +43,6 @@ Model::where('id', $id)->value('name');
 # 包含分页相关信息(如当前页、总页数、每页显示数量、总条数等) 以及 查询到的数据
 ->paginate($num)
 
+# 13. 如果 test 方法依赖于模型的具体实例(例如访问或修改实例属性, 例如方法里使用$this)
+$list = (new TestModel())->test($id_list);
+
