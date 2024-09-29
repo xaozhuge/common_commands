@@ -14,3 +14,6 @@ SELECT LAST_DAY('2024-02-15');
 # 3. char_length 统计字符数, 区别于length函数
 update 表名 set size=char_length(content);
 
+# 4. replace 替换字段中的内容
+update 表名 set content=replace(content,'内容A','内容B')
+
