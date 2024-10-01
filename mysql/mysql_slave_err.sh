@@ -3,3 +3,6 @@
 # 1. 先停止slave
 stop slave;
 
+# 2. 跳过slave上的一个错误
+set global sql_slave_skip_counter=1;
+
