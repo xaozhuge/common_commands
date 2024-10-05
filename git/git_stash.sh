@@ -7,3 +7,6 @@ git stash pop
 # 3. 列出 git栈 所有暂存
 git stash list
 
+# 4. 应用 git栈 列表中序号为0的暂存
+git stash apply stash@{0}
+
