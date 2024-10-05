@@ -13,3 +13,6 @@ git stash apply stash@{0}
 # 5. 查看缓存列表序号为0的代码内容
 git stash show -p stash@{0}
 
+# 6. 将当前代码暂存, 备注为msg
+git stash save 'msg'
+
