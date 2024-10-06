@@ -19,3 +19,6 @@ git stash save 'msg'
 # 7. 删除序号为0的暂存数据
 git stash drop stash@{0}
 
+# 8. 删除所有的暂存(注意是清空所有的stash)
+git stash clear
+
