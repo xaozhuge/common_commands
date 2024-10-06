@@ -16,3 +16,6 @@ git stash show -p stash@{0}
 # 6. 将当前代码暂存, 备注为msg
 git stash save 'msg'
 
+# 7. 删除序号为0的暂存数据
+git stash drop stash@{0}
+
