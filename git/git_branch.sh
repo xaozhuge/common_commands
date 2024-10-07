@@ -9,3 +9,6 @@ git branch |awk -F '/' '{print $1"/"$2}'|grep keywords|head -n 80|xargs git bran
 # 3. 查看远程分支
 git branch -a
 
+# 4. 查看本地分支
+git branch
+
