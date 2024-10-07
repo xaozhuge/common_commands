@@ -12,3 +12,7 @@ git branch -a
 # 4. 查看本地分支
 git branch
 
+# 5. 创建分支
+git branch feature/YYYYmmdd_name_func
+git branch hotfix/YYYYmmdd_name_func
+
