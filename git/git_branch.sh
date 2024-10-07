@@ -6,7 +6,6 @@ git branch |awk -F '/' '{print $1"/"$2}'|grep keywords
 git branch -r|awk -F '/' '{print $2"/"$3}'|grep keywords|head -n 80|xargs git push origin --delete
 git branch |awk -F '/' '{print $1"/"$2}'|grep keywords|head -n 80|xargs git branch -D
 
-
-
-
+# 3. 查看远程分支
+git branch -a
 
