@@ -43,3 +43,10 @@ try {
     echo "1. 数据库连接失败: " . $e->getMessage();
 }
 
+
+$cmd=<<<EOF
+export https_proxy=http://127.0.0.1:8888;curl -s -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "$param_str" $url ;
+EOF;
+echo $cmd;
+
+
