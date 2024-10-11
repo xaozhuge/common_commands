@@ -4,3 +4,6 @@ $request = app('request');
 # 2. 用于获取当前 HTTP 请求中所有输入数据的便捷方法, 它返回一个包含所有请求参数的关联数组
 $param = $request->all();
 
+# 3. 用于获取当前 HTTP 请求的所有请求头信息, 返回的数组
+$headers = $request->headers->all();
+
