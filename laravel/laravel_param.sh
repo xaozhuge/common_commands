@@ -7,3 +7,6 @@ $param = $request->all();
 # 3. 用于获取当前 HTTP 请求的所有请求头信息, 返回的数组
 $headers = $request->headers->all();
 
+# 4. 用于从当前请求中获取特定请求头值的便捷方法
+$token = $request->header("token");
+
