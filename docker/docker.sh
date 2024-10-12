@@ -17,3 +17,7 @@ docker cp kafka_c:/data/kafka/config/server.properties /root
 # 6. 运行容器
 docker run -t -d openjdk:8
 
+# 7. 监控容器资源使用情况(CPU、内存、网络I/O、磁盘I/O)
+docker stats
+docker stats php56_c
+
