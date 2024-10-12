@@ -10,3 +10,6 @@ $headers = $request->headers->all();
 # 4. 用于从当前请求中获取特定请求头值的便捷方法
 $token = $request->header("token");
 
+# 5. 用于获取当前请求所匹配的路由的 URI
+$request->route()->uri();
+
