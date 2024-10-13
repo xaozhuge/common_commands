@@ -9,6 +9,9 @@
 # 3. 清理日志，并保证继续产生日志
 sudo sh -c 'echo "" > /var/log/cron'
 
+# truncate 用于清空文件而不干扰正在运行的服务, 特别是在日志文件由服务持续写入的情况下
+truncate -s 0 slow-3306.log
+
 # 4. 判断上条执行的命令
 [ $? -eq 0 ] && echo "success" || echo "fail"
 
