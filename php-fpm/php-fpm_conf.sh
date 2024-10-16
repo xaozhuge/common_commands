@@ -2,3 +2,6 @@
 ps aux|grep php-fpm
 /alidata/server/php7/etc/php-fpm.conf
 
+# 2. 配置 php-fpm 的错误日志路径
+error_log = /alidata/log/php/php-fpm7.log
+
