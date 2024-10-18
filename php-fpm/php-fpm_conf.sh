@@ -21,3 +21,7 @@ pm.max_children = 100
 # 适合在预期负载较高的情况下设置的值, 以减少用户请求的等待时间
 pm.start_servers = 20
 
+# 7. 定义 PHP-FPM 至少应该保持的空闲子进程数
+# 如果空闲子进程少于 5 个, PHP-FPM 将启动更多的子进程以确保有足够的资源来处理新请求
+pm.min_spare_servers = 5
+
