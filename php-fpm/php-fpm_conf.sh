@@ -25,3 +25,8 @@ pm.start_servers = 20
 # 如果空闲子进程少于 5 个, PHP-FPM 将启动更多的子进程以确保有足够的资源来处理新请求
 pm.min_spare_servers = 5
 
+# 8. 定义 PHP-FPM 允许的最大空闲子进程数
+# 如果空闲的子进程数超过 35 个, PHP-FPM 将停止一些子进程以释放资源
+# 有助于防止在流量低时消耗过多的服务器资源, 确保资源的有效利用
+pm.max_spare_servers = 35
+
