@@ -16,3 +16,8 @@ access.format = "%{REMOTE_ADDR}e %d %t %s %m %{SERVER_NAME}e %{REQUEST_URI}e %C%
 # 有助于防止服务器资源耗尽, 确保在高负载情况下的稳定性
 pm.max_children = 100
 
+# 6. 设置 PHP-FPM 启动时预先创建的子进程数
+# 在服务启动时会创建 20 个子进程, 以便能快速响应初始的请求
+# 适合在预期负载较高的情况下设置的值, 以减少用户请求的等待时间
+pm.start_servers = 20
+
