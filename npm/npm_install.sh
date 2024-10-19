@@ -5,3 +5,6 @@ npm install -g n --registry=https://registry.npmmirror.com
 # n 是一个 Node.js 版本管理器, 可以安装和切换不同版本的 Node.js
 npm install -g n --registry=https://registry.npmmirror.com
 
+# 3. --registry 指定使用的 npm 镜像源
+npm install -g n --registry=https://registry.npmmirror.com
+
