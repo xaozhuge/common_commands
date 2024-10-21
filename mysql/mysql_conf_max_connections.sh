@@ -4,3 +4,8 @@ SHOW VARIABLES LIKE 'max_connections%';
 # 2. 临时修改 max_connections
 SET GLOBAL max_connections = 1024;
 
+# 3. 永久修改 max_connections
+vi /etc/my.cnf
+[mysqld]
+max_connections = 1024
+
