@@ -4,3 +4,8 @@
 # 2. 临时修改 expire_logs_days
 SET GLOBAL expire_logs_days = 7;
 
+# 3. 永久修改 expire_logs_days
+vi /etc/my.cnf
+[mysqld]
+expire_logs_days = 7
+
