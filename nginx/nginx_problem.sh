@@ -8,3 +8,7 @@
 # 表明 Nginx 服务器在处理连接到上游服务器（upstream）的请求时遇到了 worker_connections 不足的问题
 # 这意味着 Nginx 的工作进程允许的最大连接数不够, 无法处理所有的客户端请求
 
+# 2.2 增加 worker_connections 的数量
+vi nginx.conf
+worker_connections 4096;
+
