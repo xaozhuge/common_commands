@@ -61,4 +61,6 @@ $field = ["id as newid","title"];
 # 16. 返回二维数组
 # 无数据时不影响
 $list = Model::query()->limit(2)->get()->toArray();
+# 无数据时不影响
+$list = (new Model())->limit(2)->get()->toArray();
 
