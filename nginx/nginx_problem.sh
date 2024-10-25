@@ -10,5 +10,5 @@
 
 # 2.2 增加 worker_connections 的数量
 vi nginx.conf
-worker_connections 4096;
+worker_connections 65535;
 

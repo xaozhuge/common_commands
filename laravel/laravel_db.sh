@@ -58,3 +58,7 @@ $field = ["id as newid","title"];
 # 这一步实际上执行了数据库查询, 并获取所有满足条件的记录。
 ->get()
 
+# 16. 返回二维数组
+# 无数据时不影响
+$list = Model::query()->limit(2)->get()->toArray();
+
