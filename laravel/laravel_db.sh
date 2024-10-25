@@ -63,4 +63,6 @@ $field = ["id as newid","title"];
 $list = Model::query()->limit(2)->get()->toArray();
 # 无数据时不影响
 $list = (new Model())->limit(2)->get()->toArray();
+# 无数据时不影响
+$list = App::make(Model::class)->limit(2)->get()->toArray();
 
