@@ -6,3 +6,6 @@ php GatewayWorker/start.php start -d
 # 2. 停止当前运行的服务并重新启动为守护进程
 php GatewayWorker/start.php restart -d
 
+# 3. 停止当前运行的服务
+php GatewayWorker/start.php stop
+
