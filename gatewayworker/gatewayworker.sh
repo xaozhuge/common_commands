@@ -9,3 +9,6 @@ php GatewayWorker/start.php restart -d
 # 3. 停止当前运行的服务
 php GatewayWorker/start.php stop
 
+# 4. 重新加载业务代码, 不会断开当前用户的连接, 适合在更新代码后进行无缝更新
+php GatewayWorker/start.php reload
+
