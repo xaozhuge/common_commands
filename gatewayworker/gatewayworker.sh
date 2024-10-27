@@ -12,3 +12,6 @@ php GatewayWorker/start.php stop
 # 4. 重新加载业务代码, 不会断开当前用户的连接, 适合在更新代码后进行无缝更新
 php GatewayWorker/start.php reload
 
+# 5. 展示当前服务的运行状态, 例如运行的进程数和进程 ID
+php GatewayWorker/start.php status
+
