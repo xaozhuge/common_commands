@@ -15,3 +15,6 @@ php GatewayWorker/start.php reload
 # 5. 展示当前服务的运行状态, 例如运行的进程数和进程 ID
 php GatewayWorker/start.php status
 
+# 6. 显示所有的客户端连接信息, 如客户端 IP 地址和端口号
+php GatewayWorker/start.php connections
+
