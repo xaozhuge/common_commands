@@ -65,4 +65,8 @@ $list = Model::query()->limit(2)->get()->toArray();
 $list = (new Model())->limit(2)->get()->toArray();
 # 无数据时不影响
 $list = App::make(Model::class)->limit(2)->get()->toArray();
+# 无数据时不影响
+$list = DB::table('表名')->limit(2)->get()->map(function ($item) {
+    return (array) $item;
+})->toArray();
 
