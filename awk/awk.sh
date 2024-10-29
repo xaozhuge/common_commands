@@ -23,3 +23,6 @@ awk -F 'ms"' '{split($1, a, " "); if (a[4] > 500) print $0}'
 # 4.3 这条命令输出当前行的行号和该行中<0x01>字符的数量
 awk '{count=gsub(/\x01/,"&"); print NR, count}' update.*.csv
 
+# 5. 提取json中的字段clientip的值,并去重计数
+awk -F '"clientip":"' '{print $2}' access.log | awk -F '"' '{print $1}' | sort | uniq -c | sort -nr
+
