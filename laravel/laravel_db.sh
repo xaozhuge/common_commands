@@ -87,3 +87,11 @@ if($info_obj){
 	$info_arr = [];
 }
 
+# first为空时会报错
+$info_obj = App::make(Model::class)->where('id', 1)->first();
+if($info_obj){
+	$info_arr = $info_obj->toArray();
+}else{
+	$info_arr = [];
+}
+
