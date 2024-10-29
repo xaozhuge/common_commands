@@ -95,3 +95,11 @@ if($info_obj){
 	$info_arr = [];
 }
 
+# first为空时会报错
+$info_obj = DB::table('表名')->where('id', 1)->first();
+if($info_obj){
+	$info_arr = $info_obj->toArray();
+}else{
+	$info_arr = [];
+}
+
