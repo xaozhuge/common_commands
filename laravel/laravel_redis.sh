@@ -11,3 +11,6 @@ REDIS_PORT=6379
 # 3. redis存储
 Cache::put('redis的key值', 'redis的value值', 缓存时间/分钟);
 
+# 4. redis使用
+Cache::get('redis的key值');
+
