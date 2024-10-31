@@ -29,3 +29,6 @@ awk -F '"clientip":"' '{print $2}' access.log | awk -F '"' '{print $1}' | sort |
 # 6. 执行时间大于10s的nginx日志
 awk '$2 > 10' 2024-10-31.log
 
+# 7. 执行时间大于10s的nginx日志的URI统计
+awk '$2 > 10' 2024-10-31.log|awk -F "POST " '{print $2}'|awk '{print $1}'|sort | uniq -c | sort -nr
+
