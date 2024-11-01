@@ -105,3 +105,7 @@ if($info_obj){
 # 或者
 $info_arr = (array)$info_obj;
 
+# 18. 调用方法
+# 错误用法
+Model::query()->test();
+
