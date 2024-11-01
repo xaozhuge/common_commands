@@ -102,4 +102,6 @@ if($info_obj){
 }else{
 	$info_arr = [];
 }
+# 或者
+$info_arr = (array)$info_obj;
 
