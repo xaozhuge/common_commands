@@ -110,4 +110,6 @@ $info_arr = (array)$info_obj;
 Model::query()->test();
 # 正确用法
 (new Model())->test();
+# 正确用法
+App::make(Model::class)->test();
 
