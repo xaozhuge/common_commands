@@ -108,4 +108,6 @@ $info_arr = (array)$info_obj;
 # 18. 调用方法
 # 错误用法
 Model::query()->test();
+# 正确用法
+(new Model())->test();
 
