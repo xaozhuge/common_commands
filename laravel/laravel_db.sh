@@ -112,4 +112,6 @@ Model::query()->test();
 (new Model())->test();
 # 正确用法
 App::make(Model::class)->test();
+# 错误用法
+DB::table('表名')->test();
 
