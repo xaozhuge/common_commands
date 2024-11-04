@@ -36,6 +36,10 @@ function p($data){
         echo 'NULL';
     }elseif($data === ''){
         echo '空字符串';
+    }else{
+        echo print_r($data, true);
     }
+    echo PHP_EOL;
+    die;
 }
 
