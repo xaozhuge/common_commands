@@ -26,3 +26,16 @@ function logs($data, $name='log'){
     file_put_contents($dir_name. $name.'-'.date('Y-m-d').'.log', $data,FILE_APPEND);
 }
 
+# 5. 中断输出
+function p($data){
+    if($data === true){
+        echo 'true';
+    }elseif($data === false){
+        echo 'false';
+    }elseif($data === NULL){
+        echo 'NULL';
+    }elseif($data === ''){
+        echo '空字符串';
+    }
+}
+
