@@ -19,3 +19,10 @@ function pr($data, $save_name = ''){
     file_put_contents($file_name,date('Y-m-d H:i:s'). "\n". $content. "\n",FILE_APPEND);
 }
 
+# 4. thinkphp打印日志
+function logs($data, $name='log'){
+    $data   =   date('Y-m-d H:i:s').':'.$data."\n";
+    $dir_name = RUNTIME_PATH. 'Logs/Home/';
+    file_put_contents($dir_name. $name.'-'.date('Y-m-d').'.log', $data,FILE_APPEND);
+}
+
