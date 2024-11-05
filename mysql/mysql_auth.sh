@@ -11,3 +11,6 @@ flush privileges;
 # 4. 删除账号
 DROP USER 'readdb+数据库IP'@'堡垒机IP';
 
+# 5. 修改账号
+SET PASSWORD FOR 'username'@'host' = PASSWORD('new_password');
+
