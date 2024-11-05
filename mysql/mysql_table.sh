@@ -7,11 +7,14 @@ CREATE TABLE `数据表名称` (
   `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='备注'
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='备注';
 
 # 2. 删除数据表
 drop table 数据表名称;
 
 # 3. 显示数据表列表, 主要有s
 show tables;
+
+# 4. 创建数据表(选择已有数据表的字段)
+create table new_table (select * from old_table);
 
