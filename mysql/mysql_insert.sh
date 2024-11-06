@@ -12,4 +12,6 @@ SELECT GROUP_CONCAT(column_name) FROM information_schema.COLUMNS where table_nam
 insert into table_name values (字段值);
 # 3.2 写入完整字段-列名完整可以无序-对应的列值
 insert into table_name (字段名) values (字段值);
+# 3.3 写入部分字段-列名部分可以无序-对应的列值
+insert into table_name (字段名) values (字段值);
 
