@@ -8,6 +8,8 @@ sed -i '1,10000d' filename
 # 2.1 删除第256行的内容
 # Linux
 sed -i '256d' filename
+# Mac
+sed -i '' '256d' filename
 
 # 3. sed 替换 
 # 3.1 Mac        
