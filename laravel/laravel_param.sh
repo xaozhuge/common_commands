@@ -13,3 +13,10 @@ $token = $request->header("token");
 # 5. 用于获取当前请求所匹配的路由的 URI
 $request->route()->uri();
 
+# 6. 判断请求是不是 OPTIONS 请求
+if ($request->isMethod('OPTIONS')) {
+    $log_data['type'] = 'OPTIONS';
+}else{
+    $log_data['type'] = 'POST';
+}
+
