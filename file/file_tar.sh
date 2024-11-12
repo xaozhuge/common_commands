@@ -23,3 +23,6 @@ tar -f
 tar xzf 被压缩的文件
 tar xzf 1.tar.gz
 
+# 7. -x 参数用于解压, 将指定的归档文件(例如.tar.gz)解压缩
+tar -x 
+
