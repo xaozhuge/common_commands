@@ -21,4 +21,5 @@ tar -f
 
 # 6. 解压缩
 tar xzf 被压缩的文件
+tar xzf 1.tar.gz
 
