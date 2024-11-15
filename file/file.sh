@@ -10,6 +10,7 @@ gzip -d 2024-04-11.log.gz
 
 # 5. 生成软链接, 路径为绝对路径
 # 为 某一个文件 在 另外一个位置 建立一个同步的链接
+# 在不同的目录，用到相同的文件
 ln -s 已存在 新生成
 ln -s /alidata/privatedb /alidata/server/mysql/data/privatedb
 
