@@ -14,4 +14,6 @@ insert into table_name values (字段值);
 insert into table_name (字段名) values (字段值);
 # 3.3 写入部分字段-列名部分可以无序-对应的列值
 insert into table_name (字段名) values (字段值);
+# 3.4 批量添加
+insert into table_name ([字段名1], [字段名2]) values ([字段值1],[字段值2]), ([字段值1],[字段值2]);
 
