@@ -17,3 +17,6 @@ update 表名 set size=char_length(content);
 # 4. replace 替换字段中的内容
 update 表名 set content=replace(content,'内容A','内容B')
 
+# 5. char(13) 回车符, 用于在 SQL 语句中表示 ASCII 编码值为 13 的字符
+update table_name set field_name=REPLACE(field_name, char(13), '');
+
