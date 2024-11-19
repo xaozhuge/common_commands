@@ -8,3 +8,5 @@ traceroute www.baidu.com
 # 3. 输出结果解释
 # 序号 (Hop Number): 每一跳的编号, 表示数据包经过的路由设备
 
+# 路由IP地址: 每一跳设备的IP地址或主机名
+
