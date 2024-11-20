@@ -14,3 +14,7 @@ traceroute www.baidu.com
 
 # * 星号: 表示该跳没有响应, 可能是设备配置为不回复ICMP/TCP数据包
 
+# 4. 指定目标端口, 使用特定端口进行追踪 (默认使用ICMP)
+traceroute -p <端口号> <目标主机>
+traceroute -p 22 example.com
+
