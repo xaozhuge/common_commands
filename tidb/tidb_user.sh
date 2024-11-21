@@ -13,3 +13,6 @@ SELECT * FROM mysql.db
 # 4. 删除用户对某数据库的所有权限
 DELETE FROM mysql.db WHERE User = 'user' AND Db = 'test_db';
 
+# 5. 删除账号
+DROP USER '<username>'@'<host>';
+
