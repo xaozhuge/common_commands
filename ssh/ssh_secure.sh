@@ -10,6 +10,7 @@ tail -n 100 /var/log/secure|grep "Failed password"
 cat /var/log/secure|grep "Failed password"
 
 tail -n 100 /var/log/secure|grep "Accepted"
+cat /var/log/secure|grep "Accepted"
 
 # 2. 记录并移除 "用户 from IP", 验证登录服务器的用户和IP
 cat /var/log/secure* |grep "Accepted password"|grep -v "用户 from IP"
