@@ -1,6 +1,7 @@
 # 1. 查看安全登录日志(密码登录和密钥登录)
 cat /var/log/secure* |grep "Accepted password"
 cat /var/log/secure* |grep "Accepted publickey"
+cat /var/log/secure* |grep "Accepted"
 cat /var/log/secure* |grep "Failed password"
 cat /var/log/secure* |grep "Failed password"|wc -l
 tail -n 100 /var/log/secure|grep "Failed password"
