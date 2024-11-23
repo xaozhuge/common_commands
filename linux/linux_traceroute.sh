@@ -20,4 +20,5 @@ traceroute -p 22 example.com
 
 # 5. 指定协议, 可以选择使用TCP或UDP, 而不是默认的ICMP
 # ICMP(默认) : 适合普通网络路径测试
+# TCP: 适合测试指定服务(如SSH、HTTP)的路由
 
