@@ -19,4 +19,5 @@ traceroute -p <端口号> <目标主机>
 traceroute -p 22 example.com
 
 # 5. 指定协议, 可以选择使用TCP或UDP, 而不是默认的ICMP
+# ICMP(默认) : 适合普通网络路径测试
 
