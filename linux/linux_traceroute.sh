@@ -25,3 +25,7 @@ traceroute -p 22 example.com
 # 使用TCP
 traceroute -T <目标主机>  
 
+# 6. 设置最大跳数, 限制数据包追踪的最大跳数(默认30)
+traceroute -m <跳数> <目标主机>
+traceroute -m 10 example.com
+
