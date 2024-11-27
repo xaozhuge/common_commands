@@ -16,3 +16,7 @@
 # TiKV 会定期将存储的数据分割成更小的Region: 当一个Region变得过大时, TiPD会通知TiKV进行分裂
 # 当数据量减少导致某些Region过小时, TiPD也会触发Region的合并
 
+# 2.4 分布式事务的时间戳分配:
+# TiPD使用全局唯一的TSO(Timestamp Oracle)提供分布式事务的时间戳
+# 通过TSO, TiDB保证跨Region的事务一致性, 同时避免事务冲突
+
