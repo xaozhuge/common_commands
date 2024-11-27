@@ -12,3 +12,7 @@
 # 副本调度: 在某些TiKV节点失效时将数据副本迁移到健康节点
 # Leader调度: 动态调整Region Leader的分布以优化性能
 
+# 2.3 Region分裂与合并:
+# TiKV 会定期将存储的数据分割成更小的Region: 当一个Region变得过大时, TiPD会通知TiKV进行分裂
+# 当数据量减少导致某些Region过小时, TiPD也会触发Region的合并
+
