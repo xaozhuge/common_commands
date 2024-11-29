@@ -43,3 +43,7 @@ function p($data){
     die;
 }
 
+# 6. 调试
+file_put_contents('testoutput.log', json_encode([$var1, $var2], JSON_UNESCAPED_UNICODE).PHP_EOL.PHP_EOL, FILE_APPEND);
+
+
