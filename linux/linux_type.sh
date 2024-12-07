@@ -4,3 +4,7 @@
 cmd: type php
 res: php is /alidata/server/php/bin/php
 
+# 3. 内建命令
+cmd: type pwd
+res: pwd is a shell builtin
+
