@@ -8,3 +8,7 @@ res: php is /alidata/server/php/bin/php
 cmd: type pwd
 res: pwd is a shell builtin
 
+# 4. 别名
+cmd: type ls
+res: ls is aliased to `ls --color=auto'
+
