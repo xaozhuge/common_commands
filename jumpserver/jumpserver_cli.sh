@@ -6,3 +6,7 @@
 ./jmsctl.sh start
 ./jmsctl.sh down
 
+# 3. 配置N天后重新登录
+SESSION_COOKIE_AGE=86400
+SESSION_COOKIE_AGE=172800
+
