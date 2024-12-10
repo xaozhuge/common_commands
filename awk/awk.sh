@@ -26,6 +26,7 @@ awk '{count=gsub(/\x01/,"&"); print NR, count}' update.*.csv
 # 5. 提取json中的字段clientip的值,并去重计数
 awk -F '"clientip":"' '{print $2}' access.log | awk -F '"' '{print $1}' | sort | uniq -c | sort -nr
 cat filename.log | awk -F '"sp":"' '{print $2}'|awk -F "ms" '$1 > 600' 
+cat curl_access-2024-12-10.log|awk -F '"req_time":' '{print $1$2}'|awk -F "," '$2 > 1000'
 
 # 6. 执行时间大于10s的nginx日志
 awk '$2 > 10' 2024-10-31.log
