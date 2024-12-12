@@ -28,6 +28,7 @@ awk -F '"clientip":"' '{print $2}' access.log | awk -F '"' '{print $1}' | sort |
 cat filename.log | awk -F '"sp":"' '{print $2}'|awk -F "ms" '$1 > 600' 
 cat curl_access-2024-12-10.log|awk -F '"req_time":' '{print $1$2}'|awk -F "," '$2 > 1000'
 cat sql-2024-12-10.log|awk -F '"sp_time":' '{print $1$2}'|awk -F '",' '$2+0 > 1000'
+cat sql-2024-12-12.log | awk -F 'Time: ' '{print $2,$1}'|awk -F ',' '$1 > 1000'
 
 # 6. 执行时间大于10s的nginx日志
 awk '$2 > 10' 2024-10-31.log
