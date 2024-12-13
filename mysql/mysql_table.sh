@@ -6,13 +6,14 @@ CREATE TABLE `数据表名称` (
   `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `update_time` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间',
   `deleted_time` datetime DEFAULT NULL COMMENT '逻辑删除标记',
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `IDX_UPDATE_TIME` (`update_time`) USING BTREE
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='备注';
 
 # 2. 删除数据表
 drop table 数据表名称;
 
-# 3. 显示数据表列表, 主要有s
+# 3. 显示数据表列表
 show tables;
 
 # 4. 创建数据表(选择已有数据表的字段)
