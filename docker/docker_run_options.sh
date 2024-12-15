@@ -5,3 +5,6 @@
 # 1. --name: 指定容器名称
 docker run --name mycontainer
 
+# 2. -d(--detach): 后台运行容器并返回容器ID
+docker run -d 
+
