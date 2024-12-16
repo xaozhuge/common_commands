@@ -8,3 +8,6 @@ docker run --name mycontainer
 # 2. -d(--detach): 后台运行容器并返回容器ID
 docker run -d 
 
+# 3. -i(--interactive): 保持容器的标准输入打开
+docker run -i
+
