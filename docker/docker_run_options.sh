@@ -11,3 +11,6 @@ docker run -d
 # 3. -i(--interactive): 保持容器的标准输入打开
 docker run -i
 
+# 4. -t(--tty): 为容器分配一个伪终端(常与 -i 一起使用)
+docker run -it
+
