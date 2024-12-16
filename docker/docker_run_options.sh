@@ -14,3 +14,6 @@ docker run -i
 # 4. -t(--tty): 为容器分配一个伪终端(常与 -i 一起使用)
 docker run -it
 
+# 5. --rm: 容器退出时自动删除容器
+docker run --rm
+
