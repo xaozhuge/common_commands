@@ -17,3 +17,8 @@ docker run -it
 # 5. --rm: 容器退出时自动删除容器
 docker run --rm
 
+
+# 二. 资源限制选项
+# 1. --memory: 限制容器的内存使用量, 例如 512m 或 1g
+docker run --memory=512m
+
