@@ -25,3 +25,6 @@ docker run --memory=512m
 # 2. --cpus: 限制容器使用的 CPU 数量
 docker run --cpus=1.5
 
+# 3. --cpu-shares: 设置 CPU 共享权重(相对优先级)
+docker run --cpu-shares=1024
+
