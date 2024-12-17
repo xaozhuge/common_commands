@@ -22,3 +22,6 @@ docker run --rm
 # 1. --memory: 限制容器的内存使用量, 例如 512m 或 1g
 docker run --memory=512m
 
+# 2. --cpus: 限制容器使用的 CPU 数量
+docker run --cpus=1.5
+
