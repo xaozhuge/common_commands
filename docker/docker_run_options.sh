@@ -31,3 +31,8 @@ docker run --cpu-shares=1024
 # 4. --memory-swap: 设置容器内存加交换空间的总限制
 docker run --memory-swap=1g
 
+
+# 三. 网络配置选项
+# 1. --network: 指定容器的网络模式, 例如 bridge、host、none 或用户自定义网络
+docker run --network=bridge
+
