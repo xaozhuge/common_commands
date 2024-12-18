@@ -28,3 +28,6 @@ docker run --cpus=1.5
 # 3. --cpu-shares: 设置 CPU 共享权重(相对优先级)
 docker run --cpu-shares=1024
 
+# 4. --memory-swap: 设置容器内存加交换空间的总限制
+docker run --memory-swap=1g
+
