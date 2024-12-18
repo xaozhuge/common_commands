@@ -36,3 +36,6 @@ docker run --memory-swap=1g
 # 1. --network: 指定容器的网络模式, 例如 bridge、host、none 或用户自定义网络
 docker run --network=bridge
 
+# 2. -p(--publish): 将容器的端口映射到主机端口, 格式为主机端口:容器端口
+docker run -p 8080:80
+
