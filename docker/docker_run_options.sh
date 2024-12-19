@@ -42,3 +42,8 @@ docker run -p 8080:80
 # 3. --expose: 显示声明容器暴露的端口(不映射到主机)
 docker run --expose=80
 
+
+# 四. 挂载和存储选项
+# 1. -v(--volume): 挂载主机目录或数据卷到容器, 格式为 主机路径:容器路径
+docker run -v /data:/app/data
+
