@@ -39,3 +39,6 @@ docker run --network=bridge
 # 2. -p(--publish): 将容器的端口映射到主机端口, 格式为主机端口:容器端口
 docker run -p 8080:80
 
+# 3. --expose: 显示声明容器暴露的端口(不映射到主机)
+docker run --expose=80
+
