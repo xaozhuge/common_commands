@@ -47,3 +47,6 @@ docker run --expose=80
 # 1. -v(--volume): 挂载主机目录或数据卷到容器, 格式为 主机路径:容器路径
 docker run -v /data:/app/data
 
+# 2. --mount: 配置更灵活的挂载选项
+docker run --mount type=bind,source=/data,target=/app/data
+
