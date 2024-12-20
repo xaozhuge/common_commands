@@ -50,3 +50,6 @@ docker run -v /data:/app/data
 # 2. --mount: 配置更灵活的挂载选项
 docker run --mount type=bind,source=/data,target=/app/data
 
+# 3. --tmpfs: 为容器挂载一个临时文件系统
+docker run --tmpfs /app
+
