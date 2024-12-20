@@ -58,3 +58,6 @@ docker run --tmpfs /app
 # 1. -e(--env): 设置环境变量
 docker run -e ENV_VAR=value
 
+# 2. --env-file: 从文件中加载环境变量
+docker run --env-file ./env.list
+
