@@ -53,3 +53,8 @@ docker run --mount type=bind,source=/data,target=/app/data
 # 3. --tmpfs: 为容器挂载一个临时文件系统
 docker run --tmpfs /app
 
+
+# 五. 环境配置选项
+# 1. -e(--env): 设置环境变量
+docker run -e ENV_VAR=value
+
