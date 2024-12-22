@@ -61,3 +61,8 @@ docker run -e ENV_VAR=value
 # 2. --env-file: 从文件中加载环境变量
 docker run --env-file ./env.list
 
+
+# 六. 容器行为选项
+# 1. --restart: 配置容器的重启策略: no、on-failure、always、unless-stopped
+docker run --restart=always
+
