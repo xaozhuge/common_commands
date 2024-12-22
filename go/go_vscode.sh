@@ -19,3 +19,9 @@ dlv version
     }
 ]
 
+# 3. db.ini 的配置
+User = 用户名
+Password = `密码`
+Host =  host:port
+Name = 数据库名
+
