@@ -66,3 +66,6 @@ docker run --env-file ./env.list
 # 1. --restart: 配置容器的重启策略: no、on-failure、always、unless-stopped
 docker run --restart=always
 
+# 2. --entrypoint: 替换镜像的默认启动命令。
+docker run --entrypoint "/bin/bash"
+
