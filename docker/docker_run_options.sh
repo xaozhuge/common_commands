@@ -77,3 +77,6 @@ docker run -w /app
 # 1. --log-driver: 指定日志驱动, 例如 json-file、syslog、none
 docker run --log-driver=json-file
 
+# 2. --log-opt: 设置日志驱动的选项
+docker run --log-opt max-size=10m
+
