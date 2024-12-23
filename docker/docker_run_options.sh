@@ -72,3 +72,8 @@ docker run --entrypoint "/bin/bash"
 # 3. -w(--workdir): 设置容器内的工作目录
 docker run -w /app
 
+
+# 七. 日志和调试选项
+# 1. --log-driver: 指定日志驱动, 例如 json-file、syslog、none
+docker run --log-driver=json-file
+
