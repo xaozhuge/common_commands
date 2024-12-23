@@ -69,3 +69,6 @@ docker run --restart=always
 # 2. --entrypoint: 替换镜像的默认启动命令。
 docker run --entrypoint "/bin/bash"
 
+# 3. -w(--workdir): 设置容器内的工作目录
+docker run -w /app
+
