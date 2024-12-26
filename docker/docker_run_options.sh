@@ -80,3 +80,6 @@ docker run --log-driver=json-file
 # 2. --log-opt: 设置日志驱动的选项
 docker run --log-opt max-size=10m
 
+# 3. --detach-keys: 设置分离容器的快捷键
+docker run --detach-keys="ctrl-c"
+
