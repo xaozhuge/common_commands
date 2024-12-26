@@ -83,3 +83,8 @@ docker run --log-opt max-size=10m
 # 3. --detach-keys: 设置分离容器的快捷键
 docker run --detach-keys="ctrl-c"
 
+
+# 八. 特权和安全选项
+# 1. --privileged: 以特权模式运行容器, 授予容器更多权限
+docker run --privileged
+
