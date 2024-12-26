@@ -26,3 +26,6 @@ installExtensionFromTgz()
     docker-php-ext-enable ${extensionName}
 }
 
+# 3.3 命令行执行redis安装
+installExtensionFromTgz redis-5.3.7
+
