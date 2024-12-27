@@ -91,3 +91,6 @@ docker run --privileged
 # 2. --cap-add: 添加 Linux 功能到容器
 docker run --cap-add=NET_ADMIN
 
+# 3. --cap-drop: 从容器中移除特定功能。
+docker run --cap-drop=ALL
+
