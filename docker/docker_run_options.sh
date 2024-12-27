@@ -88,3 +88,6 @@ docker run --detach-keys="ctrl-c"
 # 1. --privileged: 以特权模式运行容器, 授予容器更多权限
 docker run --privileged
 
+# 2. --cap-add: 添加 Linux 功能到容器
+docker run --cap-add=NET_ADMIN
+
