@@ -3,3 +3,5 @@ https://mp.weixin.qq.com/
 
 # 2. 业务域名
 
+# 3. JS接口安全域名
+
