@@ -9,3 +9,8 @@ public function logsql($sql, $start_time){
     logs(returnJson($log), 'sql');
 }
 
+# 3. 调用方式
+$start_time = nowms();
+$result =   $this->PDOStatement->execute();
+$this->logsql($this->queryStr, $start_time);
+
