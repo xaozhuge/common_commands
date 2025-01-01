@@ -10,3 +10,7 @@ public function logCurlAccess($url, $start_time){
     logs(returnJson($log), 'curl_access');
 }
 
+# 3. 调用方式
+$start_time = nowms();
+$this->logCurlAccess($url, $start_time);
+
