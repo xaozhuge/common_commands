@@ -6,3 +6,6 @@
     'days' => 14,
 ],
 
+# 2. vi config/app.php, 新增
+'sql_debug'=>env('SQL_DEBUG', true),
+
