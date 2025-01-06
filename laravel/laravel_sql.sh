@@ -16,3 +16,17 @@ use Illuminate\Database\Events\TransactionRolledBack;
 use Illuminate\Database\Events\TransactionBeginning;
 use App\Listeners\QueryExecutedListener;
 
+# $listen增加
+QueryExecuted::class => [
+    QueryExecutedListener::class,
+],
+TransactionCommitted::class => [
+    QueryExecutedListener::class,
+],
+TransactionRolledBack::class => [
+    QueryExecutedListener::class,
+],
+TransactionBeginning::class => [
+    QueryExecutedListener::class,
+],
+
