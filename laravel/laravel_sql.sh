@@ -30,3 +30,32 @@ TransactionBeginning::class => [
     QueryExecutedListener::class,
 ],
 
+# 4. 新增文件 app/Listeners/QueryExecutedListener.php
+<?php
+namespace App\Listeners;
+
+use Illuminate\Database\Events\QueryExecuted;
+use Illuminate\Support\Facades\Log;
+
+class QueryExecutedListener {
+    public function handle($e) {
+        if (config('app.sql_debug', false)) {
+            if ($e instanceof QueryExecuted) {
+                foreach ($e->bindings as $i => $binding) {
+                    if ($binding instanceof \DateTime) {
+                        $e->bindings[$i] = $binding->format('\'Y-m-d H:i:s\'');
+                    } else {
+                        if (is_string($binding)) {
+                            $e->bindings[$i] = "'$binding'";
+                        }
+                    }
+                }
+
+                $sql = sprintf(str_replace('?', '%s', str_replace('%','%%',$e->sql)), ...$e->bindings);
+                $logContent = sprintf(" SQL:%s, Time: %s, RequestId: %s, Api: %s", $sql, $e->time, request()->get("request-id-log"), request()->decodedPath());
+                logger()->channel('sql')->info($logContent);
+            } 
+        }
+    }
+}
+
