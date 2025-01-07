@@ -59,3 +59,6 @@ class QueryExecutedListener {
     }
 }
 
+# 5. 重新生成和更新自动加载器文件
+composer dump-autoload
+
