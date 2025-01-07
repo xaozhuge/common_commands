@@ -61,4 +61,6 @@ class QueryExecutedListener {
 
 # 5. 重新生成和更新自动加载器文件
 composer dump-autoload
+# 静态自动加载映射
+vendor/composer/autoload_static.php
 
