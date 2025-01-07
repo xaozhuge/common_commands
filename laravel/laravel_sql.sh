@@ -63,4 +63,6 @@ class QueryExecutedListener {
 composer dump-autoload
 # 静态自动加载映射
 vendor/composer/autoload_static.php
+# 记录类与文件的映射关系, 以便快速加载类
+vendor/composer/autoload_classmap.php 
 
