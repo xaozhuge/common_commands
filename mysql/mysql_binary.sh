@@ -3,3 +3,6 @@
 WHERE name = 'alice';
 WHERE BINARY name = 'alice';
 
+# 1.2 join中使用
+a inner join b on BINARY a.name = b.name
+
