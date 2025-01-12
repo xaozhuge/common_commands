@@ -10,3 +10,6 @@ substring_index(GROUP_CONCAT(id ORDER BY time DESC), ',' , 1) id
 # 4. 换分隔符 用竖线拼接
 group_concat(id separator '|')
 
+# 5. 字段合并为一行
+select group_concat(id) from test limit 10
+
