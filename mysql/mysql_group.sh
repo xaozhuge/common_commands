@@ -7,3 +7,6 @@ GROUP_CONCAT(id ORDER BY time DESC)
 # 3. 取第一个数据
 substring_index(GROUP_CONCAT(id ORDER BY time DESC), ',' , 1) id
 
+# 4. 换分隔符 用竖线拼接
+group_concat(id separator '|')
+
