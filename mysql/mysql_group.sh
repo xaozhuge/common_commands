@@ -8,11 +8,14 @@ GROUP_CONCAT(id ORDER BY time DESC)
 substring_index(GROUP_CONCAT(id ORDER BY time DESC), ',' , 1) id
 
 # 4. 换分隔符 用竖线拼接
-group_concat(id separator '|')
+GROUP_CONCAT(id separator '|')
 
 # 5. 字段合并为一行
-select group_concat(id) from test limit 10
+select GROUP_CONCAT(id) from test limit 10
 
 # 6. 注意
 GROUP_CONCAT(字段) 有长度限制
+
+# 7. 查询一个表所有字段, 注意不同database下是否有同名表,加上database的限制
+SELECT GROUP_CONCAT(COLUMN_NAME) FROM information_schema.COLUMNS WHERE table_name='表名称';
 
