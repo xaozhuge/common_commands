@@ -20,3 +20,6 @@ show tables;
 # 4. 创建数据表(选择已有数据表的字段)
 create table new_table (select * from old_table);
 
+# 5. 修改表注释
+alter table 表名 comment '修改后的表的注释';
+
