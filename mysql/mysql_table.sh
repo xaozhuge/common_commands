@@ -1,5 +1,5 @@
 # 1. 创建数据表
-CREATE TABLE `数据表名称` (
+CREATE TABLE IF NOT EXISTS `数据表名称` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `字符串类型` varchar(50) NOT NULL DEFAULT '' COMMENT '字符串备注',
   `字符串类型` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '' COMMENT '字符串支持表情',
