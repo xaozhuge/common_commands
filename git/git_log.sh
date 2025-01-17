@@ -7,3 +7,6 @@ git log -3
 git log -n 3
 git log --max-count=3
 
+# 3. 获取最新的 commit ID
+git log -1 --format=%H
+
