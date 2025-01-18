@@ -33,7 +33,14 @@ try {
     // 执行 SQL 查询
     $stmt = $conn->query($sql);
 
-    
+    // 输出数据
+    while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        $source = $row['source'];
+        $post = "";
+        $url  = "";
+        $param_str = "";
+        break;
+    }
 
 } catch (PDOException $e) {
     echo "1. 数据库连接失败: " . $e->getMessage();
