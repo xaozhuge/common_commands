@@ -10,3 +10,6 @@ git log --max-count=3
 # 3. 获取最新的 commit ID
 git log -1 --format=%H
 
+# 4. 查看所有合并到 master 的提交
+git log master --merges
+
