@@ -12,4 +12,5 @@ git log -1 --format=%H
 
 # 4. 查看所有合并到 master 的提交
 git log master --merges
+git log master --merges -3
 
