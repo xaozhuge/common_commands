@@ -16,5 +16,16 @@ $header = json_decode($post['req_header'], true);
 $content_type = $header['content-type'][0];
 $authorization = $header['authorization'][0];
 
+if($authorization){
+$cmd=<<<EOF
+export https_proxy=http://127.0.0.1:8888;curl -s -X POST -H "Content-Type: application/json"  -H "authorization: $authorization" -d '$param' $url ;
+EOF;
+}else{
+$cmd=<<<EOF
+export https_proxy=http://127.0.0.1:8888;curl -s -X POST -H "Content-Type: application/json" -d '$param' $url ;
+EOF;
+    
+}
+
 
 ?>
