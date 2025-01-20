@@ -1,0 +1,11 @@
+<?php
+
+// 运行命令
+// php ~/ops_code/common_commands/php/php_log_l.php
+
+$req=<<<EOF
+[2025-01-16 17:26:07] prod.INFO: {"method":"POST","url":"https:\/\/  
+EOF;
+
+
+?>
