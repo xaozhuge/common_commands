@@ -30,4 +30,9 @@ EOF;
 echo $cmd;
 echo PHP_EOL;
 
+@exec($cmd);
+echo PHP_EOL;
+// // 关闭连接
+$conn = null;
+
 ?>
