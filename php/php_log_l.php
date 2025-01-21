@@ -27,5 +27,7 @@ EOF;
     
 }
 
+echo $cmd;
+echo PHP_EOL;
 
 ?>
