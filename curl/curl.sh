@@ -7,6 +7,7 @@ curl -H "Content-Type: application/x-www-form-urlencoded"
 
 # 3. 使用 -d 选项来指定请求的表单数据 或者 指定 JSON 数据
 # -d 用于 发送POST请求的数据体
+# 使用 -d 自动将请求转化为POST方法, 可省略 -X POST
 curl -d "key1=value1&key2=value2"
 curl -d '{"key1":"value1", "key2":"value2"}'
 
