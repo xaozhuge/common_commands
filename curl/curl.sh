@@ -28,3 +28,7 @@ curl -s http://example.com
 # 注意 get的参数 是否需要转码
 curl https://www.baidu.com
 
+# 8. 显示通信过程, 可以查看 https 证书信息
+# --verbose
+curl -v https://baidu.com
+
