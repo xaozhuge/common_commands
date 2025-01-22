@@ -9,6 +9,7 @@ curl -H "Content-Type: application/x-www-form-urlencoded"
 # -d 用于 发送POST请求的数据体
 # 使用 -d 自动将请求转化为POST方法, 可省略 -X POST
 curl -d "key1=value1&key2=value2"
+curl -d "key1=value1" -d "key2=value2"
 curl -d '{"key1":"value1", "key2":"value2"}'
 
 # 4. 使用 --data-urlencode 选项自动对传递的数据进行 URL 编码，包括转义特殊字符，例如 /
