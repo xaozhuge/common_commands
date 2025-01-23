@@ -9,3 +9,6 @@ vi /etc/my.cnf
 [mysqld]
 expire_logs_days = 7
 
+# 4. 查看当前配置
+show VARIABLES like '%expire_logs_days%'
+
