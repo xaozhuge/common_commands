@@ -12,3 +12,6 @@ expire_logs_days = 7
 # 4. 查看当前配置
 show VARIABLES like '%expire_logs_days%'
 
+# 5. 手动切换: 通过 FLUSH LOGS 命令强制切换到新文件
+FLUSH LOGS;
+
