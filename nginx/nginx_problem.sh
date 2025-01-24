@@ -16,3 +16,7 @@ worker_connections 65535;
 # 打开文件 nginx.conf , http中添加/修改
 client_max_body_size 100m;
 
+# 4. 出现 403 Forbidden
+# 权限问题, 修改项目目录的权限
+sudo chmod  -R  777 项目目录
+
