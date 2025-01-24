@@ -12,3 +12,7 @@
 vi nginx.conf
 worker_connections 65535;
 
+# 3. 出现 413 Request Entity Too Large
+# 打开文件 nginx.conf , http中添加/修改
+client_max_body_size 100m;
+
