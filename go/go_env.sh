@@ -2,6 +2,7 @@
 go env
 
 # 2. 获取env变量的值
+go env GO111MODULE
 go env GOPROXY
 
 # 3. 写入环境变量配置
