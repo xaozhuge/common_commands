@@ -6,4 +6,5 @@ go get -u github.com/gin-gonic/gin
 # 3. 镜像地址
 # 阿里云: https://mirrors.aliyum.com/goproxy
 # 微软: https://goproxy.io
+# 七牛云: https://goproxy.cn
 
