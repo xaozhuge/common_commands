@@ -6,5 +6,6 @@ go env GO111MODULE
 go env GOPROXY
 
 # 3. 写入环境变量配置
+go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 
