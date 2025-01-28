@@ -7,4 +7,6 @@ https://go.dev/dl/
 
 # 3. 解压缩并指定解压的目标目录
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.0.darwin-amd64.tar.gz
+# mac /usr/local 没权限, 修改目标目录
+rm -rf /Users/zzz/Downloads/go && tar -C /Users/zzz/Downloads -xzf go1.22.0.darwin-amd64.tar.gz
 
