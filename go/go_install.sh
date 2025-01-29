@@ -15,4 +15,8 @@ export PATH=$PATH:/usr/local/go/bin
 
 # mac 一次生效
 export PATH=$PATH:/Users/zzz/Downloads/go/bin
+# mac 始终生效 
+vi ~/.bash_profile
+export PATH=$PATH:/Users/zzz/Downloads/go/bin
+source ~/.bash_profile
 
