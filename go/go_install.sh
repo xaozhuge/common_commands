@@ -20,3 +20,7 @@ vi ~/.bash_profile
 export PATH=$PATH:/Users/zzz/Downloads/go/bin
 source ~/.bash_profile
 
+# 5. 验证 go 版本
+go version
+res: go version go1.22.0 darwin/amd64
+
