@@ -13,3 +13,6 @@ rm -rf /Users/zzz/Downloads/go && tar -C /Users/zzz/Downloads -xzf go1.22.0.darw
 # 4. 默认 配置 PATH
 export PATH=$PATH:/usr/local/go/bin
 
+# mac 一次生效
+export PATH=$PATH:/Users/zzz/Downloads/go/bin
+
