@@ -1,5 +1,6 @@
 # 1. gin 安装
 go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
 go get -u github.com/gin-gonic/gin
 
 # 2. -u说明: 已存在相关的代码包, 强行更新代码包及其依赖包
