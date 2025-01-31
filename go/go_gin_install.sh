@@ -20,6 +20,12 @@ import(
 	"github.com/gin-gonic/gin"
 )
 
-
+func main(){
+	r := gin.Default()
+	r.GET("/url", func(ctx *gin.Context){
+		ctx.String(http.StatusOK, "Hello World")
+	})
+	r.Run(":9999")
+}
 ```
 
