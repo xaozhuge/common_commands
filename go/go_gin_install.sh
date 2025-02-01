@@ -32,3 +32,8 @@ func main(){
 # 5. 初始化实例
 r := gin.Default()
 
+# 6. 配置路由及实现
+r.GET("/url", func(ctx *gin.Context){
+	ctx.String(http.StatusOk, "Hello World")
+})
+
