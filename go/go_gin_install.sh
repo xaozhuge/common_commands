@@ -29,3 +29,6 @@ func main(){
 }
 ```
 
+# 5. 初始化实例
+r := gin.Default()
+
