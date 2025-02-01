@@ -37,3 +37,6 @@ r.GET("/url", func(ctx *gin.Context){
 	ctx.String(http.StatusOk, "Hello World")
 })
 
+# 7. 启动web服务
+r.Run(":9999")
+
