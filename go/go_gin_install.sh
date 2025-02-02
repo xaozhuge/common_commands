@@ -36,6 +36,10 @@ r := gin.Default()
 r.GET("/url", func(ctx *gin.Context){
 	ctx.String(http.StatusOk, "Hello World")
 })
+# 注意大小写
+r.GET()
+r.POST()
+r.DELETE()
 
 # 7. 启动web服务
 r.Run(":9999")
