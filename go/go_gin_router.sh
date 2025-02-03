@@ -17,4 +17,12 @@ func Router() *gin.Engine{
 	}
 	return r
 }
+# 对应main.go的demo
+import(
+	"目录名称/router"
+)
+func main(){
+	r := router.Router()
+	r.Run(":9999")
+}
 
