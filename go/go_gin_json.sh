@@ -10,4 +10,8 @@ func Router() *gin.Engine{
 	}
 	return r
 }
+# controllers 下的 GetUrlInfo
+func GetUrlInfo(c *gin.Context){
+	ReturnSuccess(c, 0, "success", "url info", 1)
+}
 
