@@ -16,3 +16,7 @@ func GetUrlInfo(c *gin.Context){
 	ReturnSuccess(c, 0, "success", "url info", 1)
 }
 
+func GetUrlList(c *gin.Context){
+	ReturnError(c, 1, "fail")
+}
+
