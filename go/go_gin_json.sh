@@ -7,6 +7,7 @@ func Router() *gin.Engine{
 	url := r.Group("/url")
 	{
 		url.GET("/info", controllers.GetUrlInfo)
+		url.GET("/list", controllers.GetUrlList)
 	}
 	return r
 }
