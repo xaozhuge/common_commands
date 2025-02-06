@@ -5,8 +5,10 @@
 ~/.bash_profile
 
 
-# 2. 编辑写入和echo写入
+# 2. 修改内容
+# 编辑写入
 alias 'du1=du -sh * 2>/dev/null | sort -h'
+# echo写入
 echo "alias du1=du -sh * 2>/dev/null | sort -h" >> ~/.bash_profile
 echo "alias remote='/bin/bash ~/script/remote.sh'" >> ~/.bash_profile
 echo "alias du1=du -sh * 2>/dev/null | sort -h" >> /etc/profile
