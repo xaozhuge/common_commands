@@ -18,6 +18,8 @@ export PATH=$PATH:/Users/zzz/Downloads/go/bin
 # mac 始终生效 
 vi ~/.bash_profile
 export PATH=$PATH:/Users/zzz/Downloads/go/bin
+# 多个go版本时, 注意$PATH加载的优先级
+export PATH=/Users/zzz/Downloads/go/bin:$PATH
 source ~/.bash_profile
 
 # 5. 验证 go 版本
