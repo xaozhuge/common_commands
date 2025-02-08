@@ -7,3 +7,7 @@ set timeout 30
 # 3. spawn 后面跟一个命令, 开启一个会话
 spawn ssh root@127.0.0.1
 
+# 4. expect 接收命令执行后的输出, 然后和期望字符串匹配, 若对应这执行相应的send来发送交互信息
+expect "*password:"
+send "密码\r"
+
