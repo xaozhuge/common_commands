@@ -11,3 +11,6 @@ spawn ssh root@127.0.0.1
 expect "*password:"
 send "密码\r"
 
+# 5. expect eof 和 interact
+# expect eof: 等待执行结束, 若没有这一句, 可能导致命令还没执行, 脚本就结束了 
+
