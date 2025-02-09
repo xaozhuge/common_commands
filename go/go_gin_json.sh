@@ -28,3 +28,8 @@ type JsonStruct struct {
 	Count int64 `json:"count"`
 }
 
+type JsonErrStruct struct {
+	Code int `json:"code"`
+	Msg  interface{} `json:"msg"`
+}
+
