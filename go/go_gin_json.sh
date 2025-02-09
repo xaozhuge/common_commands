@@ -38,3 +38,8 @@ func ReturnSuccess(c *gin.Context, code int, msg interface{}, data interface{}, 
 	c.JSON(200, json)
 }
 
+func ReturnError(c *gin.Context, code int, msg interface{}){
+	json := &JsonErrStruct{Code: code, Msg: msg}
+	c.JSON(200, json)
+}
+
