@@ -13,4 +13,7 @@ send "密码\r"
 
 # 5. expect eof 和 interact
 # expect eof: 等待执行结束, 若没有这一句, 可能导致命令还没执行, 脚本就结束了 
+# interact: 执行完成后保持交互状态, 这时可以手动输入信息 
+# 注: expect eof 与 interact 二选一即可
+interact
 
