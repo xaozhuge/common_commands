@@ -5,4 +5,5 @@ reboot
 id zzz
 res: uid=1005(zzz) gid=1005(zzz) groups=1005(zzz),1021(docker)
 # uid 表示当前用户的id
+# gid 表示用户组id
 
