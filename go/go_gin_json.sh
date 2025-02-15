@@ -43,3 +43,10 @@ func ReturnError(c *gin.Context, code int, msg interface{}){
 	c.JSON(200, json)
 }
 
+# 3. package 如果要出现同名的方法如何处理, 通过结构体的方法实现
+# controllers 下的 GetUrlInfo
+type UrlController struct{}
+func (u UrlController) GetUrlInfo(c *gin.Context){
+	ReturnSuccess(c, 0, "success", "url raw", 1)
+}
+
