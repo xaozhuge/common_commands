@@ -50,3 +50,8 @@ func (u UrlController) GetUrlInfo(c *gin.Context){
 	ReturnSuccess(c, 0, "success", "url raw", 1)
 }
 
+# router的demo, 调用package包下结构体的方法
+url.GET("/info", controllers.UrlController{}.GetUrlInfo)
+# 对比调用 package包下的方法
+url.GET("/info", controllers.GetUrlInfo)
+
