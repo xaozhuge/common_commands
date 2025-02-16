@@ -4,3 +4,10 @@ http://127.0.0.1:9999/url/info/10010/zzz
 # router的demo
 url.GET("/info/:id/:name", controllers.UrlController{}.GetUrlInfo)
 
+# Controller
+func (u UrlController) GetUrlInfo(c *gin.Context){
+	id := c.Param("id")
+	name := c.Param("name")
+	ReturnSuccess(c, 0, name, id, 1)
+}
+
