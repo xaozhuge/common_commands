@@ -11,3 +11,7 @@ func (u UrlController) GetUrlInfo(c *gin.Context){
 	ReturnSuccess(c, 0, name, id, 1)
 }
 
+# 2. POST的参数, Content-Type: application/x-www-form-urlencoded
+# router的demo
+url.POST("/info", controllers.UrlController{}.GetUrlInfo)
+
