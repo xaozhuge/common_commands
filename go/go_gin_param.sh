@@ -22,3 +22,18 @@ func (u UrlController) GetUrlInfo(c *gin.Context){
 	ReturnSuccess(c, 0, name, id, 1)
 }
 
+# 3. POST的参数, Content-Type: application/json
+# router的demo
+url.POST("/info", controllers.UrlController{}.GetUrlInfo)
+
+# Controller Map的形式
+func (u UrlController) GetUrlInfo(c *gin.Context){
+	param := make(map[string]interface{})
+	err := c.BindJSON(&param)
+	if err == nil {
+		ReturnSuccess(c, 0, "success", param, 1)
+		return
+	}
+	ReturnError(c, 1, gin.H{"err": err})
+}
+
