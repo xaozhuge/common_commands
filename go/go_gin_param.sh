@@ -37,3 +37,7 @@ func (u UrlController) GetUrlInfo(c *gin.Context){
 	ReturnError(c, 1, gin.H{"err": err})
 }
 
+# 返回值的处理
+ReturnSuccess(c, 0, "success", param, 1)
+ReturnSuccess(c, 0, param["name"], param["id"], 1)
+
