@@ -15,3 +15,10 @@ func (u UrlController) GetUrlInfo(c *gin.Context){
 # router的demo
 url.POST("/info", controllers.UrlController{}.GetUrlInfo)
 
+# Controller
+func (u UrlController) GetUrlInfo(c *gin.Context){
+	id := c.PostForm("id")
+	name := c.DefaultPostForm("name", "hahaha")
+	ReturnSuccess(c, 0, name, id, 1)
+}
+
