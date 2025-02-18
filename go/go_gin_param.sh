@@ -48,3 +48,12 @@ type Urlparam struct{
 	Id int `json:"id"`
 }
 
+func (u UrlController) GetUrlInfo(c *gin.Context){
+	url := &Urlparam{}
+	err := c.BindJSON(&url)
+	if err == nil {
+		ReturnSuccess(c, 0, url.Name, url.Id, 1)
+	}
+	ReturnError(c, 1, gin.H{"err": err})
+}
+
