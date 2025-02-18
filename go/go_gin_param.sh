@@ -41,3 +41,10 @@ func (u UrlController) GetUrlInfo(c *gin.Context){
 ReturnSuccess(c, 0, "success", param, 1)
 ReturnSuccess(c, 0, param["name"], param["id"], 1)
 
+# 4. POST的参数, Content-Type: application/json
+# Controller 结构体的形式
+type Urlparam struct{
+	Name string `json:"name"`
+	Id int `json:"id"`
+}
+
