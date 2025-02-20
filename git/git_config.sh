@@ -7,3 +7,7 @@
 # 全局级配置是针对当前用户的, 适用于该用户的所有项目. 它存储在用户的主目录下的.gitconfig文件中
 /home/zzz/.gitconfig
 
+# 3. 项目级配置(Local Level)
+# 项目级配置是针对单个项目设置的, 只适用于当前项目的仓库. 它存储在项目目录下的.git/config文件中
+.git/config
+
