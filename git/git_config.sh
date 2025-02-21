@@ -16,3 +16,6 @@
 全局级配置 (Global Level) : 覆盖 系统级配置
 系统级配置 (System Level) : 默认配置, 优先级最低
 
+# 5. 查看系统级配置
+git config --system --list
+
