@@ -18,4 +18,6 @@
 
 # 5. 查看系统级配置
 git config --system --list
+# 查看全局级配置  
+git config --global --list
 
