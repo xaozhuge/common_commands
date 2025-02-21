@@ -20,4 +20,6 @@
 git config --system --list
 # 查看全局级配置  
 git config --global --list
+# 查看项目级配置  
+git config --local --list
 
