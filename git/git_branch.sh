@@ -16,3 +16,6 @@ git branch
 git branch feature/YYYYmmdd_name_func
 git branch hotfix/YYYYmmdd_name_func
 
+# 6. 切换分支
+git checkout hotfix/YYYYmmdd_name_func
+
