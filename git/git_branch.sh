@@ -19,3 +19,6 @@ git branch hotfix/YYYYmmdd_name_func
 # 6. 切换分支
 git checkout hotfix/YYYYmmdd_name_func
 
+# 7. 删除本地分支
+git branch -D hotfix/YYYYmmdd_name_func
+
