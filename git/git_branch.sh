@@ -15,6 +15,8 @@ git branch
 # 5. 创建分支
 git branch feature/YYYYmmdd_name_func
 git branch hotfix/YYYYmmdd_name_func
+# 创建分支并切换到该分支
+git checkout -b hotfix/YYYYmmdd_name_func
 
 # 6. 切换分支
 git checkout hotfix/YYYYmmdd_name_func
