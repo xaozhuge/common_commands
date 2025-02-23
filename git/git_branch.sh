@@ -29,3 +29,6 @@ git branch -v
 # 可以看到是否存在远程分支
 git branch -vv
 
+# 9. 将指定分支合并到当前分支
+git merge hotfix/YYYYmmdd_name_func
+
