@@ -24,4 +24,6 @@ git branch -D hotfix/YYYYmmdd_name_func
 
 # 8. 查看本地分支以及提交信息
 git branch -v
+# 可以看到是否存在远程分支
+git branch -vv
 
