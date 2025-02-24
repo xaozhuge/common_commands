@@ -20,11 +20,6 @@ cat .git/config | grep filemode
 # 2. 不追踪权限
 git config core.filemode false
 
-# 四、删除、更新 不存在的远程分支
-2、删除、更新 不存在的远程分支
-git remote prune 远程地址的别名
-git remote prune origin
-
 # 五、修改git的仓库地址
 git remote set-url origin git@git地址
 
