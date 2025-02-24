@@ -20,9 +20,6 @@ cat .git/config | grep filemode
 # 2. 不追踪权限
 git config core.filemode false
 
-# 五、修改git的仓库地址
-git remote set-url origin git@git地址
-
 # 六、取消对文件的追踪,使用 git rm --cached
 git rm --cached 2024-10-06.log
 
