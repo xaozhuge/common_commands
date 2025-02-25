@@ -10,3 +10,8 @@ eg: git remote prune origin
 # 3. 修改git的仓库地址
 git remote set-url origin git@git地址
 
+# 4. origin 是 git 为你默认创建的指向这个远程代码库的标签
+git remote -v
+res: origin	git@git.****.com:team/project.git (fetch)
+res: origin	git@git.****.com:team/project.git (push)
+
