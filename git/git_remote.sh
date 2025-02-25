@@ -16,4 +16,6 @@ res: origin	git@git.****.com:team/project.git (fetch)
 res: origin	git@git.****.com:team/project.git (push)
 # 拉取代码的时候
 git pull origin master 相当于 git pull git@git.****.com:team/project.git master
+# 推送代码的时候 
+git push origin master 相当于 git push git@git.****.com:team/project.git master
 
