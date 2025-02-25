@@ -14,4 +14,6 @@ git remote set-url origin git@git地址
 git remote -v
 res: origin	git@git.****.com:team/project.git (fetch)
 res: origin	git@git.****.com:team/project.git (push)
+# 拉取代码的时候
+git pull origin master 相当于 git pull git@git.****.com:team/project.git master
 
