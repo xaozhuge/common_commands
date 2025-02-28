@@ -14,4 +14,6 @@
 
 # 4. 查看当前umask值
 umask
+# 一次性设置umask值
+umask 022
 
