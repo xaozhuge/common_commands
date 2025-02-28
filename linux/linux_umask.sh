@@ -17,3 +17,7 @@ umask
 # 一次性设置umask值
 umask 022
 
+# 5. 永久设置umask
+echo 'umask 022' >> ~/.bashrc
+source ~/.bashrc
+
