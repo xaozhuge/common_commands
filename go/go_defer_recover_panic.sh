@@ -6,3 +6,6 @@ defer fmt.Println(3)
 # 这里结果是有回车的
 res: 3 2 1
 
+# 2. panic: 让程序崩溃
+panic("11")
+
