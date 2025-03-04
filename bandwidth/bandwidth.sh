@@ -14,4 +14,3 @@ iftop -i eth0
 touch checkbandwidth.sh
 chmod +x checkbandwidth.sh
 
-
