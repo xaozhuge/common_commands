@@ -14,3 +14,4 @@ https://open.weixin.qq.com/
 https://pay.weixin.qq.com/
 # 3.1 用于微信支付
 # 3.2 用于APP或者公众号接入支付功能
+
