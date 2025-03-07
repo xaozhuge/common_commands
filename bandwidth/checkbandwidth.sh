@@ -19,3 +19,4 @@ echo  >> $logpath
 
 # 2. 定时任务
 # * * * * * /data/script/checkbandwidth.sh
+
