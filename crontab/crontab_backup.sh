@@ -9,7 +9,3 @@ time=`date +%Y%m%d`
 # 3. 备份crontab
 crontab -l >> $path$time.log
 
-
-
-
-
