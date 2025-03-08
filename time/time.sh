@@ -13,3 +13,4 @@ date -d "3 days ago" +"%Y%m%d"
 date -d "4 minute ago" +"%Y-%m-%d %H:%M:00"
 date -d "20240826 last month" +%Y-%m-%d
 date -d "2024-08-26 last day" +%Y-%m-%d
+
