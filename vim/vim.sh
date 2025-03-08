@@ -4,3 +4,4 @@
 # 2. 修改vim编码
 touch ~/.vimrc
 echo ": set  encoding=utf-8" >>  ~/.vimrc
+
