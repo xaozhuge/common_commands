@@ -12,5 +12,3 @@ tiup cluster restart tidb
 # 3. 查看集群的状态
 tiup cluster display tidb
 
-
-
