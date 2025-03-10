@@ -15,8 +15,3 @@ docker image prune
 	# 	4.2.4 stage=builder_test: 这部分指定了要匹配的标签的键和值。它查找具有键 "stage" 和值 "builder_test" 的标签。
 
 
-
-
-
-
-
