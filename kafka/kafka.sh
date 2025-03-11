@@ -1,4 +1,4 @@
-# 1. 列出topic
+# 1. 列出topic, 用于列出 Apache Kafka 集群中所有主题(topics)的命令
 ./kafka-topics.sh --list --bootstrap-server 173.16.0.62:9092
 
 # 2. 创建topic
