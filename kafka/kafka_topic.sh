@@ -5,3 +5,7 @@
 cd /data/kafka_2.13-3.1.1/bin/
 ./kafka-topics.sh
 
+# 2. --list: List all available topics
+# --list: 这是 kafka-topics.sh 脚本的一个选项, 表示列出 Kafka 集群中的所有主题
+./kafka-topics.sh --list
+
