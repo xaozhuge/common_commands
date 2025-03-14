@@ -18,4 +18,6 @@ cd /data/kafka_2.13-3.1.1/bin/
 
 # 4. --exclude-internal: exclude internal topics when running list or describe command. 
 # The internal topics will be listed by default   
+# --exclude-internal: 这是一个可选参数, 表示在列出主题时排除 Kafka 内部使用的主题
+./kafka-topics.sh --list --bootstrap-server 192.168.0.31:19092 --exclude-internal
 
