@@ -16,3 +16,6 @@ cd /data/kafka_2.13-3.1.1/bin/
 # --bootstrap-server 是指定 Kafka 集群的地址和端口
 # 173.16.0.62:9092 是 Kafka 集群中的一个 broker 地址和端口. Kafka 客户端会通过这个地址连接到集群, 并获取集群的元数据信息
 
+# 4. --exclude-internal: exclude internal topics when running list or describe command. 
+# The internal topics will be listed by default   
+
