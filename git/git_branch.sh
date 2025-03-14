@@ -23,6 +23,8 @@ git checkout hotfix/YYYYmmdd_name_func
 
 # 7. 删除本地分支
 git branch -D hotfix/YYYYmmdd_name_func
+# 删除远程分支
+git push origin --delete feature-branch
 
 # 8. 查看本地分支以及提交信息
 git branch -v
