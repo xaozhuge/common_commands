@@ -26,4 +26,5 @@ cd /data/kafka_2.13-3.1.1/bin/
 ./kafka-topics.sh --list --bootstrap-server 192.168.0.31:19092 |grep __consumer_offsets
 
 # 5. --create: Create a new topic. 表示创建一个新的主题
+# 6. --topic <String: topic>: The topic to create, alter, describe or delete. 
 
