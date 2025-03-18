@@ -4,3 +4,10 @@
 # 如果 $version < $limit_version, 返回 -1
 version_compare($version, $limit_version)
 
+# 2. 易错点, -1 被布尔值判断为true
+if(version_compare("2.1.15", "2.1.17")){
+	输出1
+}else{
+	输出2
+}
+
