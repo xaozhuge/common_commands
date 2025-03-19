@@ -13,4 +13,6 @@ if(version_compare("2.1.15", "2.1.17")){
 
 # 方案1
 if(version_compare("2.1.15", "2.1.17") === 1){}
+# 方案2
+if(version_compare("2.1.15", "2.1.17", ">")){}
 
