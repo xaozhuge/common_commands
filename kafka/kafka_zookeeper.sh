@@ -10,3 +10,6 @@ sh bin/zookeeper-server-start.sh config/zookeeper.properties &
 # /data/kafka_2.13-3.1.1/ 是 Kafka 的安装目录
 # bin/zookeeper-server-start.sh 是启动 Zookeeper 的脚本
 
+# 3. config/zookeeper.properties
+# 这是 Zookeeper 的配置文件路径
+
