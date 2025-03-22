@@ -12,4 +12,5 @@ sh bin/zookeeper-server-start.sh config/zookeeper.properties &
 
 # 3. config/zookeeper.properties
 # 这是 Zookeeper 的配置文件路径
+# config/zookeeper.properties 文件包含了 Zookeeper 的配置参数, 例如数据目录、客户端端口、集群配置等
 
