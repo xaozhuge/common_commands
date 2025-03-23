@@ -17,4 +17,5 @@ sh bin/zookeeper-server-start.sh config/zookeeper.properties &
 # 4. &
 # 这个符号表示将命令放到后台运行
 # 如果不加 &, Zookeeper 会占用当前终端, 直到服务停止
+# 加上 & 后, Zookeeper 会在后台运行, 终端可以继续执行其他命令
 
