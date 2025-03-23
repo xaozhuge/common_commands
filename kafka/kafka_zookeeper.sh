@@ -19,3 +19,5 @@ sh bin/zookeeper-server-start.sh config/zookeeper.properties &
 # 如果不加 &, Zookeeper 会占用当前终端, 直到服务停止
 # 加上 & 后, Zookeeper 会在后台运行, 终端可以继续执行其他命令
 
+# 5. zookeeper 是 Kafka 的核心依赖, 必须确保 Zookeeper 正常运行, Kafka 才能正常工作
+
