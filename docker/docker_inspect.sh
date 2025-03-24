@@ -12,4 +12,3 @@ docker inspect --format='{{.LogPath}}' php56_c
 # 3. 获取docker容器的日志路径
 docker inspect php56_c|grep -i log
 
-
