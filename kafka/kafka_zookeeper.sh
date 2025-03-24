@@ -24,3 +24,6 @@ sh bin/zookeeper-server-start.sh config/zookeeper.properties &
 # 6. 停止 Zookeeper
 sh /data/kafka_2.13-3.1.1/bin/zookeeper-server-stop.sh
 
+# 7. 检查 Zookeeper 是否在运行, 如果看到 2181 端口被监听, 说明 Zookeeper 已成功启动
+netstat -tuln | grep 2181
+
