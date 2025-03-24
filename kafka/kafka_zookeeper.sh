@@ -21,3 +21,6 @@ sh bin/zookeeper-server-start.sh config/zookeeper.properties &
 
 # 5. zookeeper 是 Kafka 的核心依赖, 必须确保 Zookeeper 正常运行, Kafka 才能正常工作
 
+# 6. 停止 Zookeeper
+sh /data/kafka_2.13-3.1.1/bin/zookeeper-server-stop.sh
+
