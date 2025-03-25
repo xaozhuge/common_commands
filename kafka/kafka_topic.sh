@@ -8,6 +8,7 @@ cd /data/kafka_2.13-3.1.1/bin/
 # 2. --list: List all available topics
 # --list: 这是 kafka-topics.sh 脚本的一个选项, 表示列出 Kafka 集群中的所有主题
 ./kafka-topics.sh --list
+./kafka-topics.sh --list --bootstrap-server 173.16.0.62:9092
 
 # 3. --bootstrap-server <String: server to connect to>   
 # REQUIRED: The Kafka server to connect to
