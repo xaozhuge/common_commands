@@ -14,3 +14,6 @@ bin/kafka-consumer-groups.sh
 
 # 1.4 执行此命令后, 会返回该 Kafka 集群中所有的消费者组名称列表
 
+# 2. 查看特定消费者组详情
+bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name>
+
