@@ -12,3 +12,5 @@ bin/kafka-consumer-groups.sh
 # 1.3 表示要执行的操作是列出所有消费者组
 --list
 
+# 1.4 执行此命令后, 会返回该 Kafka 集群中所有的消费者组名称列表
+
