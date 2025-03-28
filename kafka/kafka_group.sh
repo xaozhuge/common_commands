@@ -20,3 +20,6 @@ bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --
 # 3. 查看消费者组的消费偏移量
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name> --offsets
 
+# 4. 重置消费者组的偏移量
+bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --reset-offsets --group <group_name> --to-earliest --topic <topic_name> --execute
+
