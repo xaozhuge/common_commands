@@ -6,3 +6,6 @@ sudo yum install -y jq
 jq --version
 res: jq-1.6
 
+# 3. 提取 logfile.log 的json, 并显示出json中的url和req_time
+grep -o '{.*}' logfile.log | jq -r '.url, .req_time'
+
