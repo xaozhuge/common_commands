@@ -11,3 +11,7 @@ doveadm fetch -u 用户@域名 "body" mailbox INBOX uid
 import base64
 print(base64.b64decode("xOO6wy3V/c7E").decode('gb18030'))
 
+# 4. 获取其他常用信息
+# 邮件的标题
+doveadm fetch -u 用户@域名 "hdr.subject" mailbox INBOX uid
+
