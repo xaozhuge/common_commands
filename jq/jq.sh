@@ -12,4 +12,7 @@ grep -o '{.*}' logfile.log | jq -r '.url, .req_time'
 # 4. -r(--raw-output): 直接输出原始字符串(去掉JSON引号)
 grep -o '{.*}' logfile.log | jq -r '.url'
 res: https://www.baidu.com
+# 不带-r参数
+grep -o '{.*}' logfile.log | jq '.url'
+res: "https://www.baidu.com"
 
