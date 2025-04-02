@@ -9,3 +9,7 @@ res: jq-1.6
 # 3. 提取 logfile.log 的json, 并显示出json中的url和req_time
 grep -o '{.*}' logfile.log | jq -r '.url, .req_time'
 
+# 4. -r(--raw-output): 直接输出原始字符串(去掉JSON引号)
+grep -o '{.*}' logfile.log | jq -r '.url'
+res: https://www.baidu.com
+
