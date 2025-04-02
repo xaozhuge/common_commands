@@ -16,3 +16,7 @@ res: https://www.baidu.com
 grep -o '{.*}' logfile.log | jq '.url'
 res: "https://www.baidu.com"
 
+# 5. @tsv: 将结果格式化为制表符分隔
+grep -o '{.*}' logfile.log | jq -r '[.url, .req_time]|@tsv'
+res: https://www.baidu.com 制表符 10
+
