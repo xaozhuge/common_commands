@@ -20,3 +20,7 @@ res: "https://www.baidu.com"
 grep -o '{.*}' logfile.log | jq -r '[.url, .req_time]|@tsv'
 res: https://www.baidu.com 制表符 10
 
+# 不带@tsv
+grep -o '{.*}' logfile.log | jq -r '.url, .req_time'
+res: https://www.baidu.com 换行符 10
+
