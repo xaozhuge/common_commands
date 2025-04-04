@@ -8,7 +8,6 @@ bin/kafka-consumer-groups.sh
 --bootstrap-server 192.168.0.31:19092
 # 1.3 表示要执行的操作是列出所有消费者组
 --list
-
 # 1.4 执行此命令后, 会返回该 Kafka 集群中所有的消费者组名称列表
 
 # 2. 查看特定消费者组详情
