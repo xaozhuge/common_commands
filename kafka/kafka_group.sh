@@ -12,6 +12,8 @@ bin/kafka-consumer-groups.sh
 
 # 2. 查看特定消费者组详情
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name>
+# 2.1 查看消费者组的详细信息
+--describe
 
 # 3. 查看消费者组的消费偏移量
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name> --offsets
