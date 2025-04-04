@@ -6,7 +6,6 @@ bin/kafka-consumer-groups.sh
 # 1.2 指定要连接的 Kafka 集群地址
 # 这里连接的IP是 192.168.0.31, 端口为 19092 的Kafka服务
 --bootstrap-server 192.168.0.31:19092
-
 # 1.3 表示要执行的操作是列出所有消费者组
 --list
 
