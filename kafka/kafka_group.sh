@@ -20,6 +20,7 @@ bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --
 GROUP: 消费者组名称
 TOPIC: 该消费者组订阅的主题
 PARTITION: 主题的分区编号
+CURRENT-OFFSET: 消费者组当前已提交的偏移量(offset)
 
 # 3. 查看消费者组的消费偏移量
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name> --offsets
