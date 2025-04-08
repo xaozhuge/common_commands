@@ -25,6 +25,7 @@ LOG-END-OFFSET: 该分区的最新消息偏移量(即最新生产的消息位置
 LAG: 消费延迟量(LOG-END-OFFSET - CURRENT-OFFSET), 即未消费的消息数
 CONSUMER-ID: 消费者实例的ID
 HOST: 运行消费者的主机信息
+CLIENT-ID: 消费者客户端的ID
 
 # 3. 查看消费者组的消费偏移量
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name> --offsets
