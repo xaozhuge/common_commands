@@ -5,3 +5,6 @@
 # 消息分发: 将消息推送给消费者(Consumer), 并管理消费者的偏移量(Offset)
 # 集群协调: 通过ZooKeeper(或KRaft模式)与其他Broker协作, 维护副本(Replicas)、选举Leader等
 
+# 3. Broker的工作流程示例
+# 生产者发送消息: Producer向Topic的某个分区Leader(位于某Broker)发送消息
+
