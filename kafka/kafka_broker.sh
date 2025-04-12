@@ -14,3 +14,6 @@
 # broker.id: 唯一标识, 集群内不能重复
 eg: broker.id=0
 
+# log.dirs: 数据存储路径(分区日志文件存放位置)
+eg: log.dirs=/data/kafka/data
+
