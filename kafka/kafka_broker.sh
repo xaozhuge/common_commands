@@ -8,4 +8,5 @@
 # 3. Broker的工作流程示例
 # 生产者发送消息: Producer向Topic的某个分区Leader(位于某Broker)发送消息
 # Broker持久化消息: Leader Broker将消息写入磁盘, 并同步给Follower Broker(保证副本一致性)
+# 消费者拉取消息: Consumer从Leader Broker拉取消息, Broker记录消费进度(Offset)
 
