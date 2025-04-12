@@ -10,3 +10,7 @@
 # Broker持久化消息: Leader Broker将消息写入磁盘, 并同步给Follower Broker(保证副本一致性)
 # 消费者拉取消息: Consumer从Leader Broker拉取消息, Broker记录消费进度(Offset)
 
+# 4. Broker的配置核心参数
+# broker.id: 唯一标识, 集群内不能重复
+eg: broker.id=0
+
