@@ -22,4 +22,5 @@ eg: zookeeper.connect=localhost:2181
 
 # 5. listeners和advertised.listeners	
 # listeners: Broker绑定的真实地址, 服务端视角
+# advertised.listeners: 客户端实际连接的地址, 必须可路由
 
