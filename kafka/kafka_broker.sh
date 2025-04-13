@@ -17,3 +17,6 @@ eg: broker.id=0
 # log.dirs: 数据存储路径(分区日志文件存放位置)
 eg: log.dirs=/data/kafka/data
 
+# zookeeper.connect: 指定ZooKeeper地址(集群协调依赖)
+eg: zookeeper.connect=localhost:2181
+
