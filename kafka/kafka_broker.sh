@@ -20,3 +20,6 @@ eg: log.dirs=/data/kafka/data
 # zookeeper.connect: 指定ZooKeeper地址(集群协调依赖)
 eg: zookeeper.connect=localhost:2181
 
+# 5. listeners和advertised.listeners	
+# listeners: Broker绑定的真实地址, 服务端视角
+
