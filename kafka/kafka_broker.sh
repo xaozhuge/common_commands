@@ -27,4 +27,5 @@ eg: zookeeper.connect=localhost:2181
 # 6. --bootstrap-servers必须使用advertised.listeners的地址
 # 选择INTERNAL或OUTSIDE取决于客户端网络位置:
 # 内网客户端 → INTERNAL地址(低延迟、无需加密)
+# 外网客户端 → OUTSIDE地址(需确保可路由, 通常需加密)
 
