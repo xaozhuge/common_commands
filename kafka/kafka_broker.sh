@@ -24,3 +24,6 @@ eg: zookeeper.connect=localhost:2181
 # listeners: Broker绑定的真实地址, 服务端视角
 # advertised.listeners: 客户端实际连接的地址, 必须可路由
 
+# 6. --bootstrap-servers必须使用advertised.listeners的地址
+# 选择INTERNAL或OUTSIDE取决于客户端网络位置:
+
