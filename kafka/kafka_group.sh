@@ -35,4 +35,5 @@ bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --reset-offse
 
 # 5. 删除Kafka中指定的消费者组
 --delete: 表示要执行删除操作
+bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --delete --group <group_name>
 
