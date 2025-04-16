@@ -33,3 +33,6 @@ bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --
 # 4. 重置消费者组的偏移量
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --reset-offsets --group <group_name> --to-earliest --topic <topic_name> --execute
 
+# 5. 删除Kafka中指定的消费者组
+--delete: 表示要执行删除操作
+
