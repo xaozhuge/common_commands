@@ -9,6 +9,9 @@ bin/kafka-consumer-groups.sh
 # 3. 表示要执行的操作是列出所有消费者组
 --list
 
+# 4. 指定要查询的消费者组名称, 将 <group_name> 替换为实际的消费者组名
+--group <group_name>
+
 # 二、case
 # 1. 列出Kafka中所有的消费者组(consumer groups)
 # 执行此命令后, 会返回该 Kafka 集群中所有的消费者组名称列表
@@ -19,8 +22,6 @@ bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --list
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name>
 # 2.1 查看消费者组的详细信息
 --describe
-# 2.2 指定要查询的消费者组名称，将 <group_name> 替换为实际的消费者组名
---group <group_name>
 # 2.3 输出以下信息
 GROUP: 消费者组名称
 TOPIC: 该消费者组订阅的主题
