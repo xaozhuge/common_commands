@@ -27,7 +27,14 @@ bin/kafka-consumer-groups.sh \
 bin/kafka-consumer-groups.sh \
 	--bootstrap-server 192.168.0.31:19092 \
 	--group <group_name> \
-	--describe 
+	--describe
+
+# 3. 查看消费者组的消费偏移量
+bin/kafka-consumer-groups.sh \
+	--bootstrap-server 192.168.0.31:19092 \
+	--group <group_name> \
+	--offsets \
+	--describe
 
 # 2.3 输出以下信息
 GROUP: 消费者组名称
@@ -40,8 +47,7 @@ CONSUMER-ID: 消费者实例的ID
 HOST: 运行消费者的主机信息
 CLIENT-ID: 消费者客户端的ID
 
-# 3. 查看消费者组的消费偏移量
-bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name> --offsets
+
 
 # 4. 重置消费者组的偏移量
 bin/kafka-consumer-groups.sh 
