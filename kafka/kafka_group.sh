@@ -24,7 +24,10 @@ bin/kafka-consumer-groups.sh \
 	--list
 
 # 2. 查看特定消费者组详情
-bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name>
+bin/kafka-consumer-groups.sh \
+	--bootstrap-server 192.168.0.31:19092 \
+	--group <group_name> \
+	--describe 
 
 # 2.3 输出以下信息
 GROUP: 消费者组名称
