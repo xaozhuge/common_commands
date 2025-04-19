@@ -16,10 +16,12 @@ bin/kafka-consumer-groups.sh
 --describe
 
 # 二、case
+cd /data/kafka_2.13-3.1.1/
 # 1. 列出Kafka中所有的消费者组(consumer groups)
 # 执行此命令后, 会返回该 Kafka 集群中所有的消费者组名称列表
-cd /data/kafka_2.13-3.1.1/
-bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --list
+bin/kafka-consumer-groups.sh \
+	--bootstrap-server 192.168.0.31:19092 \
+	--list
 
 # 2. 查看特定消费者组详情
 bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --describe --group <group_name>
