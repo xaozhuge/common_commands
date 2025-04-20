@@ -36,6 +36,15 @@ bin/kafka-consumer-groups.sh \
 	--offsets \
 	--describe
 
+# 4. 重置消费者组的偏移量
+bin/kafka-consumer-groups.sh \
+	--bootstrap-server 192.168.0.31:19092 \
+	--group <group_name> \
+	--topic <topic_name> \
+	--reset-offsets \
+	--to-earliest \
+	--execute
+
 # 2.3 输出以下信息
 GROUP: 消费者组名称
 TOPIC: 该消费者组订阅的主题
@@ -46,17 +55,6 @@ LAG: 消费延迟量(LOG-END-OFFSET - CURRENT-OFFSET), 即未消费的消息数
 CONSUMER-ID: 消费者实例的ID
 HOST: 运行消费者的主机信息
 CLIENT-ID: 消费者客户端的ID
-
-
-
-# 4. 重置消费者组的偏移量
-bin/kafka-consumer-groups.sh 
-	--bootstrap-server 192.168.0.31:19092 \
-	--group <group_name> \
-	--topic <topic_name> \
-	--reset-offsets \
-	--to-earliest \
-	--execute
 
 # 5. 删除Kafka中指定的消费者组
 --delete: 表示要执行删除操作
