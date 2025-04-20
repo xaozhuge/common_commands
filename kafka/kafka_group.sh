@@ -15,6 +15,9 @@ bin/kafka-consumer-groups.sh
 # 5. 查看消费者组的详细信息
 --describe
 
+# 6. 表示要执行删除操作
+--delete
+
 # 二、case
 cd /data/kafka_2.13-3.1.1/
 # 1. 列出Kafka中所有的消费者组(consumer groups)
@@ -55,8 +58,4 @@ LAG: 消费延迟量(LOG-END-OFFSET - CURRENT-OFFSET), 即未消费的消息数
 CONSUMER-ID: 消费者实例的ID
 HOST: 运行消费者的主机信息
 CLIENT-ID: 消费者客户端的ID
-
-# 5. 删除Kafka中指定的消费者组
---delete: 表示要执行删除操作
-bin/kafka-consumer-groups.sh --bootstrap-server 192.168.0.31:19092 --delete --group <group_name>
 
