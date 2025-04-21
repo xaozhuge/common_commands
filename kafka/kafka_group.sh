@@ -12,8 +12,8 @@ bin/kafka-consumer-groups.sh
 # 4. 指定要查询的消费者组名称, 将 <group_name> 替换为实际的消费者组名
 --group <group_name>
 
-# 5. 查看消费者组的详细信息
---describe
+# 5. --describe 查看消费者组的详细信息
+--group <group_name> --describe
 
 # 6. 表示要执行删除操作
 --delete
