@@ -15,8 +15,8 @@ bin/kafka-consumer-groups.sh
 # 5. --describe 查看消费者组的详细信息
 --group <group_name> --describe
 
-# 6. 表示要执行删除操作
---delete
+# 6. --delete 表示要执行删除消费者组
+--group <group_name> --delete
 
 # 二、case
 cd /data/kafka_2.13-3.1.1/
