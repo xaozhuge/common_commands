@@ -18,6 +18,9 @@ bin/kafka-consumer-groups.sh
 # 6. --delete 表示要执行删除消费者组
 --group <group_name> --delete
 
+# 7. --offsets 显示指定消费者组对各个topic分区的提交offset(消费位置)
+--group <group_name> --offsets --describe
+
 # 二、case
 cd /data/kafka_2.13-3.1.1/
 # 1. 列出Kafka中所有的消费者组(consumer groups)
