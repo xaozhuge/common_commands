@@ -24,6 +24,9 @@ bin/kafka-consumer-groups.sh
 # 8. --topic 指定要重置offset的topic(可以多个, 也支持正则)
 --topic <topic_name>
 
+# 9. --reset-offsets 表示执行offset重置操作
+--reset-offsets
+
 # 二、case
 cd /data/kafka_2.13-3.1.1/
 # 1. 列出Kafka中所有的消费者组(consumer groups)
