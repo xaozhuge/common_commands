@@ -35,14 +35,20 @@ bin/kafka-consumer-groups.sh \
 	--group <group_name> \
 	--describe
 
-# 3. 查看消费者组的消费偏移量
+# 3. 删除Kafka中指定的消费者组
+bin/kafka-consumer-groups.sh \
+	--bootstrap-server 192.168.0.31:19092 \
+	--group <group_name> \
+	--delete 
+
+# 4. 查看消费者组的消费偏移量
 bin/kafka-consumer-groups.sh \
 	--bootstrap-server 192.168.0.31:19092 \
 	--group <group_name> \
 	--offsets \
 	--describe
 
-# 4. 重置消费者组的偏移量
+# 5. 重置消费者组的偏移量
 bin/kafka-consumer-groups.sh \
 	--bootstrap-server 192.168.0.31:19092 \
 	--group <group_name> \
@@ -50,12 +56,6 @@ bin/kafka-consumer-groups.sh \
 	--reset-offsets \
 	--to-earliest \
 	--execute
-
-# 5. 删除Kafka中指定的消费者组
-bin/kafka-consumer-groups.sh \
-	--bootstrap-server 192.168.0.31:19092 \
-	--group <group_name> \
-	--delete 
 
 # 2.3 输出以下信息
 GROUP: 消费者组名称
