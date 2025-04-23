@@ -33,6 +33,9 @@ bin/kafka-consumer-groups.sh
 # 11. --to-latest 表示将offset重置到最新offset(跳过所有旧消息)
 --reset-offsets --to-latest
 
+# 12. --to-offset 表示将offset重置到指定的offset
+--reset-offsets --to-offset <offset>
+
 # 二、case
 cd /data/kafka_2.13-3.1.1/
 # 1. 列出Kafka中所有的消费者组(consumer groups)
