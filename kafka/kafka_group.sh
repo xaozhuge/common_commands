@@ -9,7 +9,7 @@ bin/kafka-consumer-groups.sh
 # 3. 表示要执行的操作是列出所有消费者组
 --list
 
-# 4. 指定要查询的消费者组名称, 将 <group_name> 替换为实际的消费者组名
+# 4. --group 指定要查询的消费者组名称, 将 <group_name> 替换为实际的消费者组名
 --group <group_name>
 
 # 5. --describe 查看消费者组的详细信息
