@@ -6,7 +6,7 @@ bin/kafka-consumer-groups.sh
 # 这里连接的IP是 192.168.0.31, 端口为 19092 的Kafka服务
 --bootstrap-server 192.168.0.31:19092
 
-# 3. 表示要执行的操作是列出所有消费者组
+# 3. --list 表示要执行的操作是列出所有消费者组
 --list
 
 # 4. --group 指定要查询的消费者组名称, 将 <group_name> 替换为实际的消费者组名
