@@ -36,6 +36,9 @@ bin/kafka-consumer-groups.sh
 # 12. --to-offset 表示将offset重置到指定的offset
 --reset-offsets --to-offset <offset>
 
+# 13. --execute 真正执行offset重置(不加它就只是预览)
+--reset-offsets --to-earliest --execute
+
 # 二、case
 cd /data/kafka_2.13-3.1.1/
 # 1. 列出Kafka中所有的消费者组(consumer groups)
