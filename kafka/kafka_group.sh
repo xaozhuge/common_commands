@@ -1,5 +1,5 @@
 # 一、参数说明
-# 1. 这是Kafka自带的用于管理消费者组的脚本工具
+# 1. kafka-consumer-groups.sh Kafka自带的用于管理消费者组的脚本工具
 bin/kafka-consumer-groups.sh
 
 # 2. --bootstrap-server 指定要连接的 Kafka 集群地址
