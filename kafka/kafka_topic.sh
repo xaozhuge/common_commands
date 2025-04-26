@@ -1,13 +1,10 @@
 # 一、参数说明
 # 1. kafka-topics.sh 这是 Kafka 提供的一个命令行工具脚本, 用于管理 Kafka 主题(如创建、删除、列出主题等)
 # Create, delete, describe, or change a topic
+cd /data/kafka_2.13-3.1.1/bin/
 bin/kafka-topics.sh
 
 
-
-# 通常位于 Kafka 安装目录的 bin 文件夹下
-cd /data/kafka_2.13-3.1.1/bin/
-./kafka-topics.sh
 
 # 2. --list: List all available topics
 # --list: 这是 kafka-topics.sh 脚本的一个选项, 表示列出 Kafka 集群中的所有主题
