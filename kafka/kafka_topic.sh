@@ -29,6 +29,8 @@ bin/kafka-topics.sh
 
 
 # 二、case
+# 1. 该命令会连接到指定的 Kafka 集群(173.16.0.62:9092), 并列出该集群中所有的主题(topics)
+# 173.16.0.62:9092 是 Kafka 集群中的一个 broker 地址和端口. Kafka 客户端会通过这个地址连接到集群, 并获取集群的元数据信息
 bin/kafka-topics.sh \
 	--bootstrap-server 173.16.0.62:9092 \
 	--list 
