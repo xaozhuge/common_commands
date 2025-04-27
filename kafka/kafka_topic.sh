@@ -4,12 +4,9 @@
 cd /data/kafka_2.13-3.1.1/bin/
 bin/kafka-topics.sh
 
-
-
 # 2. --list: List all available topics
 # --list: 这是 kafka-topics.sh 脚本的一个选项, 表示列出 Kafka 集群中的所有主题
-./kafka-topics.sh --list
-./kafka-topics.sh --list --bootstrap-server 173.16.0.62:9092
+--list
 
 # 3. --bootstrap-server <String: server to connect to>   
 # REQUIRED: The Kafka server to connect to
@@ -33,3 +30,8 @@ bin/kafka-topics.sh
 # --topic 是指定要创建的主题名称. example 是主题的名称, 你可以根据需要替换为其他名称
 ./kafka-topics.sh --bootstrap-server 173.16.0.62:9092 --create --topic example
 
+
+# 二、case
+bin/kafka-topics.sh \
+	--bootstrap-server 173.16.0.62:9092 \
+	--list 
