@@ -16,13 +16,6 @@ bin/kafka-topics.sh
 # --exclude-internal: 这是一个可选参数, 表示在列出主题时排除 Kafka 内部使用的主题
 --exclude-internal
 
-
-
-
-# Kafka 内部主题通常以 __（双下划线）开头, 例如 __consumer_offsets, 用于存储消费者组的偏移量等信息
-./kafka-topics.sh --list --bootstrap-server 192.168.0.31:19092 --exclude-internal|grep __consumer_offsets
-./kafka-topics.sh --list --bootstrap-server 192.168.0.31:19092 |grep __consumer_offsets
-
 # 5. --create: Create a new topic. 表示创建一个新的主题
 # 6. --topic <String: topic>: The topic to create, alter, describe or delete. 
 # --topic 是指定要创建的主题名称. example 是主题的名称, 你可以根据需要替换为其他名称
@@ -41,4 +34,13 @@ bin/kafka-topics.sh \
 	--bootstrap-server 192.168.0.31:19092 
 	--list 
 	--exclude-internal
+
+# Kafka 内部主题通常以 __（双下划线）开头, 例如 __consumer_offsets, 用于存储消费者组的偏移量等信息
+bin/kafka-topics.sh \
+	--bootstrap-server 192.168.0.31:19092 \
+	--list \
+	--exclude-internal|grep __consumer_offsets
+bin/kafka-topics.sh \
+	--bootstrap-server 192.168.0.31:19092 \
+	--list |grep __consumer_offsets
 
