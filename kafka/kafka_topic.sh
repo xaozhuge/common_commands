@@ -17,7 +17,7 @@ bin/kafka-topics.sh
 --exclude-internal
 
 
-./kafka-topics.sh --list --bootstrap-server 192.168.0.31:19092 --exclude-internal
+
 
 # Kafka 内部主题通常以 __（双下划线）开头, 例如 __consumer_offsets, 用于存储消费者组的偏移量等信息
 ./kafka-topics.sh --list --bootstrap-server 192.168.0.31:19092 --exclude-internal|grep __consumer_offsets
@@ -35,3 +35,10 @@ bin/kafka-topics.sh
 bin/kafka-topics.sh \
 	--bootstrap-server 173.16.0.62:9092 \
 	--list 
+
+# 2. 列出主题时排除 Kafka 内部使用的主题
+bin/kafka-topics.sh \
+	--bootstrap-server 192.168.0.31:19092 
+	--list 
+	--exclude-internal
+
