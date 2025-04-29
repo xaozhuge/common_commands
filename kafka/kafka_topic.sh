@@ -22,10 +22,6 @@ bin/kafka-topics.sh
 # 6.  --topic: The topic to create, alter, describe or delete. 指定要创建的主题名称.
 --topic <String: topic>
 
-#  example 是主题的名称, 你可以根据需要替换为其他名称
-./kafka-topics.sh --bootstrap-server 173.16.0.62:9092 --create --topic example
-
-
 # 二、case
 # 1. 该命令会连接到指定的 Kafka 集群(173.16.0.62:9092), 并列出该集群中所有的主题(topics)
 # 173.16.0.62:9092 是 Kafka 集群中的一个 broker 地址和端口. Kafka 客户端会通过这个地址连接到集群, 并获取集群的元数据信息
@@ -47,4 +43,11 @@ bin/kafka-topics.sh \
 bin/kafka-topics.sh \
 	--bootstrap-server 192.168.0.31:19092 \
 	--list |grep __consumer_offsets
+
+
+# 3. example 是主题的名称, 你可以根据需要替换为其他名称
+bin/kafka-topics.sh \
+	--bootstrap-server 173.16.0.62:9092 \
+	--topic example \
+	--create 
 
