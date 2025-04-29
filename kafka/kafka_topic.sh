@@ -19,8 +19,10 @@ bin/kafka-topics.sh
 # 5. --create: Create a new topic. 表示创建一个新的主题
 --create
 
-# 6. --topic <String: topic>: The topic to create, alter, describe or delete. 
-# --topic 是指定要创建的主题名称. example 是主题的名称, 你可以根据需要替换为其他名称
+# 6.  --topic: The topic to create, alter, describe or delete. 指定要创建的主题名称.
+--topic <String: topic>
+
+#  example 是主题的名称, 你可以根据需要替换为其他名称
 ./kafka-topics.sh --bootstrap-server 173.16.0.62:9092 --create --topic example
 
 
