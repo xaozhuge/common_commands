@@ -10,3 +10,6 @@ canal.instance.dbPassword = canal
 # 4. canal server唯一标识
 canal.id = 1
 
+# 5. canal server监听的IP和端口
+canal.port = 11111
+
