@@ -7,3 +7,6 @@ canal.instance.dbUsername = canal
 # 3. 数据库密码
 canal.instance.dbPassword = canal
 
+# 4. canal server唯一标识
+canal.id = 1
+
