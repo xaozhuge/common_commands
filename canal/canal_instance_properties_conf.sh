@@ -13,3 +13,6 @@ canal.id = 1
 # 5. canal server监听的IP和端口
 canal.port = 11111
 
+# 6. 订阅的过滤规则(正则表达式)
+canal.instance.filter.regex = .*\\..*
+
