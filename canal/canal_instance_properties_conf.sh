@@ -19,3 +19,6 @@ canal.instance.filter.regex = .*\\..*
 # 7. 配置MySQL slaveId, 不能与masterId重复
 canal.instance.mysql.slaveId = 1234
 
+# 8. 指定只订阅哪些表(多个表用逗号分隔)
+canal.instance.filter.black.regex = 
+
