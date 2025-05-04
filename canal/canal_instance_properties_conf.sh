@@ -16,3 +16,6 @@ canal.port = 11111
 # 6. 订阅的过滤规则(正则表达式)
 canal.instance.filter.regex = .*\\..*
 
+# 7. 配置MySQL slaveId, 不能与masterId重复
+canal.instance.mysql.slaveId = 1234
+
