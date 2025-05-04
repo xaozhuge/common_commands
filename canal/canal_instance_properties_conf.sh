@@ -22,3 +22,6 @@ canal.instance.mysql.slaveId = 1234
 # 8. 指定只订阅哪些表(多个表用逗号分隔)
 canal.instance.filter.black.regex = 
 
+# 9. 指定忽略哪些表
+canal.instance.filter.black.regex = mysql\\.slave_.*
+
