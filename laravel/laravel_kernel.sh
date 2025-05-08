@@ -7,3 +7,8 @@ app/Http/Kernel.php
 # 2.2 路由中间件组: 比如 web 和 api
 # 2.3 路由中间件别名: 比如 auth, 可用于单个路由
 
+# 3. 全局中间件-所有请求都会走
+protected $middleware = [
+    \App\Http\Middleware\TrustProxies::class,
+];
+
