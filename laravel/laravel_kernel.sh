@@ -12,3 +12,13 @@ protected $middleware = [
     \App\Http\Middleware\TrustProxies::class,
 ];
 
+# 4. 中间件组-通过 Route::middleware('web') 指定
+protected $middlewareGroups = [
+    'web' => [
+        \App\Http\Middleware\EncryptCookies::class,
+    ],
+    'api' => [
+        'throttle:api',
+    ],
+];
+
