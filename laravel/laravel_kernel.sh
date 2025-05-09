@@ -27,3 +27,7 @@ protected $routeMiddleware = [
     'auth' => \App\Http\Middleware\Authenticate::class,
 ];
 
+# 6. 自定义中间件
+# 6.1 创建中间件
+php artisan make:middleware CheckRole
+
