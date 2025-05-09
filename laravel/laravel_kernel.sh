@@ -22,3 +22,8 @@ protected $middlewareGroups = [
     ],
 ];
 
+# 5. 路由中间件别名-可用于单个路由, 如 Route::middleware('auth')
+protected $routeMiddleware = [
+    'auth' => \App\Http\Middleware\Authenticate::class,
+];
+
