@@ -32,4 +32,6 @@ protected $routeMiddleware = [
 php artisan make:middleware CheckRole
 # 6.2 在 Kernel.php 中注册别名
 'role' => \App\Http\Middleware\CheckRole::class,
+# 6.3 使用
+Route::middleware('role')
 
