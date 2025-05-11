@@ -8,3 +8,6 @@
 # 绑定服务到容器中, 只执行一次, 适合注册类或单例
 public function register(){}
 
+# 4. boot(): 在所有服务注册完毕后执行, 可以访问服务容器中的任何对象
+public function boot(){}
+
