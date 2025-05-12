@@ -12,3 +12,7 @@ public function register(){}
 # 引导服务, 例如加载路由、事件监听器、发布配置等
 public function boot(){}
 
+# 5. 启用一个自定义 Provider
+# 5.1 创建 Provider
+php artisan make:provider MyServiceProvider
+
