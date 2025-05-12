@@ -9,5 +9,6 @@
 public function register(){}
 
 # 4. boot(): 在所有服务注册完毕后执行, 可以访问服务容器中的任何对象
+# 引导服务, 例如加载路由、事件监听器、发布配置等
 public function boot(){}
 
