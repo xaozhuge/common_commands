@@ -16,3 +16,8 @@ public function boot(){}
 # 5.1 创建 Provider
 php artisan make:provider MyServiceProvider
 
+# 5.2 注册到 config/app.php
+'providers' => [
+    App\Providers\MyServiceProvider::class,
+],
+
