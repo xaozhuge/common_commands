@@ -21,3 +21,6 @@ php artisan make:provider MyServiceProvider
     App\Providers\MyServiceProvider::class,
 ],
 
+# 6. 生命周期顺序
+# 6.1 Laravel 启动应用
+
