@@ -24,4 +24,5 @@ php artisan make:provider MyServiceProvider
 # 6. 生命周期顺序
 # 6.1 Laravel 启动应用
 # 6.2 加载配置文件
+# 6.3 注册所有 ServiceProvider 的 register() 方法
 
