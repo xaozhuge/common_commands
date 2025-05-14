@@ -25,4 +25,5 @@ php artisan make:provider MyServiceProvider
 # 6.1 Laravel 启动应用
 # 6.2 加载配置文件
 # 6.3 注册所有 ServiceProvider 的 register() 方法
+# 6.4 之后再执行所有 Provider 的 boot() 方法
 
