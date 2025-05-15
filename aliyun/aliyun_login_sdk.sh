@@ -6,4 +6,6 @@ https://dypns.console.aliyun.com/solution/All
 # 方案名称: 自定义名字
 # 接入端: Android
 # APP名称: APP信息
+# 包名: APP信息
+# 包签名: 使用阿里云提供的官方工具获取签名
 
