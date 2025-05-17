@@ -13,3 +13,6 @@ tcp.port == 61352
 # 5. udp 满足源端口或者目标端口
 udp.port == 61352
 
+# 6. 筛选源端口是 10101
+tcp.srcport == 10101 || udp.srcport == 10101
+
