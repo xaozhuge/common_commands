@@ -19,3 +19,6 @@ tcp.srcport == 10101 || udp.srcport == 10101
 # 7. 筛选目标端口是 10101
 tcp.dstport == 10101 || udp.dstport == 10101
 
+# 8. || 表示 或的关系
+tcp.port == 61352 || udp.port == 61352
+
