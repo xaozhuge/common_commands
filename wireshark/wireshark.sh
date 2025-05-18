@@ -16,3 +16,6 @@ udp.port == 61352
 # 6. 筛选源端口是 10101
 tcp.srcport == 10101 || udp.srcport == 10101
 
+# 7. 筛选目标端口是 10101
+tcp.dstport == 10101 || udp.dstport == 10101
+
