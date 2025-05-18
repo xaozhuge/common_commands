@@ -22,3 +22,6 @@ tcp.dstport == 10101 || udp.dstport == 10101
 # 8. || 表示 或的关系
 tcp.port == 61352 || udp.port == 61352
 
+# 9. && 表示 且的关系
+ip.addr == 127.0.0.1 && (tcp.port == 61352 || udp.port == 61352)
+
