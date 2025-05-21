@@ -10,3 +10,6 @@ docker logs --tail 50 <容器ID或容器名>
 # 4. 查看过去 10 分钟内的日志
 docker logs --since 10m <容器ID或容器名>
 
+# 5. 显示某时间之后的日志	
+docker logs --since "2024-05-01T00:00:00" <容器ID或容器名>
+
