@@ -19,3 +19,6 @@ docker logs --until "2024-05-01T01:00:00" <容器ID或容器名>
 # 7. 查看特定时间段的日志
 docker logs --since "2024-05-01T00:00:00" --until "2024-05-01T01:00:00" <容器ID或容器名>
 
+# 8. 加上时间戳查看日志
+docker logs --timestamps <容器ID或容器名>
+
