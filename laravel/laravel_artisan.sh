@@ -11,3 +11,6 @@ php artisan optimize
 docker exec php73_c php /www/api/artisan route:clear
 docker exec php73_c php /www/api/artisan config:clear
 
+# 4. 清除类缓存相关
+rm -f bootstrap/cache/*.php
+
