@@ -25,3 +25,6 @@ tcp.port == 61352 || udp.port == 61352
 # 9. && 表示 且的关系
 ip.addr == 127.0.0.1 && (tcp.port == 61352 || udp.port == 61352)
 
+# 10. 筛选 RST 包
+tcp.flags.reset == 1
+
