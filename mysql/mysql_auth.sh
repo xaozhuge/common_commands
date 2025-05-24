@@ -17,3 +17,6 @@ SET PASSWORD FOR 'username'@'host' = PASSWORD('new_password');
 # 6. 查看某个用户的DB权限
 SHOW GRANTS FOR 'user'@'%'
 
+# 7. 撤销某个DB的权限
+REVOKE ALL PRIVILEGES ON salesdb.* FROM 'alice'@'%';
+
