@@ -17,3 +17,6 @@ $pid = $process->start();
 # 2.3 退出子进程
 $worker->exit(0);
 
+# 2.4 主进程等待子进程结束
+$status = $process->wait();
+
