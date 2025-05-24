@@ -14,3 +14,6 @@ $process = new Swoole\Process(function(Swoole\Process $worker) {
 # 2.2 启动子进程
 $pid = $process->start();
 
+# 2.3 退出子进程
+$worker->exit(0);
+
