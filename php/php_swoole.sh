@@ -4,3 +4,10 @@
 # 2. Swoole 提供了一个进程管理器, 可以轻松启动和管理多个进程
 # 通过 Swoole\Process 类来创建多个进程, 而不必依赖 PHP 的 pcntl 扩展
 
+# 2.1 创建一个子进程
+$process = new Swoole\Process(function(Swoole\Process $worker) {
+    # 子进程逻辑
+    $worker->write("Hello from child process\n");
+    $worker->exit(0);
+});
+
