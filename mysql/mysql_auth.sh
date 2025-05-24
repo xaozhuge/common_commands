@@ -14,3 +14,6 @@ DROP USER 'readdb+数据库IP'@'堡垒机IP';
 # 5. 修改账号
 SET PASSWORD FOR 'username'@'host' = PASSWORD('new_password');
 
+# 6. 查看某个用户的DB权限
+SHOW GRANTS FOR 'user'@'%'
+
