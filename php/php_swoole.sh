@@ -23,3 +23,11 @@ $status = $process->wait();
 # 3. 协程通常用于解决 I/O 密集型任务
 # 而多进程更适合 CPU 密集型任务
 
+# 3.1 创建并启动一个协程-方式1
+use Swoole\Coroutine;
+Coroutine::create(function () use ($worker) {
+	# 模拟 IO 密集型任务
+	Coroutine::sleep(1);
+	echo "Completed task in child process\n";
+});
+
