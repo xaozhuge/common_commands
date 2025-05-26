@@ -31,3 +31,13 @@ Coroutine::create(function () use ($worker) {
 	echo "Completed task in child process\n";
 });
 
+# 3.2 创建并启动多个协程-方式2
+Swoole\Runtime::enableCoroutine();
+for ($i = 0; $i < 3; $i++) {
+    go(function () use ($i) {
+        echo "协程 $i 启动，协程ID: " . Swoole\Coroutine::getCid() . PHP_EOL;
+        Co::sleep(1 + $i);
+        echo "协程 $i 结束，协程ID: " . Swoole\Coroutine::getCid() . PHP_EOL;
+    });
+}
+
