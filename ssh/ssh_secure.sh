@@ -8,6 +8,7 @@ cat /var/log/secure* |grep "Failed password"|wc -l
 
 tail -n 100 /var/log/secure|grep "Failed password"
 cat /var/log/secure|grep "Failed password"
+cat /var/log/secure|grep "Failed password"|tail -10
 
 tail -n 100 /var/log/secure|grep "Accepted"
 cat /var/log/secure|grep "Accepted"
