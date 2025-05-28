@@ -6,3 +6,6 @@ servers2=(
 	"172.16.1.1"
 )
 
+# 2. 数组合并
+arr_combined=("${servers1[@]}" "${servers2[@]}")
+
