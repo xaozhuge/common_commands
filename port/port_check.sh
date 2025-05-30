@@ -9,3 +9,6 @@ port=3306
 # 定义超时时间(秒)
 timeout=1
 
+# 定义结果输出文件
+path=output.txt
+
