@@ -17,9 +17,10 @@ echo "========================="
 
 for server in "${servers[@]}"; do
     res=`curl -sS --connect-timeout $timeout $server:$port 2>&1`
+
     if echo "$res" | grep -q "Connection timed out"; then
-	
-    else
+  	    echo "服务器IP: $server 服务器未开放端口" >> $path
+	else
 
 	fi
 done
