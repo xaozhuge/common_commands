@@ -22,6 +22,10 @@ for server in "${servers[@]}"; do
   	    echo "服务器IP: $server 服务器未开放端口" >> $path
 	else
         res=`nc -vz $server $port 2>&1`
+
+        if echo "$res" | grep -q "succeeded"; then
+            echo "服务器IP: $server succeeded" >> $path
+        fi
 	fi
 done
 
