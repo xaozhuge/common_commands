@@ -21,7 +21,7 @@ for server in "${servers[@]}"; do
     if echo "$res" | grep -q "Connection timed out"; then
   	    echo "服务器IP: $server 服务器未开放端口" >> $path
 	else
-
+        res=`nc -vz $server $port 2>&1`
 	fi
 done
 
