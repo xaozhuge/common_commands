@@ -25,6 +25,8 @@ for server in "${servers[@]}"; do
 
         if echo "$res" | grep -q "succeeded"; then
             echo "服务器IP: $server succeeded" >> $path
+        else
+            echo "服务器IP: $server Connection refused" >> $path
         fi
 	fi
 done
