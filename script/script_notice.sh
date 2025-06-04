@@ -9,3 +9,6 @@ notice() {
   curl -s -S -X POST "$URL" -H "$HEADER1" -d "$JSON";
 }
 
+# 调用函数
+notice "key" "content"
+
