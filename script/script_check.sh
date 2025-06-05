@@ -17,3 +17,9 @@ filename=/alidata/log/php/fail/sendSms-$today.log
 log=/alidata/log/php/fail/smsruntime.log
 words=`date -d "1 minute ago" +"%Y-%m-%d %H:%M"`
 
+if [ -f "$filename" ]; then
+	count=$(cat $filename|grep "$words"|wc -l)
+else
+	exit 1
+fi
+
