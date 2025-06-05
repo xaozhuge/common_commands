@@ -12,3 +12,8 @@ notice() {
 	curl -s -S -X POST "$URL" -H "$HEADER1" -d "$JSON";
 }
 
+today=`date "+%Y-%m-%d"`
+filename=/alidata/log/php/fail/sendSms-$today.log
+log=/alidata/log/php/fail/smsruntime.log
+words=`date -d "1 minute ago" +"%Y-%m-%d %H:%M"`
+
