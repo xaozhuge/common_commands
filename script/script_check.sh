@@ -31,3 +31,8 @@ if [ "$count" -gt 0 ]; then
 	echo $msg >> $log
 fi
 
+if [ "$count" -gt 30 ]; then
+	# 调用函数
+	notice "参数" "$msg"
+fi
+
