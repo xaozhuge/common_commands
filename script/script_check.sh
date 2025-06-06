@@ -23,3 +23,5 @@ else
 	exit 1
 fi
 
+msg=$words" 发送了 $count 条短信"
+
