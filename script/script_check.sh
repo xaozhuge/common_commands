@@ -25,3 +25,9 @@ fi
 
 msg=$words" 发送了 $count 条短信"
 
+
+if [ "$count" -gt 0 ]; then
+	# 记录日志
+	echo $msg >> $log
+fi
+
