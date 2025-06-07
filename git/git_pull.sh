@@ -6,3 +6,7 @@ git pull -q
 # 会显示以下信息
 x files changed, y insertions(+)
 
+# 不再显示以下信息
+# Git 正在从远程仓库统计对象数
+remote: Counting objects
+
