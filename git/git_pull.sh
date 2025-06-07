@@ -2,3 +2,7 @@
 git pull --quiet
 git pull -q
 
+# 以下信息默认显示 是为了debug和网络传输信息显示, 不影响实际pull行为
+# 会显示以下信息
+x files changed, y insertions(+)
+
