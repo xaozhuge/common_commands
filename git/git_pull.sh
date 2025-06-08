@@ -14,3 +14,6 @@ remote: Compressing objects
 # 本地解压数据包
 Unpacking objects
 
+# 2. 隐藏合并后输出的变更统计(如insertions/deletions)
+git pull --quiet --no-stat
+
