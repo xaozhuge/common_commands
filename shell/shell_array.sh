@@ -9,3 +9,8 @@ servers2=(
 # 2. 数组合并
 arr_combined=("${servers1[@]}" "${servers2[@]}")
 
+# 3. 循环数组
+for server in "${arr_combined[@]}"; do
+	echo $server
+done
+
