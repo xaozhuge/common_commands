@@ -21,3 +21,6 @@ curl2() {
   curl -s -S -X POST "$URL" -H "$HEADER1" -H "$HEADER2" -d "$DATA";
 }
 
+# 调用函数
+curl1 "URL" "TOKEN" "{\"param1\": \"$value1\", \"param2\": \"$value2\"}"
+
