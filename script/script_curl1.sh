@@ -17,3 +17,6 @@ URL=
 TOKEN=
 DATA="param1=value1&param2=value2"
 
+# 调用函数
+curl1 "$URL" "$TOKEN" "$DATA"
+
