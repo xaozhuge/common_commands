@@ -13,3 +13,7 @@ EOF
   echo "$cmd"
 }
 
+URL=
+TOKEN=
+DATA="param1=value1&param2=value2"
+
