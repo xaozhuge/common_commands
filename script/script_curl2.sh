@@ -15,3 +15,14 @@ EOF
   
 }
 
+# 调用函数
+# curl2 "URL" "TOKEN" "{\"param1\": \"$value1\", \"param2\": \"$value2\"}"
+
+# 调用函数
+DATA=$(cat <<EOF
+{"page":1,"num":10}
+EOF
+)
+URL=
+TOKEN=
+
