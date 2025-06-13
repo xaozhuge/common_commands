@@ -26,3 +26,5 @@ EOF
 URL=
 TOKEN=
 
+curl2 "$URL" "$TOKEN" "$DATA"
+
