@@ -4,3 +4,6 @@ grep -o '{.*}' logfile.log
 2025-03-28 13:55:04:{"name":"test","req_time":10}
 res: {"name":"test","req_time":10}
 
+# 2. 只匹配完整的单词
+grep -w "完整单词"
+
