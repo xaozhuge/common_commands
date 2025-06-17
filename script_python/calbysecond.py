@@ -6,3 +6,8 @@ def p(content):
     print(content)
     time.sleep(1)
 
+# 当前时间戳
+def returnCurrentTimeStamp():
+    timestamp = int(time.time())
+    return timestamp
+
