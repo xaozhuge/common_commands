@@ -11,3 +11,8 @@ def returnCurrentTimeStamp():
     timestamp = int(time.time())
     return timestamp
 
+# 指定时间转时间戳
+def toTimestamp(time_str):
+    ts = datetime.strptime(time_str, "%Y-%m-%d %H:%M:%S")
+    return int(ts.timestamp())
+
