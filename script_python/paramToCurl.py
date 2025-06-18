@@ -17,3 +17,15 @@ map = {
     "key2":"value2"
 }
 
+# 建立 mysql 连接
+conn = pymysql.connect(
+    host=host,
+    port=port,
+    user=user,
+    password=password,
+    database=database,
+    charset="utf8mb4",
+    # 关键点 用于返回字段的字典
+    cursorclass=DictCursor  
+)
+
