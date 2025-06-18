@@ -11,3 +11,9 @@ def p(content):
     print(content)
     exit()
 
+# 定义字典
+map = {
+    "key1":"value1",
+    "key2":"value2"
+}
+
