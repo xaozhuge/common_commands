@@ -21,3 +21,6 @@ docker run -t -d openjdk:8
 docker stats
 docker stats php56_c
 
+# 8. 
+overlay2: 存储Docker镜像的层(layer)和容器的写层(diff)
+
