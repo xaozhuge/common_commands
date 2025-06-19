@@ -29,3 +29,8 @@ conn = pymysql.connect(
     cursorclass=DictCursor  
 )
 
+# 获取游标
+cursor = conn.cursor()
+# 执行 SQL
+cursor.execute("SELECT * FROM test WHERE id = %s", (id, ))
+
