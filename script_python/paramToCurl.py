@@ -34,3 +34,6 @@ cursor = conn.cursor()
 # 执行 SQL
 cursor.execute("SELECT * FROM test WHERE id = %s", (id, ))
 
+# 获取结果(一条数据)
+result = cursor.fetchone()
+
