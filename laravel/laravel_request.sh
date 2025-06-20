@@ -2,3 +2,6 @@
 # 推荐,支持JSON、POST、GET
 $page = $request->input('page', 1);
 
+# 不支持JSON
+$page = $request->get('page', 1);
+
