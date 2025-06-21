@@ -44,3 +44,7 @@ result = cursor.fetchall()
 cursor.close()
 conn.close()
 
+# 获取字段的值
+source = result['source'];
+method = result['method'];
+
