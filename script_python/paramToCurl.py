@@ -40,3 +40,7 @@ result = cursor.fetchone()
 # 获取结果（所有满足的数据）
 result = cursor.fetchall()
 
+# 关闭连接
+cursor.close()
+conn.close()
+
