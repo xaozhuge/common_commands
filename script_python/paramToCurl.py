@@ -48,3 +48,7 @@ conn.close()
 source = result['source'];
 method = result['method'];
 
+# 字符串json转字典
+post = json.loads(result['post'])
+token  = post['token'];
+
