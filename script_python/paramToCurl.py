@@ -55,3 +55,7 @@ token  = post['token'];
 # 删除字典中的值
 del post["token"]
 
+# 拼接字符串
+url_pre = map[source]
+url =  f"{url_pre}{method}"
+
