@@ -52,3 +52,6 @@ method = result['method'];
 post = json.loads(result['post'])
 token  = post['token'];
 
+# 删除字典中的值
+del post["token"]
+
