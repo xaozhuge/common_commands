@@ -65,3 +65,8 @@ param_str = urlencode(post)
 # 定义集合
 plat= {"变量","变量"}
 
+# 判断变量是否在集合中
+if source in plat:
+
+else:
+
