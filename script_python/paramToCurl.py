@@ -62,3 +62,6 @@ url =  f"{url_pre}{method}"
 # 将字典转换成字符串, 并进行URL编码
 param_str = urlencode(post)
 
+# 定义集合
+plat= {"变量","变量"}
+
