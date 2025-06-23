@@ -59,3 +59,6 @@ del post["token"]
 url_pre = map[source]
 url =  f"{url_pre}{method}"
 
+# 将字典转换成字符串, 并进行URL编码
+param_str = urlencode(post)
+
