@@ -67,6 +67,7 @@ plat= {"变量","变量"}
 
 # 判断变量是否在集合中
 if source in plat:
-
+    # 三引号字符串的使用
+    cmd=f"""export https_proxy=http://127.0.0.1:8888;curl -s -X POST -H "Content-Type: application/x-www-form-urlencoded" -H 'Authorization: {token}' -d "{param_str}" {url} ;"""
 else:
 
