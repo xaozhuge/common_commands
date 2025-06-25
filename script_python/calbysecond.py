@@ -25,3 +25,6 @@ def currentDayToTimestamp(fixed_time_str):
 # 函数调用
 limit_a = currentDayToTimestamp("09:30:00")
 
+# 当前时间
+nowtime=datetime.now().strftime("%H:%M:%S")
+
