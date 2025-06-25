@@ -22,3 +22,6 @@ def currentDayToTimestamp(fixed_time_str):
     full_datetime_str = f"{today_str} {fixed_time_str}"
     return toTimestamp(full_datetime_str)
 
+# 函数调用
+limit_a = currentDayToTimestamp("09:30:00")
+
