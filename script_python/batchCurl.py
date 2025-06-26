@@ -7,3 +7,8 @@ end_time=""
 url=""
 token=""
 
+# 定义函数
+def p(content):
+    print(content)
+    exit()
+
