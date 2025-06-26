@@ -28,3 +28,9 @@ limit_a = currentDayToTimestamp("09:30:00")
 # 当前时间
 nowtime=datetime.now().strftime("%H:%M:%S")
 
+# 使用 while 循环
+while nowtime <= "09:30:00":
+    end = 0
+    p(end)
+    nowtime=datetime.now().strftime("%H:%M:%S")
+
