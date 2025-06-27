@@ -4,3 +4,6 @@ https://github.com/milvus-io/milvus/blob/master/deployments/docker/standalone/do
 # 2. 版本
 2.5.13
 
+# 3. 启动环境
+docker-compose up -d
+
