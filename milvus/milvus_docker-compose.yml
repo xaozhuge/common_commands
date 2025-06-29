@@ -56,7 +56,7 @@ services:
       retries: 3
     ports:
       - "19530:19530"
-      - "9091:9091"
+      - "自定义端口:9091" # 可视化页面端口
     depends_on:
       - "etcd"
       - "minio"
