@@ -10,3 +10,7 @@ docker-compose up -d
 # 4. 将容器中的配置文件拷贝到容器外
 docker cp milvus-standalone:/milvus/configs/milvus.yaml /tmp/
 
+# 5. 开启密码认证, 修改 milvus.yaml 
+authorizationEnabled: false
+authorizationEnabled: true
+
