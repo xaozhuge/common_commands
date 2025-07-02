@@ -14,3 +14,8 @@ docker cp milvus-standalone:/milvus/configs/milvus.yaml /tmp/
 authorizationEnabled: false
 authorizationEnabled: true
 
+# 6. 修改默认密码
+defaultRootPassword: Milvus
+defaultRootPassword: 自定义密码
+
+
