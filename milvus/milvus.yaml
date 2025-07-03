@@ -858,7 +858,7 @@ common:
     superUsers: 
     # default password for root user. The maximum length is 72 characters. 
     # Large numeric passwords require double quotes to avoid yaml parsing precision issues.
-    defaultRootPassword: Milvus
+    defaultRootPassword: Milvus # 自定义-修改密码
     rootShouldBindRole: false # Whether the root user should bind a role when the authorization is enabled.
     enablePublicPrivilege: true # Whether to enable public privilege
     rbac:
