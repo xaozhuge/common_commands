@@ -7,3 +7,6 @@ res: {"name":"test","req_time":10}
 # 2. 只匹配完整的单词
 grep -w "完整单词"
 
+# 3. 找到keywords后, 向后显示5行
+grep -A 5 keywords
+
