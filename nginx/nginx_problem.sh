@@ -23,3 +23,6 @@ sudo chmod  -R  777 项目目录
 # 5. 出现问题
 nginx: [warn] could not build optimal server_names_hash, you should increase either server_names_hash_max_size: 512 or server_names_hash_bucket_size: 64; ignoring server_names_hash_bucket_size
 
+# 解决方案: nginx.conf增加
+server_names_hash_bucket_size 128;
+
