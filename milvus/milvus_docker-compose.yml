@@ -68,7 +68,7 @@ services:
     environment:
       MILVUS_URL: standalone:19530
     ports:
-      - "3000:3000"
+      - "自定义端口:3000" # 可视化管理向量数据库
     depends_on:
       - "standalone"
 
