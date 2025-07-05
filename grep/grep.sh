@@ -10,3 +10,6 @@ grep -w "完整单词"
 # 3. 找到keywords后, 向后显示5行
 grep -A 5 keywords
 
+# 4. 找到keywords后, 向前显示5行
+grep -B 5 keywords
+
