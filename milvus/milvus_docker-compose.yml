@@ -57,7 +57,7 @@ services:
       retries: 3
     ports:
       - "自定义端口:19530" # 数据库端口
-      - "自定义端口:9091"  # 可视化页面端口
+      - "9091:9091"  # 有attu, 可以去掉暴露该端口
     depends_on:
       - "etcd"
       - "minio"
