@@ -23,5 +23,27 @@ cursor = conn.cursor()
 
 # 定义循环, 这里表示一直执行
 while True:
-    p1("123")
+    # 定义开始时间
+    start = time.time()
+    # 执行 UPDATE 语句
+    sql = "update test set words=CHAR_LENGTH(content) where  words=0 limit 1000;"
+    affected_rows = cursor.execute(sql)
+
+    # 提交事务
+    conn.commit()
+    # 定义结束时间
+    end = time.time()
+    duration = end - start
+
+    # 打印返回值（受影响的行数）
+    res =  f"耗时：{duration:.2f}秒, 更新了行数：{affected_rows}"
+    p1(res)
+
+# 关闭连接
+cursor.close()
+conn.close()
+
+"""
+PYTHONIOENCODING=utf-8 python3 batch_mysql_update.py 
+"""
 
