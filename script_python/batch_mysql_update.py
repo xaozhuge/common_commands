@@ -21,3 +21,7 @@ conn = pymysql.connect(
 )
 cursor = conn.cursor()
 
+# 定义循环, 这里表示一直执行
+while True:
+    p1("123")
+
