@@ -4,3 +4,6 @@
 # 2. 读取属性时会触发(如 $model->字段名)
 get字段名Attribute()
 
+# 3. 你设置属性时会触发(如 $model->字段名 = 'value')
+set字段名Attribute()
+
