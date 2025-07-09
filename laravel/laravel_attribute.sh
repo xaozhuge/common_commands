@@ -7,3 +7,8 @@ get字段名Attribute()
 # 3. 你设置属性时会触发(如 $model->字段名 = 'value')
 set字段名Attribute()
 
+# 4. 触发setAttribute
+$model->字段 = 
+$model->fill()
+Model::create()
+
