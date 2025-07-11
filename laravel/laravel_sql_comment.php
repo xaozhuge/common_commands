@@ -19,6 +19,10 @@ class Connection implements ConnectionInterface
      */
     protected function run($query, $bindings, Closure $callback)
     {
+        # sql增加注释
+        $comment = " # git项目:". request()->decodedPath();
+        $query = $query. $comment;
+
         foreach ($this->beforeExecutingCallbacks as $beforeExecutingCallback) {
             $beforeExecutingCallback($query, $bindings, $this);
         }
