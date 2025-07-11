@@ -2,6 +2,9 @@
 
 namespace Illuminate\Database;
 
+# 位置 /vendor/laravel/framework/src/Illuminate/Database/Connection.php
+# 主要功能 sql里增加注释
+
 class Connection implements ConnectionInterface
 {
     /**
