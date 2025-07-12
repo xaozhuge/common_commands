@@ -5,3 +5,6 @@ ARG APP_NAME=red
 ARG APP_NAME=red
 RUN echo "App Name is $APP_NAME"
 
+# 3. 在以下例子中, APP_NAME的值就会是blue, 不会使用默认的red
+docker build --build-arg APP_NAME=blue -t myapp .
+
