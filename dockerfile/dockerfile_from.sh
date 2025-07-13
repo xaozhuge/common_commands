@@ -4,3 +4,6 @@ FROM golang:1.21-alpine AS builder
 # 使用 Go 1.21 + Alpine Linux, 给这个构建阶段命名为 `builder` 
 # 后续使用 `--from=builder`, 可以从这个构建阶段拷贝文件到其他阶段
 
+FROM golang:1.21-alpine
+# 2. 上述命令表示使用[Docker Hub上的官方Golang镜像]
+
