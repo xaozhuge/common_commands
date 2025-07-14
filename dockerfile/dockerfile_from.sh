@@ -7,3 +7,9 @@ FROM golang:1.21-alpine AS builder
 FROM golang:1.21-alpine
 # 2. 上述命令表示使用[Docker Hub上的官方Golang镜像]
 
+golang:1.21-alpine
+# 3. 镜像基于`Alpine Linux`(一个非常轻量的 Linux 发行版, 适合精简镜像)
+Alpine 通常意味着:
+	a. 镜像更小(通常<100MB）
+	b. 启动快
+
