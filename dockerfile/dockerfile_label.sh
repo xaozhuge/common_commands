@@ -17,3 +17,13 @@ LABEL stage=builder_${APP_NAME}
 # 用于后续镜像构建的条件判断(比如自动化构建时区分微服务模块)
 # CI/CD、分阶段构建标识、镜像识别
 
+
+# 4. 查看镜像
+docker inspect myservice:auth
+res:
+```
+"Labels": {
+  "stage": "builder_appname"
+}
+```
+
