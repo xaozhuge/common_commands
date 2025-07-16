@@ -10,3 +10,10 @@ LABEL stage=builder_${APP_NAME}
 # `stage` 是标签名(key)
 # `builder_${APP_NAME}` 是标签值
 
+
+# 3. 作用
+# 用 `docker inspect` 查看镜像标签
+# 用于 CI/CD 中镜像筛选、分组
+# 用于后续镜像构建的条件判断(比如自动化构建时区分微服务模块)
+# CI/CD、分阶段构建标识、镜像识别
+
