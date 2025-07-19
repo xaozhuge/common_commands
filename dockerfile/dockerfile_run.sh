@@ -13,4 +13,5 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
 	# `g` 表示全局替换
 	# 替换后, `apk add`、`apk update` 等命令在下载软件时会走国内源, 速度更快, 更稳定
 # 2.5 dl-cdn.alpinelinux.org: Alpine Linux 的默认官方软件包镜像站
+# 2.6 mirrors.ustc.edu.cn: 中国科学技术大学提供的开源镜像站, 更适合国内用户使用
 
