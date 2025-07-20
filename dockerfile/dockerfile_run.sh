@@ -19,3 +19,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
 RUN apk update
 # 3.1 在 Alpine Linux 系统(尤其常用于 Docker 容器)中使用的命令, 用于更新软件包索引(即刷新本地缓存的包列表)
 
+RUN apk update
+# 4.1 RUN: Dockerfile 中的指令, 表示在构建镜像时执行该命令                                                    |
+# 4.2 apk: Alpine的包管理器, 全称是Alpine Package Keeper. 类似于Ubuntu中的apt或CentOS中的yum
+
