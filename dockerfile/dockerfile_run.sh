@@ -16,3 +16,6 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositorie
 # 2.6 mirrors.ustc.edu.cn: 中国科学技术大学提供的开源镜像站, 更适合国内用户使用
 # 2.7 /etc/apk/repositories: Alpine Linux 的软件源配置文件, 里面列出了 APK 包管理器使用的仓库地址
 
+RUN apk update
+# 3.1 在 Alpine Linux 系统(尤其常用于 Docker 容器)中使用的命令, 用于更新软件包索引(即刷新本地缓存的包列表)
+
