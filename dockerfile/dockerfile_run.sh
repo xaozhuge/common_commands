@@ -24,3 +24,7 @@ RUN apk update
 # 4.2 apk: Alpine的包管理器, 全称是Alpine Package Keeper. 类似于Ubuntu中的apt或CentOS中的yum
 # 4.3 update: apk的命令参数, 表示更新本地可用软件包的索引(repository index)
 
+RUN apk update
+# 5. 作用
+# 5.1 从 /etc/apk/repositories 中配置的镜像源下载最新的 包索引列表
+
