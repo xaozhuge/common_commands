@@ -28,4 +28,5 @@ RUN apk update
 # 5. 作用
 # 5.1 从 /etc/apk/repositories 中配置的镜像源下载最新的 包索引列表
 # 5.2 使 apk add 等安装命令可以找到最新的软件包版本
+# 5.3 类似于 Debian/Ubuntu 中的 apt update
 
