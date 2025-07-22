@@ -33,4 +33,6 @@ RUN apk update
 
 RUN apk add curl
 # 6. 如果执行上述命令, 而之前没有执行 `apk update`, 你可能会遇到找不到 `curl` 或版本不最新的问题
+# 所以通常这样写更安全
+RUN apk update && apk add curl
 
