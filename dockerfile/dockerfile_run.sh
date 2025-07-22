@@ -30,3 +30,7 @@ RUN apk update
 # 5.2 使 apk add 等安装命令可以找到最新的软件包版本
 # 5.3 类似于 Debian/Ubuntu 中的 apt update
 
+
+RUN apk add curl
+# 6. 如果执行上述命令, 而之前没有执行 `apk update`, 你可能会遇到找不到 `curl` 或版本不最新的问题
+
