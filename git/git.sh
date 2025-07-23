@@ -23,3 +23,7 @@ git config core.filemode false
 # 六、取消对文件的追踪,使用 git rm --cached
 git rm --cached 2024-10-06.log
 
+# 七. 将变动的内容提取到新的分支
+# 1. 切换到新分支
+git checkout 新分支A
+
