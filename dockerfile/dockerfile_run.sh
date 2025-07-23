@@ -38,7 +38,7 @@ RUN apk update && apk add curl
 # 更简洁(安装后清缓存)
 RUN apk add --no-cache curl
 
-# 7. 下面命令等同
+# 7. 下面命令等同, 推荐加上 --no-cache 以减少镜像体积和避免缓存污染
 RUN apk add --no-cache <package>
 RUN apk update && apk add <package> && rm -rf /var/cache/apk/*
 
