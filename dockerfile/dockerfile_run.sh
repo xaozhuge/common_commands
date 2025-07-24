@@ -41,4 +41,6 @@ RUN apk add --no-cache curl
 # 7. 下面命令等同, 推荐加上 --no-cache 以减少镜像体积和避免缓存污染
 RUN apk add --no-cache <package>
 RUN apk update && apk add <package> && rm -rf /var/cache/apk/*
+# 同时安装多个包
+RUN apk add --no-cache git openssh
 
