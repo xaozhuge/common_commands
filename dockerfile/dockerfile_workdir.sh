@@ -9,6 +9,8 @@ WORKDIR /home/work/${APP_NAME}/
 # 保持代码结构清晰
 
 # 3. 多次使用 WORKDIR 会在前一个路径基础上追加
+# WORKDIR 使用绝对路径 /path:  重置为该路径
+# WORKDIR 使用相对路径 subdir: 叠加到当前路径
 WORKDIR /home/work
 WORKDIR ${APP_NAME}
 res: /home/work/${APP_NAME}
