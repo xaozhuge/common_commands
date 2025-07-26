@@ -23,3 +23,6 @@ RUN npm install
 COPY . /home/work/appname/
 RUN cd /home/work/appname && npm install
 
+# 5. 自动创建目录
+# WORKDIR 指定的路径, 不存在时会自动创建, 无需手动 mkdir
+
