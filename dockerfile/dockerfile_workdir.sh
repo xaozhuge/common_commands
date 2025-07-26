@@ -19,4 +19,7 @@ res: /home/work/${APP_NAME}
 WORKDIR /home/work/appname/
 COPY . .
 RUN npm install
+# 等价于以下命令, 但更简洁、清晰、可维护
+COPY . /home/work/appname/
+RUN cd /home/work/appname && npm install
 
