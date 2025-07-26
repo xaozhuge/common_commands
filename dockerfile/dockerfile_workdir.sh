@@ -15,3 +15,8 @@ WORKDIR /home/work
 WORKDIR ${APP_NAME}
 res: /home/work/${APP_NAME}
 
+# 4. 使用效果
+WORKDIR /home/work/appname/
+COPY . .
+RUN npm install
+
