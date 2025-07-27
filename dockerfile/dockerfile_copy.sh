@@ -5,3 +5,8 @@
 # /home/work/${APP_NAME}/: 目标路径, 镜像内部的路径, 可以包含环境变量 `${APP_NAME}`
 COPY . /home/work/${APP_NAME}/
 
+# 2. COPY作用
+# 把当前目录下的所有文件(除 `.dockerignore` 中排除的)复制到镜像内 `/home/work/${APP_NAME}/` 目录下
+# 通常用于将应用源码、配置文件等打包进镜像
+COPY . /home/work/${APP_NAME}/
+
