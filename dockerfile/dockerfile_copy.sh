@@ -12,5 +12,6 @@ COPY . /home/work/${APP_NAME}/
 
 # 3. 源路径和目标路径
 # 源路径(`.`)不支持变量, 只能是明确路径
+# 目标路径支持变量(使用ARG), 目标路径在构建时可以用 ARG 替换
 COPY . /home/work/${APP_NAME}/
 
