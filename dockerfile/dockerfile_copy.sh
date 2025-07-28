@@ -10,3 +10,7 @@ COPY . /home/work/${APP_NAME}/
 # 通常用于将应用源码、配置文件等打包进镜像
 COPY . /home/work/${APP_NAME}/
 
+# 3. 源路径和目标路径
+# 源路径(`.`)不支持变量, 只能是明确路径
+COPY . /home/work/${APP_NAME}/
+
