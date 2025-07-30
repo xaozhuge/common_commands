@@ -9,5 +9,6 @@ osascript -e 'quit app "Docker"'
 
 # 4. 
 # osascript: macOS 自带的命令行工具, 用来执行 AppleScript 脚本(自动控制系统和应用)
+# -e: 表示直接在命令行中执行接下来的脚本字符串
 osascript -e 'quit app "Docker"'
 
