@@ -14,3 +14,8 @@ redis-cli -h 127.0.0.1 -p 6379
 # redis_key_name 支持是 list 的key值
 MEMORY USAGE redis_key_name
 
+# 6. 密码验证
+127.0.0.1:6379> keys *
+(error) NOAUTH Authentication required.
+127.0.0.1:6379> auth 密码
+
