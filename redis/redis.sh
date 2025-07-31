@@ -10,3 +10,6 @@ redis-cli -h 127.0.0.1 -p 6379
 # 4. 关闭redis
 /alidata/server/redis-3.0.2/src/redis-cli shutdown
 
+# 5. MEMORY USAGE 是 Redis 提供的用于查看某个键(key)在 Redis 中占用的内存大小(以字节为单位)
+MEMORY USAGE redis_key_name
+
