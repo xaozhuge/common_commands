@@ -16,6 +16,9 @@ redis-cli keys '*keywords*'|xargs redis-cli del
 redis-cli -h 127.0.0.1 -p 6379
 # 密码登录
 redis-cli -h 127.0.0.1 -p 6379 -a 密码
+# Redis CLI 支持通过 REDISCLI_AUTH 环境变量自动传递密码, 无需在命令行明文显示
+export REDISCLI_AUTH="密码"
+redis-cli
 
 
 # 4. 关闭redis
