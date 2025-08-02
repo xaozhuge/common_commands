@@ -36,3 +36,7 @@ MEMORY USAGE redis_key_name
 (error) NOAUTH Authentication required.
 127.0.0.1:6379> auth 密码
 
+# 7. 查询bigkey, 定位异常
+# 查询bigkey, 定位异常键
+redis-cli -a 密码 --bigkeys
+
