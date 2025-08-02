@@ -20,6 +20,9 @@ redis-cli -h 127.0.0.1 -p 6379 -a 密码
 export REDISCLI_AUTH="密码"
 redis-cli
 
+# 容器外连接
+docker exec -it 容器ID/容器名称 redis-cli -h 127.0.0.1 -p 6379 -a 密码
+docker exec -it -e REDISCLI_AUTH="密码" 容器ID/容器名称 redis-cli -h 127.0.0.1 -p 6379
 
 # 4. 关闭redis
 /alidata/server/redis-3.0.2/src/redis-cli shutdown
