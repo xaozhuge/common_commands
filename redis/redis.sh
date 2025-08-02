@@ -39,4 +39,6 @@ MEMORY USAGE redis_key_name
 # 7. 查询bigkey, 定位异常
 # 查询bigkey, 定位异常键
 redis-cli -a 密码 --bigkeys
+# 容器外执行
+docker exec redis-doc redis-cli -a 密码 --bigkeys
 
