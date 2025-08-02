@@ -6,6 +6,9 @@ keys '*keywords*'
 # 1.2 命令行执行
 redis-cli keys '*keywords*'
 
+# 1.3 docker容器外执行
+docker exec 容器ID/容器名称 redis-cli keys '*keywords*'
+
 # 2. 找到含有keywords的key并批量删除
 redis-cli keys '*keywords*'|xargs redis-cli del
 
