@@ -8,3 +8,8 @@ auth 密码
 docker exec -it redis-doc /bin/sh
 redis-cli -a 密码
 
+# 3. 方案3
+docker exec -it redis-doc /bin/sh
+export REDISCLI_AUTH="密码"
+redis-cli
+
