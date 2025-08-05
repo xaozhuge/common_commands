@@ -16,3 +16,6 @@ redis-cli
 # 4. 方案4
 docker exec -it redis-doc redis-cli -a 密码
 
+# 5. 方案5
+docker exec -it -e REDISCLI_AUTH="密码" redis-doc redis-cli
+
