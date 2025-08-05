@@ -13,3 +13,8 @@ osascript -e 'quit app "Docker"'
 # 'quit app "Docker"': AppleScript 语句, 意思是 退出名为 "Docker" 的应用
 osascript -e 'quit app "Docker"'
 
+# 5.1 osascript 退出
+# 请求系统正常退出 Docker
+# 安全，像点"Quit"按钮一样
+osascript -e 'quit app "Docker"'
+
