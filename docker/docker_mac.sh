@@ -23,3 +23,6 @@ osascript -e 'quit app "Docker"'
 # 强制关闭，可能不安全
 killall Docker
 
+# 6. 退出多个App(比如 退出 Chrome 和 Docker)
+osascript -e 'quit app "Docker"' -e 'quit app "Google Chrome"'
+
