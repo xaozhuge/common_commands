@@ -18,3 +18,8 @@ osascript -e 'quit app "Docker"'
 # 安全，像点"Quit"按钮一样
 osascript -e 'quit app "Docker"'
 
+# 5.2 kill 退出
+# 直接杀掉进程 
+# 强制关闭，可能不安全
+killall Docker
+
