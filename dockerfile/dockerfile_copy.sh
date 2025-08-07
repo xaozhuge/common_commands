@@ -19,3 +19,6 @@ COPY . /home/work/${APP_NAME}/
 # ARG 是在构建镜像(docker build)时传入的参数, COPY、RUN、ADD等构建阶段指令只能访问 ARG, 不能访问 ENV 变量
 # ENV 是为容器运行时设置环境变量, COPY 在构建阶段执行, 此时不会识别 ENV 设置的变量路径
 
+# 5. COPY 遇到 .dockerignore 文件
+# 如果你有 .dockerignore 文件, COPY 时会忽略其中列出的文件
+
