@@ -21,4 +21,5 @@ COPY . /home/work/${APP_NAME}/
 
 # 5. COPY 遇到 .dockerignore 文件
 # 如果你有 .dockerignore 文件, COPY 时会忽略其中列出的文件
+# 建议忽略例如 .git、node_modules 临时构建目录等无用内容
 
