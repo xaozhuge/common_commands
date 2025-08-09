@@ -13,4 +13,5 @@ Kafka 采用 ​消费者主动拉取(Pull)而非服务端推送(Push), 但通�
 
 # 3. kafka 订阅消息总结
 # 拉取模型 + 长轮询​: Kafka 消费者通过主动拉取实现数据获取, Broker 阻塞等待直到有数据或超时
+# ​近似实时​: 通过合理配置 fetch.min.bytes 和 fetch.max.wait.ms, 平衡延迟和吞吐量
 
