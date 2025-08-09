@@ -8,3 +8,6 @@ Kafka 采用 ​消费者主动拉取(Pull)而非服务端推送(Push), 但通�
 # 2.2 有数据时的行为​
 # Broker 立即返回一批数据(受 max.poll.records 和 fetch.max.bytes 限制)
 ​
+# 2.3 重复拉取​
+# 消费者处理完当前批次后, 立即发送下一个 FetchRequest, 形成 ​循环长轮询
+
