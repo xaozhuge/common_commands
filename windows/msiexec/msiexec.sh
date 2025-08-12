@@ -3,3 +3,8 @@
 msiexec /i "C:\Users\zzz\Desktop\soft.msi" /quiet INSTALLDIR="C:\Users\zzz\Desktop" /L*v "C:\Users\zzz\Desktop
 zzz.txt"
 
+# 2. 具体说明
+# msiexec: Windows Installer 的命令行工具, 用来安装、修改、卸载 .msi 包
+msiexec /i "C:\Users\zzz\Desktop\soft.msi" /quiet INSTALLDIR="C:\Users\zzz\Desktop" /L*v "C:\Users\zzz\Desktop
+zzz.txt"
+
