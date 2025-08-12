@@ -1,4 +1,5 @@
-# 1. 添加 /L*v 参数生成详细日志文件
+# 1. 用 Windows Installer (msiexec) 安装一个 MSI 安装包的静默安装命令, 并且会指定安装路径和安装日志位置
+# 添加 /L*v 参数生成详细日志文件
 msiexec /i "C:\Users\zzz\Desktop\soft.msi" /quiet INSTALLDIR="C:\Users\zzz\Desktop" /L*v "C:\Users\zzz\Desktop
 zzz.txt"
 
