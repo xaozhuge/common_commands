@@ -5,3 +5,7 @@ docker run -i
 # 加上 -i : 容器会一直保持标准输入流可用, 这样就可以在运行过程中输入命令或数据
 docker run -i
 
+# 3. 一般来说, -i通常会和-t 一起使用(即-it), 这样不仅保持输入, 还会分配一个伪终端(TTY), 方便交互式操作, 例如进入shell
+docker run -i
+docker run -it
+
