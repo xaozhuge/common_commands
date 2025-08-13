@@ -15,3 +15,7 @@ docker run -it
 # 结果: 进入容器的交互式 Bash 环境
 docker run -it ubuntu bash
 
+# 5. 案例: 只用-i(无终端)
+# 在命令行中输入内容, cat 会把输入直接回显, 直到按Ctrl+D结束输入
+docker run -i ubuntu cat
+
