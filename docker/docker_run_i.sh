@@ -9,3 +9,9 @@ docker run -i
 docker run -i
 docker run -it
 
+# 4. 案例: 交互式启动容器
+# -i: 保持 STDIN 打开
+# -t: 分配终端
+# 结果: 进入容器的交互式 Bash 环境
+docker run -it ubuntu bash
+
