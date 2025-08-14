@@ -19,3 +19,6 @@ docker run -it ubuntu bash
 # 在命令行中输入内容, cat 会把输入直接回显, 直到按Ctrl+D结束输入
 docker run -i ubuntu cat
 
+# 6. 总结
+# -i: 保持输入流开启
+
