@@ -21,4 +21,5 @@ docker run -i ubuntu cat
 
 # 6. 总结
 # -i: 保持输入流开启
+# 常和-t搭配成 -it, 方便交互
 
