@@ -23,3 +23,6 @@ COPY . /home/work/${APP_NAME}/
 # 如果你有 .dockerignore 文件, COPY 时会忽略其中列出的文件
 # 建议忽略例如 .git、node_modules 临时构建目录等无用内容
 
+# 6. COPY 覆盖行为
+# 如果目标路径已经有文件, COPY 会覆盖(但不能部分合并目录)
+
