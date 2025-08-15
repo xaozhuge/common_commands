@@ -26,3 +26,7 @@ COPY . /home/work/${APP_NAME}/
 # 6. COPY 覆盖行为
 # 如果目标路径已经有文件, COPY 会覆盖(但不能部分合并目录)
 
+# 7. COPY 优化
+# 如果有多个 COPY 命令, 可以优化为分步 COPY, 来提升构建缓存命中率
+# 例如先 COPY package.json, 再 COPY 源码
+
