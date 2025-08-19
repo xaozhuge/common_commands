@@ -2,3 +2,6 @@
 # 比直接运行 python --version 的好处是: 保证运行的环境可控, 不依赖系统全局 Python, 而是由 uv 自动管理的版本
 uv run python --version
 
+# uv: 是一个快速的 Python 包和虚拟环境管理工具, 由 Astral 开发(类似于 pip + venv + poetry 的结合体, 性能更高), 
+# 可以运行脚本、管理依赖、创建隔离环境
+
