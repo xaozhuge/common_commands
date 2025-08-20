@@ -8,3 +8,5 @@ uv run python --version
 # run子命令: uv run 会在一个受控的、自动管理的虚拟环境中运行某个命令
 # 如果需要的解释器或依赖包没有, 会临时解析并下载, 从而避免“环境污染”
 
+# python: 这里表示要运行 python 可执行文件(即 Python 解释器)
+
