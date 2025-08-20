@@ -10,3 +10,6 @@ uv run python --version
 
 # python: 这里表示要运行 python 可执行文件(即 Python 解释器)
 
+# --version: 这是传给 python 的参数, 不是 uv 的参数
+# 它的作用是输出 Python 的版本信息
+
