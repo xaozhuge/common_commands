@@ -15,5 +15,7 @@ touch checkbandwidth.sh
 chmod +x checkbandwidth.sh
 
 # 6. 显示出端口
+# 不加-P时, 按照服务器统计
+# 加-P时, 按照端口统计
 /usr/sbin/iftop -i eth0 -P
 
