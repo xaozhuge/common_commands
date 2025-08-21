@@ -14,3 +14,6 @@ iftop -i eth0
 touch checkbandwidth.sh
 chmod +x checkbandwidth.sh
 
+# 6. 显示出端口
+/usr/sbin/iftop -i eth0 -P
+
