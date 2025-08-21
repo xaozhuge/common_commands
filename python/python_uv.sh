@@ -13,3 +13,7 @@ uv run python --version
 # --version: 这是传给 python 的参数, 不是 uv 的参数
 # 它的作用是输出 Python 的版本信息
 
+# 2. 让 uv 下载并安装 Python 3.11, 并且把它加入到 uv 的可用 Python 解释器列表里
+# uv 会自动下载并安装最新的 Python 3.11.x 版本
+uv python install 3.11
+
