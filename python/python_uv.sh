@@ -23,3 +23,7 @@ uv python list
 # 4. 卸载某个版本
 uv python uninstall 3.11
 
+# 5. 会在当前项目中固定 Python 版本为 3.11
+# 之后运行 uv run、uv sync 等命令时, 会自动使用 Python 3.11
+uv python pin 3.11
+
