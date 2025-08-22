@@ -17,3 +17,6 @@ uv run python --version
 # uv 会自动下载并安装最新的 Python 3.11.x 版本
 uv python install 3.11
 
+# 3. 查看已安装版本
+uv python list
+
