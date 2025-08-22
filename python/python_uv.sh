@@ -20,3 +20,6 @@ uv python install 3.11
 # 3. 查看已安装版本
 uv python list
 
+# 4. 卸载某个版本
+uv python uninstall 3.11
+
