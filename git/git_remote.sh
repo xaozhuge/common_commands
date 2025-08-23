@@ -27,3 +27,10 @@ sudo git config --system --unset credential.helper
 # sudo: 以超级用户(root)身份执行命令, 因为 --system 级别的配置通常保存在 /etc/gitconfig 文件中, 需要管理员权限才能修改
 # git config: Git 的配置命令, 用来读取和写入 Git 配置选项
 
+# --system: 作用在 系统级别 的配置文件(通常是 /etc/gitconfig), 对整个系统上所有用户有效
+# Git 的配置有三种层级:
+# --system: 系统全局配置(对所有用户生效)
+# --global: 用户级配置(当前用户主目录下 ~/.gitconfig)
+# --local: 仓库级配置(当前仓库下 .git/config)
+# 优先级是 ocal > global > system
+
