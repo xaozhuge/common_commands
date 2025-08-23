@@ -24,3 +24,6 @@ git push origin master 相当于 git push git@git.****.com:team/project.git mast
 # 执行后, 如果没有在 --global 或 --local 层级单独配置, Git 在你推送(git push)或拉取(git pull)时, 就会每次都要求输入用户名和密码/令牌
 sudo git config --system --unset credential.helper
 
+# sudo: 以超级用户(root)身份执行命令, 因为 --system 级别的配置通常保存在 /etc/gitconfig 文件中, 需要管理员权限才能修改
+# git config: Git 的配置命令, 用来读取和写入 Git 配置选项
+
