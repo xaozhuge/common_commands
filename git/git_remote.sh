@@ -19,3 +19,8 @@ git pull origin master 相当于 git pull git@git.****.com:team/project.git mast
 # 推送代码的时候 
 git push origin master 相当于 git push git@git.****.com:team/project.git master
 
+
+# 5. 删除系统级别的 Git 凭证助手设置, 即 Git 不再在系统范围内使用任何 credential.helper 来记住用户名和密码
+# 执行后, 如果没有在 --global 或 --local 层级单独配置, Git 在你推送(git push)或拉取(git pull)时, 就会每次都要求输入用户名和密码/令牌
+sudo git config --system --unset credential.helper
+
