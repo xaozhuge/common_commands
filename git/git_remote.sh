@@ -42,3 +42,6 @@ sudo git config --system --unset credential.helper
 # manager(Windows Credential Manager)
 # osxkeychain(macOS 钥匙串)
 
+# 6. 验证是否生效, 如果没有输出, 说明已成功删除
+git config --system --get credential.helper
+
