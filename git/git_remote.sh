@@ -34,3 +34,5 @@ sudo git config --system --unset credential.helper
 # --local: 仓库级配置(当前仓库下 .git/config)
 # 优先级是 ocal > global > system
 
+# --unset: 删除一个配置项
+
