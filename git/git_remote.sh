@@ -36,3 +36,9 @@ sudo git config --system --unset credential.helper
 
 # --unset: 删除一个配置项
 
+# credential.helper: Git 的凭证助手, 用于保存和管理账号密码/令牌
+# cache(暂存在内存里)
+# store(明文保存到磁盘)
+# manager(Windows Credential Manager)
+# osxkeychain(macOS 钥匙串)
+
