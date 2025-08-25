@@ -27,3 +27,6 @@ uv python uninstall 3.11
 # 之后运行 uv run、uv sync 等命令时, 会自动使用 Python 3.11
 uv python pin 3.11
 
+# 6. 取消固定版本
+uv python unpin 
+
