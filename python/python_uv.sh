@@ -30,3 +30,8 @@ uv python pin 3.11
 # 6. 取消固定版本
 uv python unpin 
 
+# 7. 打印出 在 uv 环境中可见的环境变量
+# env 是要运行的命令(这里其实就是 Python 的 env 工具)
+# uv run env ≈ 在 uv 提供的虚拟环境中运行 env
+uv run env
+
