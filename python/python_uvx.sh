@@ -8,3 +8,6 @@
 # 适合想要隔离环境、不想污染全局 Python 的场景
 uvx python --version
 
+# 3. 让 uvx 启动一个隔离环境, 在里面用 Python 3.10, 并运行目标命令
+uvx --python 3.10 python --version
+
