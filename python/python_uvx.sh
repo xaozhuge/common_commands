@@ -4,5 +4,6 @@
 # 1.3 uvx: 会在隔离的环境里下载并运行指定工具, 然后退出时不会污染全局环境
 
 # 2. 用 uv 的机制来运行 python --version
+# 可以保证即使本机没有全局安装 python, 只要 uv 能拉到合适的解释器, 也能运行
 uvx python --version
 
