@@ -5,5 +5,6 @@
 
 # 2. 用 uv 的机制来运行 python --version
 # 可以保证即使本机没有全局安装 python, 只要 uv 能拉到合适的解释器, 也能运行
+# 适合想要隔离环境、不想污染全局 Python 的场景
 uvx python --version
 
