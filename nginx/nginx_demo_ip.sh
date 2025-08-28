@@ -20,8 +20,3 @@ server {
 # 6. key 文件通常包含服务器的私钥信息, 是高度敏感的文件, 必须妥善保管, 避免泄露
 # 7. return 444; 用于立即关闭客户端的连接而不发送任何响应, 这在处理不需要的请求或潜在的恶意请求时非常有用
 
-server {
-	listen       80;
-	server_name  域名;
-	rewrite ^(.*)$ https://$host$1 permanent;
-}
