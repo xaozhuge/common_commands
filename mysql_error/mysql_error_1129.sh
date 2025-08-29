@@ -3,3 +3,7 @@ error: Error 1129: Host '192.168.0.1' is blocked because of many connection erro
 unblock with 'mysqladmin flush-hosts'
 # 说明 MySQL 把来自 192.168.0.1 这台客户端机器的连接屏蔽掉了
 
+# 2. 错误原因
+# 2.1 连接失败次数过多
+# MySQL 有一个参数 max_connect_errors(默认 100), 当某个主机连续连接 MySQL 出现错误(比如网络中断、连接没正常关闭、认证失败)次数超过这个阈值, 就会自动封锁该主机
+
