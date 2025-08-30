@@ -12,3 +12,6 @@ unblock with 'mysqladmin flush-hosts'
 # 3. 解决办法-登录mysql的cli
 FLUSH HOSTS;
 
+# 4. 说明
+# Error 1129 的核心意思是 MySQL 把 客户端 IP 封了, 因为它连接失败太多次, 可以用 FLUSH HOSTS 解封
+
