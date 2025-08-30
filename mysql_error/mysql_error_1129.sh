@@ -9,3 +9,6 @@ unblock with 'mysqladmin flush-hosts'
 
 # 2.2 客户端频繁错误地尝试连接(错误密码、连接未释放等) 导致错误计数快速增加
 
+# 3. 解决办法-登录mysql的cli
+FLUSH HOSTS;
+
