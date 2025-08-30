@@ -15,3 +15,6 @@ FLUSH HOSTS;
 # 4. 说明
 # Error 1129 的核心意思是 MySQL 把 客户端 IP 封了, 因为它连接失败太多次, 可以用 FLUSH HOSTS 解封
 
+# 5. 相关机制
+# MySQL 维护一个 主机缓存 (Host Cache), 里面会记录每个客户端主机的连接信息, 包括错误次数
+
