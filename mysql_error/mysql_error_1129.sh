@@ -17,4 +17,5 @@ FLUSH HOSTS;
 
 # 5. 相关机制
 # MySQL 维护一个 主机缓存 (Host Cache), 里面会记录每个客户端主机的连接信息, 包括错误次数
+# 如果某个主机连接 MySQL 出错的次数超过 max_connect_errors(默认 100), MySQL 就会把它 自动加入黑名单, 拒绝后续请求
 
