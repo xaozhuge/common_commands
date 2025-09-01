@@ -35,3 +35,6 @@ uv python unpin
 # uv run env ≈ 在 uv 提供的虚拟环境中运行 env
 uv run env
 
+# 8. 安装 uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
