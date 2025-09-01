@@ -41,3 +41,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # 9. 查看 uv 的版本
 uv --version
 
+# 10. 需要注意, uv安装python时, 下载链接可能失效, 需要更新 uv 的版本
+uv python install 3.11
+
