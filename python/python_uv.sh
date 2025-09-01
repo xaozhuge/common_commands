@@ -38,3 +38,6 @@ uv run env
 # 8. 安装 uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
+# 9. 查看 uv 的版本
+uv --version
+
