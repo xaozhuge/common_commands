@@ -20,4 +20,5 @@ grep "Accepted" /var/log/secure | awk '{print $1,$2,$3,$9,$11}'
 
 # 6. appname-应用程序存储支持文件的标准目录
 "$HOME/Library/Application Support/appname/logs"
+ls "$HOME/Library/Application Support/"
 
