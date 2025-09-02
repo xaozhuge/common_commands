@@ -18,4 +18,6 @@ truncate -s 0 slow-3306.log
 # 5. 登录成功的日志
 grep "Accepted" /var/log/secure | awk '{print $1,$2,$3,$9,$11}'
 
+# 6. appname-应用程序存储支持文件的标准目录
+"$HOME/Library/Application Support/appname/logs"
 
