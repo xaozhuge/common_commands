@@ -20,4 +20,6 @@
 # 2.5 
 一级域名填写为:@
 类型选择: ​TXT​
+内容为: "v=spf1 ip4:IP地址 ~all"
+或者内容为: "v=spf1 ip4:IP地址 include:_spf.google.com include:spf.mail.qq.com"
 
