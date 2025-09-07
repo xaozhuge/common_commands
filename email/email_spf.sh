@@ -23,3 +23,7 @@
 内容为: "v=spf1 ip4:IP地址 ~all"
 或者内容为: "v=spf1 ip4:IP地址 include:_spf.google.com include:spf.mail.qq.com"
 
+
+# 3. 说明
+# include:_spf.google.com 和 include:spf.mail.qq.com 给 Gmail/QQ 的服务器授权
+
