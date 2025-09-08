@@ -32,3 +32,6 @@
 # 4. 获取 QQ邮箱的SPF记录​, 查询 spf.mail.qq.com 的TXT记录, 同样返回SPF规则
 dig +short spf.mail.qq.com TXT
 
+# 5. 前缀差异的原因​
+# 历史惯例​: 早期SPF标准未强制要求前缀命名规则, 服务商可自由选择
+
