@@ -29,3 +29,6 @@
 # 如果会在 Gmail/QQ 里发邮件, 就必须加, 不然收件方会认为是假冒
 "v=spf1 ip4:IP地址 include:_spf.google.com include:spf.mail.qq.com"
 
+# 4. 获取 QQ邮箱的SPF记录​, 查询 spf.mail.qq.com 的TXT记录, 同样返回SPF规则
+dig +short spf.mail.qq.com TXT
+
