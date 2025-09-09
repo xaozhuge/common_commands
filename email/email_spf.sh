@@ -35,4 +35,5 @@ dig +short spf.mail.qq.com TXT
 # 5. 前缀差异的原因​
 # 历史惯例​: 早期SPF标准未强制要求前缀命名规则, 服务商可自由选择
 # Google选择 _spf(如 _spf.google.com), 可能是为了与其他服务子域名区分
+# 腾讯(QQ邮箱)选择 spf (如 spf.mail.qq.com), 更直观体现用途
 
