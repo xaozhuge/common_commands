@@ -3,5 +3,8 @@
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
 # 2. ngx.log(level, ...): 这是 OpenResty 提供的 API, 用来往 Nginx 的 error.log 里写日志
+# level 指日志级别, 可以是: 
+# ngx.STDERR ngx.EMERG ngx.ALERT ngx.CRIT ngx.ERR
+# ngx.WARN ngx.NOTICE ngx.INFO ngx.DEBUG
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
