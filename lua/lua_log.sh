@@ -9,5 +9,6 @@ ngx.log(ngx.ERR, "new mysql error : " .. err)
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
 # 3. ngx.ERR: 表示错误级别的日志(error), 通常用于打印运行时错误或异常情况
+# ngx.ERR 的日志一般会记录到 `logs/error.log` 文件里(路径视配置而定)
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
