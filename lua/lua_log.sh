@@ -12,3 +12,6 @@ ngx.log(ngx.ERR, "new mysql error : " .. err)
 # ngx.ERR 的日志一般会记录到 `logs/error.log` 文件里(路径视配置而定)
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
+# 4. "new mysql error : " .. err: 这里是拼接字符串, 把 "new mysql error : " 和变量 err 合在一起输出
+ngx.log(ngx.ERR, "new mysql error : " .. err)
+
