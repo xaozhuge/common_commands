@@ -16,5 +16,6 @@ ngx.log(ngx.ERR, "new mysql error : " .. err)
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
 # 5. 在Lua 里, .. 是 字符串连接运算符
+# "new mysql error : " .. err 表示把 "new mysql error : " 和变量 err 拼接成一个完整字符串
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
