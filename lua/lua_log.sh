@@ -19,3 +19,6 @@ ngx.log(ngx.ERR, "new mysql error : " .. err)
 # "new mysql error : " .. err 表示把 "new mysql error : " 和变量 err 拼接成一个完整字符串
 ngx.log(ngx.ERR, "new mysql error : " .. err)
 
+# 6. 这里不是拼接, 而是传多个参数, ngx.log 会自动处理, 把它们串起来
+ngx.log(ngx.ERR, "new mysql error : ", err)
+
