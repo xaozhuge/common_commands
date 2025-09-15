@@ -2,3 +2,6 @@
 # require("resty.mysql"): 用于加载 resty.mysql 模块
 local mysql = require("resty.mysql")
 
+# 创建 MySQL 连接
+local db, err = mysql:new()
+
