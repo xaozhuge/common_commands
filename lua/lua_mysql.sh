@@ -5,3 +5,9 @@ local mysql = require("resty.mysql")
 # 创建 MySQL 连接
 local db, err = mysql:new()
 
+# if not db then : 检查变量 db 是否存在或是否为真值
+if not db then
+    ngx.log(ngx.ERR,"new mysql error : " .. err)
+    return
+end
+
