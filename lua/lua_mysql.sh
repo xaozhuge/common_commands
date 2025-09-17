@@ -15,6 +15,7 @@ end
 db:set_timeout(1000)
 
 # Lua语言中定义的一个表(table), 用于存储数据库连接的相关配置属性
+# 在 Lua 中, 表(table)是唯一的数据结构, 用于表示数组、字典(哈希表)、对象等多种数据结构
 local props = {
     host = "",
     port = 3306,
