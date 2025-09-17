@@ -11,3 +11,6 @@ if not db then
     return
 end
 
+# 设置连接超时(毫秒)
+db:set_timeout(1000)
+
