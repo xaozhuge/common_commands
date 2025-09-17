@@ -14,3 +14,13 @@ end
 # 设置连接超时(毫秒)
 db:set_timeout(1000)
 
+# Lua语言中定义的一个表(table), 用于存储数据库连接的相关配置属性
+local props = {
+    host = "",
+    port = 3306,
+    database = "",
+    user = "",
+    password = "",
+    charset = "utf8mb4"
+}
+
