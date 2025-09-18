@@ -25,3 +25,6 @@ local props = {
     charset = "utf8mb4"
 }
 
+# 数据库连接操作
+local res, err, errno, sqlstate = db:connect(props)
+
