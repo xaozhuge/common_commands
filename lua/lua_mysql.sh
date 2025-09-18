@@ -27,5 +27,6 @@ local props = {
 
 # 数据库连接操作
 # res: 连接成功时返回的连接对象(可用于后续查询), 失败时为 nil
+# err: 如果连接失败, 返回错误信息(字符串)
 local res, err, errno, sqlstate = db:connect(props)
 
