@@ -29,5 +29,6 @@ local props = {
 # res: 连接成功时返回的连接对象(可用于后续查询), 失败时为 nil
 # err: 如果连接失败, 返回错误信息(字符串)
 # errno: 数据库错误码(数字), 例如 MySQL 的 1045(访问被拒绝)。
+# sqlstateSQL: 标准错误状态码(字符串), 如 '28000'(认证失败)
 local res, err, errno, sqlstate = db:connect(props)
 
