@@ -14,3 +14,6 @@ IPADDR=172.16.1.169
 # 开机生效
 ONBOOT=yes
 
+# 静态IP
+BOOTPROTO=static
+
