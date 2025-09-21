@@ -17,3 +17,6 @@ ONBOOT=yes
 # 静态IP
 BOOTPROTO=static
 
+# 网关地址
+GATEWAY=172.16.1.1
+
