@@ -11,3 +11,6 @@ sudo systemctl restart network
 # 静态IP配置
 IPADDR=172.16.1.169
 
+# 开机生效
+ONBOOT=yes
+
