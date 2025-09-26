@@ -11,3 +11,6 @@ sudo systemctl stop docker
 # 4. 现象分析​
 # 即使你手动停止 docker.service, 只要 docker.socket 仍在运行, 后续任何调用 docker 命令的操作都会重新激活 Docker 服务
 
+# 5. 解决方案: 同时关闭 docker 和 docker.socket
+sudo systemctl stop docker docker.socket
+
