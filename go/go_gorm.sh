@@ -16,4 +16,6 @@ db.Find(&varname)
 
 # 6. 获取最后一条记录
 db.Last(&user) 
+# 等效于 
+db.Order("id desc").First(&user)
 
