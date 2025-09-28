@@ -19,3 +19,6 @@ db.Last(&user)
 # 等效于 
 db.Order("id desc").First(&user)
 
+# 7. 随机获取一条记录
+db.Take(&user)
+
