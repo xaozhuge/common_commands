@@ -22,3 +22,6 @@ db.Order("id desc").First(&user)
 # 7. 随机获取一条记录
 db.Take(&user)
 
+# 8. 查询需要的字段
+db.Select("id, name").Find(&users)
+
