@@ -25,3 +25,6 @@ db.Take(&user)
 # 8. 查询需要的字段
 db.Select("id, name").Find(&users)
 
+# 9. where条件
+db.Model(&User{}).Where("age > ?", 18).Count(&count)
+
