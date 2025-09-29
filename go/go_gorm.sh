@@ -28,3 +28,6 @@ db.Select("id, name").Find(&users)
 # 9. where条件
 db.Model(&User{}).Where("age > ?", 18).Count(&count)
 
+# 10. count计数
+db.Model(&User{}).Where("age > ?", 18).Count(&count)
+
