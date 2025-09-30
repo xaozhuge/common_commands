@@ -34,3 +34,6 @@ db.Model(&User{}).Where("age > ?", 18).Count(&count)
 # 11. 指定数据表名
 db.Table("test")
 
+# 12. 限制数量
+Limit(10)
+
