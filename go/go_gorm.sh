@@ -37,3 +37,6 @@ db.Table("test")
 # 12. 限制数量
 Limit(10)
 
+# 13. 查询语句
+db.Table("表名").Select("字段").Order("排序").Limit(num).Find(&results)
+
