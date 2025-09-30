@@ -31,3 +31,6 @@ db.Model(&User{}).Where("age > ?", 18).Count(&count)
 # 10. count计数
 db.Model(&User{}).Where("age > ?", 18).Count(&count)
 
+# 11. 指定数据表名
+db.Table("test")
+
