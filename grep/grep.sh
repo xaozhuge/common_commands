@@ -14,4 +14,5 @@ grep -A 5 keywords
 grep -B 5 keywords
 
 # 5. -i: 忽略大小写
+grep -i keywords
 
