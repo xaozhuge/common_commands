@@ -13,3 +13,5 @@ grep -A 5 keywords
 # 4. 找到keywords后, 向前显示5行
 grep -B 5 keywords
 
+# 5. -i: 忽略大小写
+
