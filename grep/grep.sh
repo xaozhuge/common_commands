@@ -19,3 +19,5 @@ grep -i keywords
 # 6. -n: 显示匹配行的行号
 grep -n keywords
 
+# 7. -r或-R: 递归搜索目录下的所有文件
+
