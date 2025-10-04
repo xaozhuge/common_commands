@@ -17,4 +17,5 @@ grep -B 5 keywords
 grep -i keywords
 
 # 6. -n: 显示匹配行的行号
+grep -n keywords
 
