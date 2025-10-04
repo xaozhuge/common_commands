@@ -20,4 +20,5 @@ grep -i keywords
 grep -n keywords
 
 # 7. -r或-R: 递归搜索目录下的所有文件
+grep -r keywords
 
