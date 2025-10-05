@@ -23,4 +23,5 @@ grep -n keywords
 grep -r keywords
 
 # 8. -v: 反向选择, 即显示不匹配的行
+grep -v keywords
 
