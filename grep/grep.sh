@@ -25,3 +25,5 @@ grep -r keywords
 # 8. -v: 反向选择, 即显示不匹配的行
 grep -v keywords
 
+# 9. -l: 只显示包含匹配项的文件名
+
