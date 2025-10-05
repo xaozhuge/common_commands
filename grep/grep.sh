@@ -22,3 +22,5 @@ grep -n keywords
 # 7. -r或-R: 递归搜索目录下的所有文件
 grep -r keywords
 
+# 8. -v: 反向选择, 即显示不匹配的行
+
