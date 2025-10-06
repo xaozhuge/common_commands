@@ -26,4 +26,5 @@ grep -r keywords
 grep -v keywords
 
 # 9. -l: 只显示包含匹配项的文件名
+grep -l keywords
 
