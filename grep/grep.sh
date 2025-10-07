@@ -18,6 +18,7 @@ grep -i keywords
 # 在 file.txt 中搜索包含 "error" 的行(区分大小写)
 grep "error" file.txt
 # 在当前目录及子目录的所有文件中递归搜索 "error" (忽略大小写)
+grep -r -i "error" .
 
 # 6. -n: 显示匹配行的行号
 grep -n keywords
