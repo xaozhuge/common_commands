@@ -29,6 +29,7 @@ grep -r keywords
 # 8. -v: 反向选择, 即显示不匹配的行
 grep -v keywords
 # 显示系统进程中所有不包含 "chrome" 的进程
+ps aux | grep -v "chrome"
 
 # 9. -l: 只显示包含匹配项的文件名
 grep -l keywords
