@@ -1,4 +1,4 @@
-# 1. 检测端口是否
+# 1. 检测端口是否开放
 ssh -p 端口 -o ConnectTimeout=1 root@IP
 
 # 2. 如果端口未开放
