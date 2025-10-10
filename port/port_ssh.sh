@@ -10,3 +10,6 @@ ssh: connect to host 172.16.1.69 port 21: Operation timed out
 # 3. 如果端口开放, 但是无服务
 ssh: connect to host 172.16.1.169 port 80: Connection refused
 
+# 4. 如果端口开放, 但是有服务
+Connection closed by 172.16.1.169 port 80
+
