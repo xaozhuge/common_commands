@@ -3,4 +3,6 @@
 SELECT <db_index>
 # 例如 切换数据库
 select 1
+# 默认的数据库
+select 0
 
