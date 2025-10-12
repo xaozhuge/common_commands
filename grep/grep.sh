@@ -40,4 +40,5 @@ grep -l keywords
 
 # 11. 统计匹配次数
 # 统计匹配的行数(非次数)
+grep -c "pattern" file.txt
 
