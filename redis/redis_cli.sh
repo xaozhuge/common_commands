@@ -7,4 +7,5 @@ select 1
 select 0
 
 # 2. 查看数据库信息
+INFO keyspace
 
