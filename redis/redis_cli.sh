@@ -14,4 +14,5 @@ db0:keys=11004,expires=1,avg_ttl=55700655
 db1:keys=1,expires=1,avg_ttl=85703881
 
 # 3. 设置键值对
+SET key value
 
