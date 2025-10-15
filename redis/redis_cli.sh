@@ -20,4 +20,6 @@ SET name "zzz"
 
 # 4. 获取键值
 GET key
+# 举例
+GET name
 
