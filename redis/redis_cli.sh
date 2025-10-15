@@ -19,4 +19,5 @@ SET key value
 SET name "zzz"
 
 # 4. 获取键值
+GET key
 
