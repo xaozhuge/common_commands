@@ -25,4 +25,6 @@ GET name
 
 # 5. 删除键
 DEL key
+# 举例
+DEL name
 
