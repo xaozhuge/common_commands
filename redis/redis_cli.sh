@@ -24,4 +24,5 @@ GET key
 GET name
 
 # 5. 删除键
+DEL key
 
