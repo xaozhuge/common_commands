@@ -23,3 +23,5 @@ GET key
 # 举例
 GET name
 
+# 5. 删除键
+
