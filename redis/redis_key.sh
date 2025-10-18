@@ -4,4 +4,5 @@ SET key value
 SET name "zzz"
 
 # 2. 获取键值
+GET key
 
