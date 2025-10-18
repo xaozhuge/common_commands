@@ -3,3 +3,5 @@ SET key value
 # 举例
 SET name "zzz"
 
+# 2. 获取键值
+
