@@ -13,3 +13,5 @@ DEL key
 # 举例
 DEL name
 
+# 4. 检查键是否存在
+

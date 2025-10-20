@@ -13,18 +13,3 @@ INFO keyspace
 db0:keys=11004,expires=1,avg_ttl=55700655
 db1:keys=1,expires=1,avg_ttl=85703881
 
-# 3. 设置键值对
-SET key value
-# 举例
-SET name "zzz"
-
-# 4. 获取键值
-GET key
-# 举例
-GET name
-
-# 5. 删除键
-DEL key
-# 举例
-DEL name
-
