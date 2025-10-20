@@ -14,4 +14,5 @@ DEL key
 DEL name
 
 # 4. 检查键是否存在
+EXISTS key
 
