@@ -20,4 +20,6 @@ EXISTS name
 
 # 5. 设置过期时间(秒)
 EXPIRE key seconds
+# 举例
+EXPIRE name 60
 
