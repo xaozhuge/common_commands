@@ -18,3 +18,5 @@ EXISTS key
 # 举例
 EXISTS name
 
+# 5. 设置过期时间(秒)
+
