@@ -23,3 +23,5 @@ EXPIRE key seconds
 # 举例
 EXPIRE name 60
 
+# 6. 匹配键(慎用生产环境)
+
