@@ -24,4 +24,5 @@ EXPIRE key seconds
 EXPIRE name 60
 
 # 6. 匹配键(慎用生产环境)
+KEYS pattern
 
