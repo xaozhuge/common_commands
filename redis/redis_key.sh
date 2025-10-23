@@ -28,3 +28,5 @@ KEYS pattern
 # 举例
 KEYS user*
 
+# 7. 查看键类型
+
