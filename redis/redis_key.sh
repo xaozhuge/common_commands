@@ -29,4 +29,5 @@ KEYS pattern
 KEYS user*
 
 # 7. 查看键类型
+TYPE key
 
