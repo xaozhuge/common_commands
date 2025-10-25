@@ -3,3 +3,5 @@ INCR key
 # 举例
 INCR counter
 
+# 2. 值-1
+
