@@ -5,4 +5,6 @@ INCR counter
 
 # 2. 值-1
 DECR key
+# 举例
+DECR counter
 
