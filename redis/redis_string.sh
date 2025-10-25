@@ -4,4 +4,5 @@ INCR key
 INCR counter
 
 # 2. 值-1
+DECR key
 
