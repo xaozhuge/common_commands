@@ -10,4 +10,6 @@ DECR counter
 
 # 3. 追加内容
 APPEND key value
+# 举例
+APPEND name "name"
 
