@@ -8,3 +8,5 @@ DECR key
 # 举例
 DECR counter
 
+# 3. 追加内容
+
