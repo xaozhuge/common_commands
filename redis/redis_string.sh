@@ -13,3 +13,5 @@ APPEND key value
 # 举例
 APPEND name "name"
 
+# 4. 获取子串
+
