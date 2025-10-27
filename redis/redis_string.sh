@@ -14,4 +14,5 @@ APPEND key value
 APPEND name "name"
 
 # 4. 获取子串
+GETRANGE key start end
 
