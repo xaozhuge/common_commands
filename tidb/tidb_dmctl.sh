@@ -10,3 +10,6 @@ dmctl --master-addr 192.168.0.1:8260
 # 交互式下执行
 [command]
 
+# 3. 交互式下-停止任务
+stop-task task_name
+
