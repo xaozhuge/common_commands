@@ -7,4 +7,6 @@ dmctl --master-addr 192.168.0.1:8260 [command]
 
 # 2.2 进入交互式后执行
 dmctl --master-addr 192.168.0.1:8260
+# 交互式下执行
+[command]
 
