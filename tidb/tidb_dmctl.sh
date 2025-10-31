@@ -12,6 +12,8 @@ dmctl --master-addr 192.168.0.1:8260
 
 # 3. 交互式下-停止任务
 stop-task task_name
+# 非交互式下-停止任务
+dmctl --master-addr 192.168.0.1:8260 stop-task [task-name]
 
 # 4. 交互模式下-查看任务状态
 query-status task_name
