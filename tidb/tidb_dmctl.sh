@@ -16,3 +16,6 @@ stop-task task_name
 # 4. 交互模式下-查看任务状态
 query-status task_name
 
+# 5. 交互模式下-开启任务
+start-task 绝对路径下的yaml文件
+
