@@ -5,4 +5,6 @@ HSET user:1 name "John" age 30
 
 # 2. 获取字段值
 HGET key field
+# 举例
+HGET user:1 name
 
