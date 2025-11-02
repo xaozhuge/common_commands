@@ -9,4 +9,5 @@ HGET key field
 HGET user:1 name
 
 # 3. 获取所有字段
+HGETALL key
 
