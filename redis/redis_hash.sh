@@ -8,3 +8,5 @@ HGET key field
 # 举例
 HGET user:1 name
 
+# 3. 获取所有字段
+
