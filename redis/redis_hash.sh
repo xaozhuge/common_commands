@@ -10,4 +10,6 @@ HGET user:1 name
 
 # 3. 获取所有字段
 HGETALL key
+# 举例
+HGETALL user:1
 
