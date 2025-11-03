@@ -14,4 +14,5 @@ HGETALL key
 HGETALL user:1
 
 # 4. 删除字段	
+HDEL key field	
 
