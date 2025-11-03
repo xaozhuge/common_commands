@@ -15,4 +15,6 @@ HGETALL user:1
 
 # 4. 删除字段	
 HDEL key field	
+# 举例
+HDEL user:1 age
 
