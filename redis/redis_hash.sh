@@ -13,3 +13,5 @@ HGETALL key
 # 举例
 HGETALL user:1
 
+# 4. 删除字段	
+
