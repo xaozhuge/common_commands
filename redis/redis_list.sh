@@ -2,6 +2,8 @@
 lpush mylist value1 value2
 # 左侧插入
 LPUSH key value
+# 举例
+LPUSH list "item1"
 
 # 2. rpush 将一个或多个值插入到列表的右侧(尾部)
 rpush mylist value1 value2
