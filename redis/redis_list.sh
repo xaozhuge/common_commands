@@ -9,6 +9,8 @@ LPUSH list "item1"
 rpush mylist value1 value2
 # 右侧插入
 RPUSH key value
+# 举例
+RPUSH list "item2"
 
 # 3. lpop 从列表的右侧(尾部)弹出并返回最后一个元素
 lpop mylist
