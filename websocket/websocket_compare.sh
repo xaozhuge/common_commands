@@ -21,3 +21,6 @@
 # 延迟: 极低
 # 适用场景: 聊天室、在线游戏、协同编辑等 高实时双向交互 需求
 
+# 4. Server Send Event(SSE)
+# 实现方式: 基于 HTTP 协议, 服务器可 主动推送 数据流(如 Content-Type: text/event-stream), 浏览器通过 EventSource API监听
+
