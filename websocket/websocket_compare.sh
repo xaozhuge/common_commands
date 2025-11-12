@@ -24,4 +24,5 @@
 # 4. Server Send Event(SSE)
 # 实现方式: 基于 HTTP 协议, 服务器可 主动推送 数据流(如 Content-Type: text/event-stream), 浏览器通过 EventSource API监听
 # 优点: 原生支持断线重连, 轻量级(HTTP协议)
+# 缺点: 单向通信(服务端-->客户端), 低版本IE浏览器不支持
 
