@@ -40,3 +40,6 @@ WebSocket 协议:WebSocket(基于TCP) 实时性:极高 资源消耗:低(长连�
 # 需要 服务器推送: SSE
 # 需要 全双工实时交互: WebSocket
 
+# 7. 参考文档
+# https://mp.weixin.qq.com/s/NIACuNgHtSFgKHc7T1G3Wg
+
