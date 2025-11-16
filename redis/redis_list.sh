@@ -14,6 +14,7 @@ RPUSH list "item2"
 
 # 3. lpop 从列表的右侧(尾部)弹出并返回最后一个元素
 lpop mylist
+# 左侧弹出
 
 # 4. rpop 从列表的右侧(尾部)弹出并返回最后一个元素
 rpop mylist
