@@ -24,6 +24,7 @@ rpop mylist
 
 # 5. lrange 获取列表中指定范围内的元素. 索引从0开始,-1表示列表的最后一个元素(获取整个列表)
 lrange mylist 0 -1 
+# 范围查询
 
 # 6. llen 获取列表的长度
 llen mylist
