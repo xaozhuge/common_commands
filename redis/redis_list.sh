@@ -26,6 +26,8 @@ rpop mylist
 lrange mylist 0 -1 
 # 范围查询
 LRANGE key start stop
+# 举例
+LRANGE list 0 -1
 
 # 6. llen 获取列表的长度
 llen mylist
