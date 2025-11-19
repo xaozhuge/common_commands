@@ -5,4 +5,6 @@ SADD tags "redis" "db"
 
 # 2. 查看所有成员
 SMEMBERS key
+# 举例
+SMEMBERS tags
 
