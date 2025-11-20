@@ -8,3 +8,5 @@ SMEMBERS key
 # 举例
 SMEMBERS tags
 
+# 3. 判断是否存在
+
