@@ -10,4 +10,6 @@ SMEMBERS tags
 
 # 3. 判断是否存在
 SISMEMBER key member
+# 举例
+SISMEMBER tags "redis"
 
