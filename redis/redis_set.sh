@@ -15,4 +15,6 @@ SISMEMBER tags "redis"
 
 # 4. 求交集
 SINTER key1 key2
+# 举例
+SINTER tags1 tags2
 
