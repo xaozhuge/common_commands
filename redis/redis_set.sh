@@ -13,3 +13,5 @@ SISMEMBER key member
 # 举例
 SISMEMBER tags "redis"
 
+# 4. 求交集
+
