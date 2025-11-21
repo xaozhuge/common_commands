@@ -14,4 +14,5 @@ SISMEMBER key member
 SISMEMBER tags "redis"
 
 # 4. 求交集
+SINTER key1 key2
 
