@@ -4,4 +4,5 @@ ZADD key score member
 ZADD ranking 100 "Alice"
 
 # 2. 按索引范围查询
+ZRANGE key start stop
 
