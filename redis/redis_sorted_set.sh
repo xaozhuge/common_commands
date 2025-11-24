@@ -10,4 +10,6 @@ ZRANGE ranking 0 -1
 
 # 3. 倒序查询
 ZREVRANGE key start stop
+# 举例
+ZREVRANGE ranking 0 2
 
