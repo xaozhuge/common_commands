@@ -8,3 +8,5 @@ ZRANGE key start stop
 # 举例
 ZRANGE ranking 0 -1
 
+# 3. 倒序查询
+
