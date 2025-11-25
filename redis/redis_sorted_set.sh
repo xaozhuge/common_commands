@@ -13,3 +13,5 @@ ZREVRANGE key start stop
 # 举例
 ZREVRANGE ranking 0 2
 
+# 4. 获取分值
+
