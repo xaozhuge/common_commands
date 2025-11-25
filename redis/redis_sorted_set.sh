@@ -14,4 +14,5 @@ ZREVRANGE key start stop
 ZREVRANGE ranking 0 2
 
 # 4. 获取分值
+ZSCORE key member
 
