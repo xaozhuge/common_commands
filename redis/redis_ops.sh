@@ -4,3 +4,5 @@ SELECT index
 # 2. 清空当前数据库
 FLUSHDB
 
+# 3. 清空所有数据库
+
