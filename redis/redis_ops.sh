@@ -5,4 +5,5 @@ SELECT index
 FLUSHDB
 
 # 3. 清空所有数据库
+FLUSHALL
 
