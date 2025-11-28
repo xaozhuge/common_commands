@@ -8,4 +8,5 @@ FLUSHDB
 FLUSHALL
 
 # 4. 查看服务器信息
+INFO
 
