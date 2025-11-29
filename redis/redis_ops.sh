@@ -11,4 +11,5 @@ FLUSHALL
 INFO
 
 # 5. 后台持久化
+BGSAVE
 
