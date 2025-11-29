@@ -9,3 +9,5 @@ sh /data/kafka_2.13-3.1.1/bin/zookeeper-server-stop.sh
 cd /data/kafka_2.13-3.1.1/
 sh bin/kafka-server-start.sh config/server.properties > kafka.log
 
+# 假设 Kafka 安装在 $KAFKA_HOME 目录下
+
