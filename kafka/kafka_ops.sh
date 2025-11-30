@@ -11,4 +11,5 @@ sh bin/kafka-server-start.sh config/server.properties > kafka.log
 
 # 假设 Kafka 安装在 $KAFKA_HOME 目录下
 # Kafka 旧版本依赖 ZooKeeper 来管理元数据
+# 1. 启动 ZooKeeper
 
