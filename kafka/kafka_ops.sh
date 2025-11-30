@@ -14,3 +14,5 @@ sh bin/kafka-server-start.sh config/server.properties > kafka.log
 # 1. 启动 ZooKeeper
 $KAFKA_HOME/bin/zookeeper-server-start.sh -daemon $KAFKA_HOME/config/zookeeper.properties
 
+# 2. 启动 Kafka Broker
+
