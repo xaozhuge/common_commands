@@ -21,4 +21,5 @@ $KAFKA_HOME/bin/kafka-server-start.sh -daemon $KAFKA_HOME/config/server.properti
 # 先停 Kafka
 $KAFKA_HOME/bin/kafka-server-stop.sh
 # 再停 ZooKeeper
+$KAFKA_HOME/bin/zookeeper-server-stop.sh
 
