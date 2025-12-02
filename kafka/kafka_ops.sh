@@ -19,4 +19,5 @@ $KAFKA_HOME/bin/kafka-server-start.sh -daemon $KAFKA_HOME/config/server.properti
 
 # 3. 停止服务​
 # 先停 Kafka
+$KAFKA_HOME/bin/kafka-server-stop.sh
 
