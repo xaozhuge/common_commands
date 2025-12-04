@@ -6,4 +6,10 @@ $KAFKA_HOME/bin/kafka-topics.sh --create \
   --topic test-topic
 
 # 2. 创建主题时直接指定配置(如日志保留时间)
+$KAFKA_HOME/bin/kafka-topics.sh --create \
+  --bootstrap-server localhost:9092 \
+  --partitions 3 \
+  --replication-factor 1 \
+  --config retention.ms=172800000 \ # 消息保留2天
+  --topic my-configed-topic
 
