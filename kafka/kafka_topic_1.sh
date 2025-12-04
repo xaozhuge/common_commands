@@ -14,4 +14,5 @@ $KAFKA_HOME/bin/kafka-topics.sh --create \
   --topic my-configed-topic
 
 # 3. 查看主题列表​
+$KAFKA_HOME/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 
