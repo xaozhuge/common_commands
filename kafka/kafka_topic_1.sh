@@ -13,3 +13,5 @@ $KAFKA_HOME/bin/kafka-topics.sh --create \
   --config retention.ms=172800000 \ # 消息保留2天
   --topic my-configed-topic
 
+# 3. 查看主题列表​
+
