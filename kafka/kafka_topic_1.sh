@@ -17,4 +17,5 @@ $KAFKA_HOME/bin/kafka-topics.sh --create \
 $KAFKA_HOME/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 
 # 4. ​查看主题详情
+# 查看指定主题的详细信息(分区、副本、Leader等)
 
