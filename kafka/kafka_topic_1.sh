@@ -24,4 +24,8 @@ $KAFKA_HOME/bin/kafka-topics.sh --describe \
 
 # 5. 修改主题
 # 增加主题的分区数(注意: Key 的映射会受影响, 只能增加不能减少)
+$KAFKA_HOME/bin/kafka-topics.sh --alter \
+  --bootstrap-server localhost:9092 \
+  --partitions 5 \ # 将分区数修改为5
+  --topic test-topic
 
