@@ -29,3 +29,5 @@ $KAFKA_HOME/bin/kafka-topics.sh --alter \
   --partitions 5 \ # 将分区数修改为5
   --topic test-topic
 
+# 动态修改主题配置
+
