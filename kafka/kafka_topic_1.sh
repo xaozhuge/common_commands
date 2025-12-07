@@ -31,4 +31,9 @@ $KAFKA_HOME/bin/kafka-topics.sh --alter \
 
 # 动态修改主题配置
 # 修改保留时间为1小时
+$KAFKA_HOME/bin/kafka-configs.sh --alter \
+  --bootstrap-server localhost:9092 \
+  --entity-type topics \
+  --entity-name test-topic \
+  --add-config retention.ms=3600000 
 
