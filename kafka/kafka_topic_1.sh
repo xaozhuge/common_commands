@@ -30,4 +30,5 @@ $KAFKA_HOME/bin/kafka-topics.sh --alter \
   --topic test-topic
 
 # 动态修改主题配置
+# 修改保留时间为1小时
 
