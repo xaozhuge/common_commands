@@ -37,3 +37,5 @@ $KAFKA_HOME/bin/kafka-configs.sh --alter \
   --entity-name test-topic \
   --add-config retention.ms=3600000 
 
+# 6. 删除主题​
+
