@@ -38,4 +38,5 @@ $KAFKA_HOME/bin/kafka-configs.sh --alter \
   --add-config retention.ms=3600000 
 
 # 6. 删除主题​
+# 注意: 需要确保 server.properties 中配置了 delete.topic.enable=true (默认为 true)
 
