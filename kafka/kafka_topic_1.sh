@@ -39,4 +39,7 @@ $KAFKA_HOME/bin/kafka-configs.sh --alter \
 
 # 6. 删除主题​
 # 注意: 需要确保 server.properties 中配置了 delete.topic.enable=true (默认为 true)
+$KAFKA_HOME/bin/kafka-topics.sh --delete \
+  --bootstrap-server localhost:9092 \
+  --topic test-topic
 
