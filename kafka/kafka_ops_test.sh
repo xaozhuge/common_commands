@@ -5,4 +5,7 @@ $KAFKA_HOME/bin/kafka-console-producer.sh \
   --topic test-topic
 
 # 新版本语法(推荐)
+$KAFKA_HOME/bin/kafka-console-producer.sh \
+  --bootstrap-server localhost:9092 \
+  --topic test-topic
 
