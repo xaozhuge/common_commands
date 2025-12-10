@@ -5,6 +5,7 @@ $KAFKA_HOME/bin/kafka-console-producer.sh \
   --topic test-topic
 
 # 新版本语法(推荐)
+# --bootstrap-server 和 --broker-list 的 不同
 $KAFKA_HOME/bin/kafka-console-producer.sh \
   --bootstrap-server localhost:9092 \
   --topic test-topic
