@@ -4,3 +4,5 @@ $KAFKA_HOME/bin/kafka-console-producer.sh \
   --broker-list localhost:9092 \
   --topic test-topic
 
+# 新版本语法(推荐)
+
