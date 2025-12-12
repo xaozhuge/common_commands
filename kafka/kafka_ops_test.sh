@@ -11,4 +11,5 @@ $KAFKA_HOME/bin/kafka-console-producer.sh \
   --topic test-topic
 
 # 2. 启动控制台消费者
+# 用于快速测试, 从指定主题消费消息
 
