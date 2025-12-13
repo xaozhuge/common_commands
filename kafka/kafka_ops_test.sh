@@ -19,3 +19,5 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh \
   --topic test-topic \
   --from-beginning
 
+# 指定消费者组
+
