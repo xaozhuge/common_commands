@@ -13,4 +13,5 @@ $KAFKA_HOME/bin/kafka-console-producer.sh \
 # 2. 启动控制台消费者
 # 用于快速测试, 从指定主题消费消息
 # 从最新消息开始消费
+# --from-beginning 加上这个参数表示从最早的消息开始消费
 
