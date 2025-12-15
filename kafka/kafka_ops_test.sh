@@ -20,4 +20,8 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh \
   --from-beginning
 
 # 指定消费者组
+$KAFKA_HOME/bin/kafka-console-consumer.sh \
+  --bootstrap-server localhost:9092 \
+  --topic test-topic \
+  --group my-console-consumer-group
 
