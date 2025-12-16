@@ -5,4 +5,7 @@ $KAFKA_HOME/bin/kafka-consumer-groups.sh --list --bootstrap-server localhost:909
 
 # 2. ​查看特定消费者组的详情(消费滞后情况)
 # 查看组内每个分区的消费偏移量、最新偏移量和滞后量
+$KAFKA_HOME/bin/kafka-consumer-groups.sh --describe \
+  --bootstrap-server localhost:9092 \
+  --group my-console-consumer-group
 
