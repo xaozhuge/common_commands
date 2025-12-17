@@ -11,4 +11,5 @@ $KAFKA_HOME/bin/kafka-consumer-groups.sh --describe \
 
 # 输出示例:
 GROUP: my-console-consumer
+TOPIC: test-topic
 
