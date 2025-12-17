@@ -10,4 +10,5 @@ $KAFKA_HOME/bin/kafka-consumer-groups.sh --describe \
   --group my-console-consumer-group
 
 # 输出示例:
+GROUP: my-console-consumer
 
