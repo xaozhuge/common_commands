@@ -14,4 +14,5 @@ GROUP: my-console-consumer
 TOPIC: test-topic
 PARTITION: 0
 CURRENT-OFFSET: 5
+LOG-END-OFFSET: 5
 
