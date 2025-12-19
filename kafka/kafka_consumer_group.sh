@@ -18,4 +18,5 @@ LOG-END-OFFSET: 5
 LAG: 0
 CONSUMER-ID: consumer-1
 HOST: /127.0.0.1 
+CLIENT-ID: consumer-1
 
