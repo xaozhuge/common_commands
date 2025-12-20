@@ -22,4 +22,5 @@ CLIENT-ID: consumer-1
 
 # CURRENT-OFFSET: 消费者当前消费到的位置
 # LOG-END-OFFSET: 分区中最新消息的位置
+# LAG: 滞后量, 即未消费的消息数. 这是监控消费健康度的关键指标
 
