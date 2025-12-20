@@ -21,4 +21,5 @@ HOST: /127.0.0.1
 CLIENT-ID: consumer-1
 
 # CURRENT-OFFSET: 消费者当前消费到的位置
+# LOG-END-OFFSET: 分区中最新消息的位置
 
