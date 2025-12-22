@@ -35,4 +35,10 @@ $KAFKA_HOME/bin/kafka-consumer-groups.sh --reset-offsets \
   --execute
 
 # 将偏移量重置到最新的位置(跳过所有积压消息)
+$KAFKA_HOME/bin/kafka-consumer-groups.sh --reset-offsets \
+  --bootstrap-server localhost:9092 \
+  --group my-group \
+  --topic test-topic \
+  --to-latest \
+  --execute
 
