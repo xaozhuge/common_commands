@@ -27,4 +27,10 @@ CLIENT-ID: consumer-1
 # 3. 重置消费者组偏移量
 # 常用于重新消费数据或跳过一些问题消息
 # 将偏移量重置到最早的位置
+$KAFKA_HOME/bin/kafka-consumer-groups.sh --reset-offsets \
+  --bootstrap-server localhost:9092 \
+  --group my-group \
+  --topic test-topic \
+  --to-earliest \
+  --execute
 
