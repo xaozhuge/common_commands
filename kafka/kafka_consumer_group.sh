@@ -34,3 +34,5 @@ $KAFKA_HOME/bin/kafka-consumer-groups.sh --reset-offsets \
   --to-earliest \
   --execute
 
+# 将偏移量重置到最新的位置(跳过所有积压消息)
+
