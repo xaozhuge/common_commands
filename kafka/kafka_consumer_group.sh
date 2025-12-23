@@ -44,4 +44,10 @@ $KAFKA_HOME/bin/kafka-consumer-groups.sh --reset-offsets \
 
 # 将偏移量重置到特定位置
 # 指定主题的0号分区
+$KAFKA_HOME/bin/kafka-consumer-groups.sh --reset-offsets \
+  --bootstrap-server localhost:9092 \
+  --group my-group \
+  --topic test-topic:0 \
+  --to-offset 100 \
+  --execute
 
