@@ -42,3 +42,5 @@ $KAFKA_HOME/bin/kafka-consumer-groups.sh --reset-offsets \
   --to-latest \
   --execute
 
+# 将偏移量重置到特定位置
+
