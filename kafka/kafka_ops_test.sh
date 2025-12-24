@@ -27,4 +27,10 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh \
 
 # 3. ​性能测试 - Kafka自带性能测试工具
 # 生产者性能测试: 每秒发送100万条消息, 每条1KB, 共发送5000万条
+$KAFKA_HOME/bin/kafka-producer-perf-test.sh \
+  --topic test-perf \
+  --num-records 50000000 \
+  --record-size 1024 \
+  --throughput 1000000 \
+  --producer-props bootstrap.servers=localhost:9092
 
