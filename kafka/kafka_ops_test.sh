@@ -25,3 +25,5 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh \
   --topic test-topic \
   --group my-console-consumer-group
 
+# 3. ​性能测试 - Kafka自带性能测试工具
+
