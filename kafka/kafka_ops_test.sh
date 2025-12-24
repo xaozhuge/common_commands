@@ -26,4 +26,5 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh \
   --group my-console-consumer-group
 
 # 3. ​性能测试 - Kafka自带性能测试工具
+# 生产者性能测试: 每秒发送100万条消息, 每条1KB, 共发送5000万条
 
