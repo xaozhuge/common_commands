@@ -14,4 +14,5 @@ db.表名.insertOne({
 })
 
 # 5. 显示所有数据库
+show dbs
 
