@@ -17,4 +17,5 @@ db.表名.insertOne({
 show dbs
 
 # 6. 切换至指定数据库, 不存在则创建
+use <数据库名>
 
