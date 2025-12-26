@@ -20,4 +20,5 @@ show dbs
 use <数据库名>
 
 # 7. 显示当前数据库中的所有集合
+show collections
 
