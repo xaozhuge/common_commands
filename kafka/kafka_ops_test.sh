@@ -40,3 +40,5 @@ $KAFKA_HOME/bin/kafka-consumer-perf-test.sh \
   --broker-list localhost:9092 \
   --messages 50000000
 
+# 4. 导出/导入镜像(Dump Log)
+
