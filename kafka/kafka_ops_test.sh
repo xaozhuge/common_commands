@@ -34,3 +34,5 @@ $KAFKA_HOME/bin/kafka-producer-perf-test.sh \
   --throughput 1000000 \
   --producer-props bootstrap.servers=localhost:9092
 
+# 消费者性能测试
+
