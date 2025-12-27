@@ -35,4 +35,8 @@ $KAFKA_HOME/bin/kafka-producer-perf-test.sh \
   --producer-props bootstrap.servers=localhost:9092
 
 # 消费者性能测试
+$KAFKA_HOME/bin/kafka-consumer-perf-test.sh \
+  --topic test-perf \
+  --broker-list localhost:9092 \
+  --messages 50000000
 
