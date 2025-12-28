@@ -42,4 +42,5 @@ $KAFKA_HOME/bin/kafka-consumer-perf-test.sh \
 
 # 4. 导出/导入镜像(Dump Log)
 # 查看主题底层日志文件的内容
+# 将主题消息导出到文件
 
