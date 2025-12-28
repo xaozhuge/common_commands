@@ -41,4 +41,5 @@ $KAFKA_HOME/bin/kafka-consumer-perf-test.sh \
   --messages 50000000
 
 # 4. 导出/导入镜像(Dump Log)
+# 查看主题底层日志文件的内容
 
