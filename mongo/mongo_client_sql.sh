@@ -23,4 +23,5 @@ use <数据库名>
 show collections
 
 # 8. 查询集合中的所有文档
+db.<集合名>.find()
 
