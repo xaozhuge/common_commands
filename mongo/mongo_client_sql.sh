@@ -25,3 +25,5 @@ show collections
 # 8. 查询集合中的所有文档
 db.<集合名>.find()
 
+# 8. 带条件查询, 例如 db.users.find({age: 25})
+
