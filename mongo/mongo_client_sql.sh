@@ -26,4 +26,5 @@ show collections
 db.<集合名>.find()
 
 # 8. 带条件查询, 例如 db.users.find({age: 25})
+db.<集合名>.find({<字段名>: <值>})
 
