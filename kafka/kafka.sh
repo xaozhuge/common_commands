@@ -5,3 +5,5 @@
 # 5. 查看所有消费组详情
 ./kafka-consumer-groups.sh --bootstrap-server 173.16.0.62:9092 --describe --all-groups
 
+# 二、常用配置与监控
+
