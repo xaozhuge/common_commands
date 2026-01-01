@@ -6,4 +6,5 @@
 ./kafka-consumer-groups.sh --bootstrap-server 173.16.0.62:9092 --describe --all-groups
 
 # 二、常用配置与监控
+# 1. 关键服务器配置(server.properties)
 
