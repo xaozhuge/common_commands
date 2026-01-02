@@ -8,4 +8,5 @@
 # 二、常用配置与监控
 # 1. 关键服务器配置(server.properties)
 listeners: 监听地址
+log.dirs: 日志(消息)存储目录
 
