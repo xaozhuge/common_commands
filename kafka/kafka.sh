@@ -10,4 +10,5 @@
 listeners: 监听地址
 log.dirs: 日志(消息)存储目录
 num.partitions: 创建主题时默认的分区数
+default.replication.factor: 默认的副本因子
 
