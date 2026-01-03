@@ -14,4 +14,5 @@ default.replication.factor: 默认的副本因子
 auto.create.topics.enable: 是否自动创建主题(生产环境建议关闭)
 
 # 2. 监控
+滞后量: 使用 kafka-consumer-groups.sh 定期检查 LAG
 
