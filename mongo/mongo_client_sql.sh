@@ -44,4 +44,5 @@ db.<集合名>.updateOne({<过滤条件>}, {$set: {<更新内容>}})
 db.<集合名>.deleteOne({<过滤条件>})
 
 # 14. 分页的第一页
+db.collection.find().skip(0).limit(50)
 
