@@ -47,4 +47,5 @@ db.<集合名>.deleteOne({<过滤条件>})
 db.collection.find().skip(0).limit(50)
 
 # 分页的第二页
+db.collection.find().skip(50).limit(50)
 
