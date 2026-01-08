@@ -5,3 +5,5 @@ show dbs
 # 2. 切换到指定数据库(不存在则自动创建)
 use database_name
 
+# 3. 查看当前数据库
+
