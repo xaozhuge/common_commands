@@ -8,3 +8,5 @@ use database_name
 # 3. 查看当前数据库
 db
 
+# 4. 查看当前数据库名称
+
