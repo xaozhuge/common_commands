@@ -6,4 +6,5 @@ show dbs
 use database_name
 
 # 3. 查看当前数据库
+db
 
