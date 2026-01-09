@@ -9,4 +9,5 @@ use database_name
 db
 
 # 4. 查看当前数据库名称
+db.getName()
 
