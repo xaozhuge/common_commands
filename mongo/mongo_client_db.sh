@@ -12,4 +12,5 @@ db
 db.getName()
 
 # 5. 查看数据库状态信息
+db.stats()
 
