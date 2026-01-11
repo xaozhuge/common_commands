@@ -18,4 +18,5 @@ db.stats()
 db.version()
 
 # 7. 删除当前数据库
+db.dropDatabase()
 
