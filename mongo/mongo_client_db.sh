@@ -15,4 +15,5 @@ db.getName()
 db.stats()
 
 # 6. 查看数据库版本
+db.version()
 
