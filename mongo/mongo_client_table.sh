@@ -2,3 +2,5 @@
 # 1. 查看所有集合
 show collections
 
+# 2. 创建集合
+
