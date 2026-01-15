@@ -5,4 +5,5 @@ docker-compose up -d
 docker-compose up --build
 
 # 3. 停止并删除容器、网络
+docker-compose down
 
