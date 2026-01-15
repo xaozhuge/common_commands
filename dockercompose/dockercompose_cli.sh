@@ -2,4 +2,5 @@
 docker-compose up -d
 
 # 2. 重新构建镜像并启动
+docker-compose up --build
 
