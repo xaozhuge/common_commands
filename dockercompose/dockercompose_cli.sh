@@ -7,3 +7,5 @@ docker-compose up --build
 # 3. 停止并删除容器、网络
 docker-compose down
 
+# 4. 同时删除数据卷
+
