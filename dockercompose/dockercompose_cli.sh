@@ -10,3 +10,5 @@ docker-compose down
 # 4. 同时删除数据卷
 docker-compose down --volumes 
 
+# 5. 列出所有容器状态
+
