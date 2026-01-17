@@ -14,4 +14,5 @@ docker-compose down --volumes
 docker-compose ps
 
 # 6. 实时查看日志
+docker-compose logs -f
 
