@@ -13,3 +13,5 @@ docker-compose down --volumes
 # 5. 列出所有容器状态
 docker-compose ps
 
+# 6. 实时查看日志
+
