@@ -11,4 +11,5 @@ docker-compose down
 docker-compose down --volumes 
 
 # 5. 列出所有容器状态
+docker-compose ps
 
