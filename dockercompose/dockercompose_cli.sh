@@ -19,3 +19,5 @@ docker-compose logs -f
 # 7. 启动已停止的容器
 docker-compose start
 
+# 8. 停止运行中的容器
+
