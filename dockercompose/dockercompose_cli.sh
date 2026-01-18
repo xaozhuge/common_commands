@@ -17,4 +17,5 @@ docker-compose ps
 docker-compose logs -f
 
 # 7. 启动已停止的容器
+docker-compose start
 
