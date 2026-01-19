@@ -20,4 +20,5 @@ docker-compose logs -f
 docker-compose start
 
 # 8. 停止运行中的容器
+docker-compose stop
 
