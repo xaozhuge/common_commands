@@ -23,4 +23,5 @@ docker-compose start
 docker-compose stop
 
 # 9. 重启服务
+docker-compose restart
 
