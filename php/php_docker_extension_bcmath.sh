@@ -5,3 +5,5 @@ docker exec -it php56_c /bin/bash
 # 2. 安装 bcmath 扩展
 docker-php-ext-install bcmath
 
+# 3. 重启php-fpm
+
