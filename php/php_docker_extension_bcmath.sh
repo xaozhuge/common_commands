@@ -2,3 +2,5 @@
 # 1. 登录容器
 docker exec -it php56_c /bin/bash
 
+# 2. 安装 bcmath 扩展
+
