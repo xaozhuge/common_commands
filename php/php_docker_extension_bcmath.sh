@@ -6,4 +6,5 @@ docker exec -it php56_c /bin/bash
 docker-php-ext-install bcmath
 
 # 3. 重启php-fpm
+pkill -USR2 php-fpm
 
