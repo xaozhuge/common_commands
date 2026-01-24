@@ -27,4 +27,5 @@ docker-compose restart
 
 # 10. 进入容器
 # 进入web服务的容器
+docker-compose exec web bash
 
