@@ -29,3 +29,5 @@ docker-compose restart
 # 进入web服务的容器
 docker-compose exec web bash
 
+# 11. 构建镜像
+
