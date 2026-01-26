@@ -4,4 +4,5 @@ curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/3.1.3.
 
 # 2. 解压缩
 tar xfz /tmp/redis.tar.gz
+# 删除不用的压缩包
 
