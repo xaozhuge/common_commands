@@ -7,3 +7,5 @@ tar xfz /tmp/redis.tar.gz
 # 删除不用的压缩包
 rm -r /tmp/redis.tar.gz
 
+# 3. 新建扩展存储目录
+
