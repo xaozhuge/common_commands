@@ -8,4 +8,5 @@ tar xfz /tmp/redis.tar.gz
 rm -r /tmp/redis.tar.gz
 
 # 3. 新建扩展存储目录
+mkdir -p /usr/src/php/ext
 
