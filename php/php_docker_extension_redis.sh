@@ -14,4 +14,5 @@ mkdir -p /usr/src/php/ext
 mv phpredis-3.1.3 /usr/src/php/ext/redis
 
 # 5. 使用 docker-php-ext-install 安装扩展
+docker-php-ext-install redis
 
