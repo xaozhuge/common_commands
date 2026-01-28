@@ -13,3 +13,5 @@ mkdir -p /usr/src/php/ext
 # 4. 移动文件夹到指定位置
 mv phpredis-3.1.3 /usr/src/php/ext/redis
 
+# 5. 使用 docker-php-ext-install 安装扩展
+
