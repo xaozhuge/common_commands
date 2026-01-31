@@ -32,4 +32,5 @@ docker-compose exec web bash
 # 11. 构建镜像
 # 构建所有服务镜像
 docker-compose build
+# 不使用缓存构建
 
