@@ -35,3 +35,5 @@ docker-compose build
 # 不使用缓存构建
 docker-compose build --no-cache
 
+# 12. 拉取所有服务依赖的镜像
+
