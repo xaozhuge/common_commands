@@ -33,4 +33,5 @@ docker-compose exec web bash
 # 构建所有服务镜像
 docker-compose build
 # 不使用缓存构建
+docker-compose build --no-cache
 
