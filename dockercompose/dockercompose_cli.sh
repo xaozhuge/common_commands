@@ -36,4 +36,5 @@ docker-compose build
 docker-compose build --no-cache
 
 # 12. 拉取所有服务依赖的镜像
+docker-compose pull
 
