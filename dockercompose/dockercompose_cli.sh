@@ -39,4 +39,5 @@ docker-compose build --no-cache
 docker-compose pull
 
 # 13. 验证docker-compose.yml文件语法
+docker-compose config
 
