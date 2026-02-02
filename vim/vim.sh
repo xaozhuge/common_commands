@@ -5,3 +5,7 @@
 touch ~/.vimrc
 echo ": set  encoding=utf-8" >>  ~/.vimrc
 
+
+# 一、问题
+vim 打开时乱码，cat 打击时不乱码
+
