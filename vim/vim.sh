@@ -9,3 +9,7 @@ echo ": set  encoding=utf-8" >>  ~/.vimrc
 # 一、问题
 vim 打开时乱码，cat 打击时不乱码
 
+# 二、处理方式
+# 1. 打开  ~/.vimrc
+sudo vim ~/.vimrc
+
