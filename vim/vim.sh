@@ -13,3 +13,7 @@ vim 打开时乱码，cat 打击时不乱码
 # 1. 打开  ~/.vimrc
 sudo vim ~/.vimrc
 
+# 2. 增加以下配置
+# 设置 Vim 内部使用 UTF-8 编码, 兼容性最好
+set encoding=utf-8
+
