@@ -16,4 +16,5 @@ sudo vim ~/.vimrc
 # 2. 增加以下配置
 # 设置 Vim 内部使用 UTF-8 编码, 兼容性最好
 set encoding=utf-8
+# 设置自动编码探测顺序, 将严格的编码放前面
 
