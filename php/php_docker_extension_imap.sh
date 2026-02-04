@@ -3,3 +3,5 @@ apk update
 
 apk add --no-cache imap-dev krb5-dev openssl-dev
 
+docker-php-ext-configure imap --with-kerberos --with-imap-ssl
+
