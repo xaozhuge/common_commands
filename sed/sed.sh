@@ -21,4 +21,5 @@ sed -i 's#before#after#g' 文件名
 
 # 一、查看
 # 1. 查看第440行到445行的内容
+sed -n '440,445p' your_file.txt
 
