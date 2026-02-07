@@ -41,3 +41,5 @@ docker-compose pull
 # 13. 验证docker-compose.yml文件语法
 docker-compose config
 
+# 二、常用参数说明
+
