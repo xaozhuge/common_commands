@@ -44,3 +44,5 @@ docker-compose config
 # 二、常用参数说明
 # -d: 后台运行(detached模式)
 
+# --build: 启动前重新构建镜像
+
