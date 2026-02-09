@@ -8,4 +8,5 @@ mysqldump -u 账号 -p 数据库 数据表 > 数据表.sql
 # 3. 注意: 通过不使用 --databases 参数, 导出的 SQL 文件将不包含 CREATE DATABASE 和 USE 语句
 /data/server/mysql/bin/mysqldump -u username -p database_name > backup.sql	
 # 对比使用 --databases
+/data/server/mysql/bin/mysqldump -u username -p --databases database_name > backup.sql
 
