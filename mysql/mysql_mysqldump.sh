@@ -10,3 +10,6 @@ mysqldump -u 账号 -p 数据库 数据表 > 数据表.sql
 # 对比使用 --databases
 /data/server/mysql/bin/mysqldump -u username -p --databases database_name > backup.sql
 
+# 4. 一个常见的"坑"
+# 请注意, 如果备份时使用了 --databases 参数, 生成的 SQL 文件内会包含 USE database_name 语句
+
