@@ -46,3 +46,5 @@ docker-compose config
 
 # --build: 启动前重新构建镜像
 
+# --force-recreate: 强制重新创建容器
+
