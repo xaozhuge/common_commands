@@ -50,3 +50,5 @@ docker-compose config
 
 # --volumes: 删除数据卷
 
+# --no-cache: 构建时不使用缓存
+
