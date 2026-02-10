@@ -48,3 +48,5 @@ docker-compose config
 
 # --force-recreate: 强制重新创建容器
 
+# --volumes: 删除数据卷
+
