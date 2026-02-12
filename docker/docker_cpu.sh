@@ -4,4 +4,5 @@ eg: --cpus=1.5
 
 # 2. --cpu-shares
 # 设置 CPU 权重(相对值, 默认 1024) 仅在 CPU 资源紧张时按比例分配
+--cpu-shares=512
 
