@@ -2,3 +2,5 @@
 # 1. --cpus: 限制容器可使用的 CPU 核心数(支持小数)
 eg: --cpus=1.5
 
+# 2. --cpu-shares
+
