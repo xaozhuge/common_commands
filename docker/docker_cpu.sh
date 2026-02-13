@@ -8,4 +8,5 @@ eg: --cpus=1.5
 
 # 3. --cpuset-cpus
 # 绑定容器到指定的 CPU 核心(CPU 亲和性)
+--cpuset-cpus="0,1"
 
