@@ -7,4 +7,5 @@ eg: --cpus=1.5
 --cpu-shares=512
 
 # 3. --cpuset-cpus
+# 绑定容器到指定的 CPU 核心(CPU 亲和性)
 
