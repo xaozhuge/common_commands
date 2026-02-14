@@ -11,4 +11,5 @@ eg: --cpus=1.5
 --cpuset-cpus="0,1"
 
 # 4. --cpu-period / --cpu-quota
+# 通过 CFS 调度器限制 CPU 时间配额(微秒)
 
