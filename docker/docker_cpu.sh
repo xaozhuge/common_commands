@@ -10,3 +10,5 @@ eg: --cpus=1.5
 # 绑定容器到指定的 CPU 核心(CPU 亲和性)
 --cpuset-cpus="0,1"
 
+# 4. --cpu-period / --cpu-quota
+
