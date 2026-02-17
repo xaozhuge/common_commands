@@ -24,3 +24,5 @@ eg: --cpus=1.5
 # 限制内存 + 交换空间（Swap）的总量
 --memory-swap=1g
 
+# 3. --memory-reservation
+
