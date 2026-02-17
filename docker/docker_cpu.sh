@@ -21,4 +21,5 @@ eg: --cpus=1.5
 -m 512m
 
 # 2. --memory-swap
+# 限制内存 + 交换空间（Swap）的总量
 
