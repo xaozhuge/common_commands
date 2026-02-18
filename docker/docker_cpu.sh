@@ -26,4 +26,5 @@ eg: --cpus=1.5
 
 # 3. --memory-reservation
 # 设置内存软限制（系统紧张时的目标值）
+--memory-reservation=256m
 
