@@ -34,4 +34,5 @@ docker run -d \
   --name my-container \
   # 限制使用 1.5 个 CPU 核心
   --cpus=1.5 \           
+  # 限制物理内存为 512MB
 
