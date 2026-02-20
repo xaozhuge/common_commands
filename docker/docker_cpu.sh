@@ -32,4 +32,5 @@ eg: --cpus=1.5
 # 以下是一个同时限制 CPU 和内存的启动命令示例
 docker run -d \
   --name my-container \
+  # 限制使用 1.5 个 CPU 核心
 
