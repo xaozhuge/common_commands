@@ -37,4 +37,5 @@ docker run -d \
   # 限制物理内存为 512MB
   -m 512m \              
   # 限制总内存（含 Swap）为 1GB
+  --memory-swap=1g \     
 
