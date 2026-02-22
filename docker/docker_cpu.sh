@@ -38,4 +38,5 @@ docker run -d \
   -m 512m \              
   # 限制总内存（含 Swap）为 1GB
   --memory-swap=1g \     
+  nginx:latest
 
