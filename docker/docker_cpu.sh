@@ -41,4 +41,5 @@ docker run -d \
   nginx:latest
 
 # 二、注意事项
+# 1. 内存 Swap 规则
 
