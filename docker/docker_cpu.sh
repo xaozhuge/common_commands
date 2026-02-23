@@ -45,3 +45,5 @@ docker run -d \
 # 如果只设置 -m而不设置 --memory-swap, 默认 Swap 限制等于内存限制（即禁用 Swap）
 # 如果设置 --memory-swap=-1，则表示不限制 Swap 使用
 
+# 2. CPU 权重
+
