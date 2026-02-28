@@ -2,4 +2,5 @@
 openclaw gateway restart
 
 # 2. 以命令行方式启动
+openclaw tui
 
