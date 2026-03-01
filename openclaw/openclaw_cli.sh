@@ -10,3 +10,5 @@ openclaw dashboard
 # 4. 重新配置
 openclaw onboard
 
+# 5. 显示申请的设备列表
+
