@@ -8,4 +8,5 @@ openclaw tui
 openclaw dashboard
 
 # 4. 重新配置
+openclaw onboard
 
