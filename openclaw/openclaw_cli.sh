@@ -7,3 +7,5 @@ openclaw tui
 # 3. 以网页的形式打开
 openclaw dashboard
 
+# 4. 重新配置
+
