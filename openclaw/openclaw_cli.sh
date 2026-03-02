@@ -14,4 +14,5 @@ openclaw onboard
 openclaw devices list
 
 # 6. 通过指定的设备
+openclaw devices approve <device-id>
 
