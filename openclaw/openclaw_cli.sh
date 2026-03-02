@@ -13,3 +13,5 @@ openclaw onboard
 # 5. 显示申请的设备列表
 openclaw devices list
 
+# 6. 通过指定的设备
+
