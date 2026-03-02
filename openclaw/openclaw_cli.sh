@@ -11,4 +11,5 @@ openclaw dashboard
 openclaw onboard
 
 # 5. 显示申请的设备列表
+openclaw devices list
 
