@@ -16,3 +16,5 @@ openclaw devices list
 # 6. 通过指定的设备
 openclaw devices approve <device-id>
 
+# 7. openclaw的配置文件 openclaw.json
+
