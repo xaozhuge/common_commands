@@ -18,4 +18,5 @@ openclaw devices approve <device-id>
 
 # 7. openclaw的配置文件 openclaw.json
 sudo vi ~/.openclaw/openclaw.json
+sublime ~/.openclaw/openclaw.json
 
