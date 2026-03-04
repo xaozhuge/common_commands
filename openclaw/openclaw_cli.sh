@@ -20,3 +20,5 @@ openclaw devices approve <device-id>
 sudo vi ~/.openclaw/openclaw.json
 sublime ~/.openclaw/openclaw.json
 
+# 8. 查看 gateway 的日志
+
