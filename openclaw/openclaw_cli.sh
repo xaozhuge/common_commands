@@ -23,3 +23,5 @@ sublime ~/.openclaw/openclaw.json
 # 8. 查看 gateway 的日志
 tail -f ~/.openclaw/logs/gateway.log
 
+# 9. skills的地址
+
