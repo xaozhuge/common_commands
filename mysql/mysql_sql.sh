@@ -3,6 +3,7 @@ SELECT * FROM information_schema.processlist order by TIME desc;
 SELECT * FROM information_schema.processlist order by TIME desc\G;
 kill id
 SELECT * FROM information_schema.processlist where info <> ''  order by TIME desc
+SELECT * FROM information_schema.processlist where info <> '' and time > 10 order by TIME desc \G;
 
 # 2. 查询表的所有字段
 SELECT GROUP_CONCAT(column_name) FROM information_schema. COLUMNS where table_name = ''
