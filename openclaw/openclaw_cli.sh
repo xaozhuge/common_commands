@@ -24,4 +24,5 @@ sublime ~/.openclaw/openclaw.json
 tail -f ~/.openclaw/logs/gateway.log
 
 # 9. skills的地址
+https://clawhub.ai/
 
