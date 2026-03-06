@@ -27,4 +27,5 @@ tail -f ~/.openclaw/logs/gateway.log
 https://clawhub.ai/
 
 # 10. 检查配置文件有没有问题, 有问题会直接报错
+openclaw config validate
 
