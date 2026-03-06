@@ -6,6 +6,7 @@ openclaw tui
 
 # 3. 以网页的形式打开
 openclaw dashboard
+# 输出网页打开的地址, 浏览器不打开
 
 # 4. 重新配置
 openclaw onboard
