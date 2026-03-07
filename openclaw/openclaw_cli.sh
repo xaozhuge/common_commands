@@ -1,5 +1,6 @@
 # 1. 重启网关
 openclaw gateway restart
+# 后台启动网关守护进程
 
 # 2. 以命令行方式启动
 openclaw tui
