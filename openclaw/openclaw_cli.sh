@@ -4,6 +4,8 @@ openclaw gateway restart
 openclaw gateway start
 # 终止网关进程
 openclaw gateway stop
+# 查看网关运行状态
+openclaw gateway status
 
 # 2. 以命令行方式启动
 openclaw tui
