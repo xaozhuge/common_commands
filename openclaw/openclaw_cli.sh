@@ -37,3 +37,5 @@ https://clawhub.ai/
 # 10. 检查配置文件有没有问题, 有问题会直接报错
 openclaw config validate
 
+# 11. 生成默认工作区目录 ~/.openclaw/
+
