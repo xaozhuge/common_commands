@@ -40,3 +40,5 @@ openclaw config validate
 # 11. 生成默认工作区目录 ~/.openclaw/
 openclaw init
 
+# 12. 重置配置文件（保留会话和凭证） 
+
