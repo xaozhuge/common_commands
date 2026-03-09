@@ -38,4 +38,5 @@ https://clawhub.ai/
 openclaw config validate
 
 # 11. 生成默认工作区目录 ~/.openclaw/
+openclaw init
 
