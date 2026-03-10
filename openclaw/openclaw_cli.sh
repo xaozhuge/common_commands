@@ -41,4 +41,5 @@ openclaw config validate
 openclaw init
 
 # 12. 重置配置文件（保留会话和凭证） 
+openclaw reset --scope config
 
