@@ -44,4 +44,5 @@ openclaw init
 openclaw reset --scope config
 
 # 13. openclaw 安装 mcporter
+clawhub install mcporter
 
