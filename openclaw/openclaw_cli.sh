@@ -46,4 +46,5 @@ openclaw reset --scope config
 # 13. openclaw 安装 mcporter
 clawhub install mcporter
 # 如果频率限制, 下载zip包
+打开网站 https://clawhub.ai/steipete/mcporter 下载 zip 包
 
