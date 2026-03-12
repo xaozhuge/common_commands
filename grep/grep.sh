@@ -42,3 +42,5 @@ grep -l keywords
 # 统计匹配的行数(非次数)
 grep -c "pattern" file.txt
 
+# 12. -E: 支持正则表达式的
+
