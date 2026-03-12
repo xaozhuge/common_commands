@@ -44,4 +44,5 @@ grep -c "pattern" file.txt
 
 # 12. -E: 支持正则表达式的
 # 匹配包含 name 或者 description 或者 tools
+cat SKILL.md|grep -E 'name|description|tools'
 
