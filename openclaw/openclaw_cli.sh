@@ -48,4 +48,5 @@ clawhub install mcporter
 # 如果频率限制, 下载zip包
 打开网站 https://clawhub.ai/steipete/mcporter 下载 zip 包
 # 然后让openclaw 安装本地的技能
+安装技能  ~/Downloads/mcporter-1.0.0.zip
 
