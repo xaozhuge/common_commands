@@ -50,3 +50,5 @@ clawhub install mcporter
 # 然后让openclaw 安装本地的技能
 安装技能  ~/Downloads/mcporter-1.0.0.zip
 
+# 14. 模拟运行清理旧的、不活跃的sessions
+
