@@ -55,4 +55,5 @@ clawhub install mcporter
 openclaw sessions cleanup --dry-run
 
 # 真正执行清理, 清理（删除）旧的、不活跃的 sessions
+openclaw sessions cleanup
 
