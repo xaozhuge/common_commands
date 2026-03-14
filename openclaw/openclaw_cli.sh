@@ -54,3 +54,5 @@ clawhub install mcporter
 # --dry-run: 模拟运行 - 只显示会删除哪些 sessions，实际不执行删除
 openclaw sessions cleanup --dry-run
 
+# 真正执行清理, 清理（删除）旧的、不活跃的 sessions
+
