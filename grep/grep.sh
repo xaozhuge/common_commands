@@ -46,4 +46,5 @@ grep -c "pattern" file.txt
 # 匹配包含 name 或者 description 或者 tools
 # grep -E 'name|description|tools' 文件名, 利用扩展正则的 | 实现多关键词 “或” 匹配
 cat SKILL.md|grep -E 'name|description|tools'
+# 若不使用 -E, 需将 | 转义为 \|
 
