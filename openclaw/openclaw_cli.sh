@@ -58,4 +58,5 @@ openclaw sessions cleanup --dry-run
 openclaw sessions cleanup
 
 # 15. 模型列表
+openclaw models list
 
