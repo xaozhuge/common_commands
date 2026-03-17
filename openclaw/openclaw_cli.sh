@@ -63,3 +63,5 @@ openclaw models list
 # 16. 测试模型（真实发请求，会消耗Token产生费用）
 clawdbot models status --probe
 
+# 17. 网易的有道龙虾
+
