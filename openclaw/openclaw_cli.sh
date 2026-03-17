@@ -64,4 +64,5 @@ openclaw models list
 clawdbot models status --probe
 
 # 17. 网易的有道龙虾
+https://lobsterai.youdao.com/#/download-list
 
