@@ -2,4 +2,5 @@
 https://mac.getutm.app/
 
 # 2. 根据 mac 的版本下载mac的镜像
+# 2.1 确认mac的系统版本
 
