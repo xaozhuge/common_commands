@@ -6,6 +6,7 @@ openclaw gateway start
 openclaw gateway stop
 # 查看网关运行状态
 openclaw gateway status
+# 查看当前版本
 
 # 2. 以命令行方式启动
 openclaw tui
