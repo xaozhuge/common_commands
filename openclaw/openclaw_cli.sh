@@ -18,6 +18,7 @@ openclaw dashboard
 openclaw dashboard --no-open
 
 # 4. 重新配置
+# 交互式初始化配置（选择模型、API Key、消息渠道）
 openclaw onboard
 
 # 5. 显示申请的设备列表
