@@ -70,4 +70,5 @@ clawdbot models status --probe
 https://lobsterai.youdao.com/#/download-list
 
 # 18. 非交互式设置配置项
+openclaw config set<路径> <值>
 
