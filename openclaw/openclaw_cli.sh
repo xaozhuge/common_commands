@@ -69,3 +69,5 @@ clawdbot models status --probe
 # 17. 网易的有道龙虾
 https://lobsterai.youdao.com/#/download-list
 
+# 18. 非交互式设置配置项
+
