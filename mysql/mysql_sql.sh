@@ -21,4 +21,5 @@ SELECT COLUMN_NAME,COLUMN_COMMENT FROM information_schema.COLUMNS WHERE TABLE_SC
 select JSON_EXTRACT(field_name, '$.json_fieldname') as aliasname
 
 # 7. 将结果转化为in的语句可用
+# 查看 group_concat_max_len 长度
 
