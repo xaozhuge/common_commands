@@ -20,6 +20,5 @@ SELECT COLUMN_NAME,COLUMN_COMMENT FROM information_schema.COLUMNS WHERE TABLE_SC
 # 6. 字段为json
 select JSON_EXTRACT(field_name, '$.json_fieldname') as aliasname
 
-
-
+# 7. 将结果转化为in的语句可用
 
