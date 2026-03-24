@@ -23,4 +23,5 @@ select JSON_EXTRACT(field_name, '$.json_fieldname') as aliasname
 # 7. 将结果转化为in的语句可用
 # 查看 group_concat_max_len 长度
 show variables like '%group_concat_max_len%'
+# 临时扩大 GROUP_CONCAT 长度限制（建议设为 1000000 或更大）
 
