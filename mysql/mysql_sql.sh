@@ -26,4 +26,5 @@ show variables like '%group_concat_max_len%'
 # 临时扩大 GROUP_CONCAT 长度限制（建议设为 1000000 或更大）
 SET SESSION group_concat_max_len = 1000000;
 # 查询的结果用引号和括号拼接
+SELECT CONCAT('("', GROUP_CONCAT(字段名 SEPARATOR '","'), '")') AS name_list FROM 表名;
 
