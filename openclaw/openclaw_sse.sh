@@ -13,4 +13,5 @@
 # 2. SSE调用openclaw
 # IP和端口变量: 192.168.0.10:18789
 # token变量: Authorization: Bearer token
+# session变量: x-openclaw-session-key
 
