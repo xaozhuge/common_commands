@@ -22,3 +22,5 @@ curl -N http://192.168.0.10:18789/v1/chat/completions \
  -H 'x-openclaw-session-key: my_session_abc' \
  -d '{"model": "openclaw", "stream": true, "messages": [{"role":"user", "content":"9+10"} ]}'
 
+# 3. 相同x-openclaw-session-key, 代表追问逻辑, 可以拿上一步的结果+10
+
