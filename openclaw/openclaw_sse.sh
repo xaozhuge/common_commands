@@ -23,4 +23,10 @@ curl -N http://192.168.0.10:18789/v1/chat/completions \
  -d '{"model": "openclaw", "stream": true, "messages": [{"role":"user", "content":"9+10"} ]}'
 
 # 3. 相同x-openclaw-session-key, 代表追问逻辑, 可以拿上一步的结果+10
+curl -N http://192.168.0.10:18789/v1/chat/completions \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer token' \
+ -H 'x-openclaw-agent-id: main' \
+ -H 'x-openclaw-session-key: my_session_abc' \
+ -d '{"model": "openclaw", "stream": true, "messages": [{"role":"user","content":"再加10"} ]}'
 
