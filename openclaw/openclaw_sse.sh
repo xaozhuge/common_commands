@@ -15,4 +15,10 @@
 # token变量: Authorization: Bearer token
 # session变量: x-openclaw-session-key
 # 内容变量: "content":"9+10"
+curl -N http://192.168.0.10:18789/v1/chat/completions \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer token' \
+ -H 'x-openclaw-agent-id: main' \
+ -H 'x-openclaw-session-key: my_session_abc' \
+ -d '{"model": "openclaw", "stream": true, "messages": [{"role":"user", "content":"9+10"} ]}'
 
