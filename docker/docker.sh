@@ -26,4 +26,5 @@ overlay2: 存储Docker镜像的层(layer)和容器的写层(diff)
 containers: 存放每个容器的运行时信息和日志
 image: 镜像的 元数据、分层信息索引​ 等
 volumes: 所有 命名卷（named volume）​ 的实际数据
+network: 网络相关配置，如 bridge 网桥、网络接口、IPAM 信息等
 
