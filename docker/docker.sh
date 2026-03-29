@@ -29,4 +29,5 @@ volumes: 所有 命名卷（named volume）​ 的实际数据
 network: 网络相关配置，如 bridge 网桥、网络接口、IPAM 信息等
 
 # 9. 查看某个具体容器的详细挂载
+# 可以看到 源路径 和 目标路径
 
