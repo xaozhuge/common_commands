@@ -32,4 +32,9 @@ curl -N http://192.168.0.10:18789/v1/chat/completions \
 
 # 4. 不同x-openclaw-session-key, 代表无追问逻辑，拿不到前面的提问
 # 上一个的res会得到29, 因为19+10。当前的请求res会返回没有前文，不知道+10怎么处理
+curl -N http://192.168.0.10:18789/v1/chat/completions \
+ -H 'Content-Type: application/json' \
+ -H 'Authorization: Bearer token' \
+ -H 'x-openclaw-agent-id: main' \
+ -d '{"model": "openclaw", "stream": true, "messages": [{"role":"user","content":"再加10"} ]}'
 
