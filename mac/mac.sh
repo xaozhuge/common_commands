@@ -10,4 +10,5 @@ launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.php@5.6.plist
 Command + Shift + .​​(句号键)
 
 # 5. 从浏览器下载的文件需要文件校验
+# 通过终端 curl/wget下载的文件不需要文件校验
 
