@@ -9,3 +9,5 @@ launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.php@5.6.plist
 # 所有隐藏文件会立即显示出来, 再次按下相同快捷键可恢复隐藏状态
 Command + Shift + .​​(句号键)
 
+# 5. 从浏览器下载的文件需要文件校验
+
