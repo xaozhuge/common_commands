@@ -32,3 +32,5 @@ network: 网络相关配置，如 bridge 网桥、网络接口、IPAM 信息等
 # 可以看到 源路径 和 目标路径
 docker inspect <container_id_or_name> --format='{{json .Mounts}}'
 
+# 10. 以root权限登录容器
+
