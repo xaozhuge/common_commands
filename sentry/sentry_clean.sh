@@ -1,3 +1,4 @@
 # sentry 数据清理
 # 1. 首先进入postgres容器
+docker exec -it sentry-self-hosted-postgres-1  /bin/bash
 
