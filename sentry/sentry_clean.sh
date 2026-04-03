@@ -3,4 +3,5 @@
 docker exec -it sentry-self-hosted-postgres-1  /bin/bash
 
 # 2. 切换用户
+su postgres
 
