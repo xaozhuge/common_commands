@@ -2,3 +2,5 @@
 # 1. 首先进入postgres容器
 docker exec -it sentry-self-hosted-postgres-1  /bin/bash
 
+# 2. 切换用户
+
