@@ -35,5 +35,6 @@ docker inspect <container_id_or_name> --format='{{json .Mounts}}'
 # 10. 以root权限登录容器
 # docker run: run 是创建新容器
 # docker exec: exec 是操作已启动的容器
+# 0 是 Linux 系统 root（管理员） 的 UID, 代表以 root 权限进入容器
 docker exec -u 0 -it 容器名称 /bin/sh
 
