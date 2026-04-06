@@ -12,3 +12,5 @@
 # 存放所有运行 / 停止容器的配置、日志、hostname、hosts、resolv.conf 等元数据
 # 每个容器一个子目录，以容器 ID 命名。
 
+# 3. image
+
