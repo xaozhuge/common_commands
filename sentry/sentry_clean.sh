@@ -8,3 +8,5 @@ su postgres
 # 3. 进入postgres
 psql
 
+# 4. 查看表数据
+
