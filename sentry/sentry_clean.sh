@@ -6,4 +6,5 @@ docker exec -it sentry-self-hosted-postgres-1  /bin/bash
 su postgres
 
 # 3. 进入postgres
+psql
 
