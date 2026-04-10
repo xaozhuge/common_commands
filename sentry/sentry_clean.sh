@@ -16,3 +16,5 @@ pg_total_relation_size('"' || table_schema || '"."' || table_name || '"') DESC l
 # 5. 查看表结构
 \d public.nodestore_node
 
+# 6. 查看最早的数据
+
