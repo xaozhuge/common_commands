@@ -17,4 +17,5 @@ pg_total_relation_size('"' || table_schema || '"."' || table_name || '"') DESC l
 \d public.nodestore_node
 
 # 6. 查看最早的数据
+select timestamp from public.nodestore_node  order by timestamp asc limit 10;
 
