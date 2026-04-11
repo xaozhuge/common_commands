@@ -7,6 +7,7 @@ gzip 2.php > 2.php.gz
 tar xzf 1.tar.gz
 # 4. gzip 解压缩
 gzip -d 2024-04-11.log.gz
+# .tgz 文件是 .tar.gz 的简写, 本质是 tar 归档 + gzip 压缩, 跨平台通用
 
 # 5. 生成软链接, 路径为绝对路径
 # 为 某一个文件 在 另外一个位置 建立一个同步的链接
