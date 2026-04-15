@@ -4,3 +4,5 @@ command + shift + .
 # 2. 从命令行里打开指定文件(指定目录)的finder
 按照command不松+鼠标点击路径
 
+# 3. 从finder里如何复制路径
+
