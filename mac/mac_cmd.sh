@@ -8,4 +8,5 @@ command + shift + .
 command + option + c
 
 # 4. 命令行里如何进入有空格的文件, 加单引号(双引号)
+cd 'Library/Application Support'
 
