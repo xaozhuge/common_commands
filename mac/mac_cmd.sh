@@ -11,4 +11,5 @@ command + option + c
 cd 'Library/Application Support'
 
 # 5. finder里的前往如何进入有空格的文件
+直接输入有空格的文件就行 Library/Application Support
 
