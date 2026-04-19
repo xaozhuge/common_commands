@@ -5,4 +5,11 @@ sudo vi ~/.openclaw/openclaw.json
 
 # 2. openclaw支持SSE
 # gateway 下增加如下配置
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        }
+      }
+    },
 
