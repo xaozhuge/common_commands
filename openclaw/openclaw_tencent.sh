@@ -13,3 +13,5 @@ sudo vi ~/.openclaw/openclaw.json
       }
     },
 
+# 3. openclaw的SSE支持公网访问
+
