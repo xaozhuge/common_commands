@@ -15,4 +15,5 @@ sudo vi ~/.openclaw/openclaw.json
 
 # 3. openclaw的SSE支持公网访问
 # gateway修改bind的值
+"bind": "loopback",
 
