@@ -9,3 +9,5 @@ curl -N http://127.0.0.1:18789/v1/chat/completions \
  -H 'x-openclaw-agent-id: <变量agent>' \
  -d '{"model": "openclaw", "stream": true, "messages": [{"role":"user","content":"你的worskspace路径是什么"} ]}'
 
+# 3. 查看 ~/.openclaw/openclaw.json 配置
+
