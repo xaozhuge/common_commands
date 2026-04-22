@@ -10,4 +10,16 @@ curl -N http://127.0.0.1:18789/v1/chat/completions \
  -d '{"model": "openclaw", "stream": true, "messages": [{"role":"user","content":"你的worskspace路径是什么"} ]}'
 
 # 3. 查看 ~/.openclaw/openclaw.json 配置
+	"list": [
+      {
+        "id": "main"
+      },
+      {
+        "id": "zzzagent",
+        "name": "zzzagent",
+        "workspace": "/Users/zzz/.openclaw/workspace-zzzagent",
+        "model": "bailian/qwen3.5-plus",
+        "agentDir": "/Users/zzz/.openclaw/agents/zzzagent/agent"
+      }
+    ]
 
