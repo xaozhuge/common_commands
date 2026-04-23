@@ -20,4 +20,5 @@ pg_total_relation_size('"' || table_schema || '"."' || table_name || '"') DESC l
 select timestamp from public.nodestore_node  order by timestamp asc limit 10;
 
 # 7. 利用重命名, 清理数据
+# 将数据表 nodestore_node 改名为 nodestore_node_old
 
