@@ -24,4 +24,5 @@ select timestamp from public.nodestore_node  order by timestamp asc limit 10;
 ALTER TABLE nodestore_node RENAME TO nodestore_node_old;
 
 # 根据旧的表结构 创建新的数据表 nodestore_node
+CREATE TABLE nodestore_node (LIKE nodestore_node_old INCLUDING ALL);
 
