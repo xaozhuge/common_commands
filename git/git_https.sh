@@ -4,4 +4,5 @@
 git config --global credential.helper store
 
 # 2. 密码存在 ~/.git-credentials, 服务器自己用非常安全
+cat ~/.git-credentials
 
