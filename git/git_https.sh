@@ -3,3 +3,5 @@
 # 配置后第一次拉代码: 输一次用户名 + 密码, 之后永远不用再输
 git config --global credential.helper store
 
+# 2. 密码存在 ~/.git-credentials, 服务器自己用非常安全
+
