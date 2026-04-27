@@ -28,3 +28,5 @@ CREATE TABLE nodestore_node (LIKE nodestore_node_old INCLUDING ALL);
 
 ALTER TABLE nodestore_node_old DISABLE TRIGGER ALL;
 
+# 删除旧表, 释放空间
+
