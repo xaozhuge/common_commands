@@ -5,4 +5,5 @@ openclaw --version
 openclaw update status
 
 # 3. 停止 gateway（避免 EBUSY）
+openclaw gateway stop
 
