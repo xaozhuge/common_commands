@@ -7,3 +7,5 @@ openclaw update status
 # 3. 停止 gateway（避免 EBUSY）
 openclaw gateway stop
 
+# 4. 官方内置 update
+
