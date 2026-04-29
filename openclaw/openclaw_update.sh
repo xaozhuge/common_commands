@@ -4,3 +4,5 @@ openclaw --version
 # 2. 查看 可更新版本
 openclaw update status
 
+# 3. 停止 gateway（避免 EBUSY）
+
