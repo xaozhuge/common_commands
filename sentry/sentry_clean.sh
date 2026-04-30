@@ -31,3 +31,5 @@ ALTER TABLE nodestore_node_old DISABLE TRIGGER ALL;
 # 删除旧表, 释放空间
 DROP TABLE nodestore_node_old CASCADE;
 
+# 8. 参考文档
+
