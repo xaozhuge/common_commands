@@ -32,4 +32,5 @@ ALTER TABLE nodestore_node_old DISABLE TRIGGER ALL;
 DROP TABLE nodestore_node_old CASCADE;
 
 # 8. 参考文档
+https://www.cnblogs.com/Du704/p/15184228.html
 
