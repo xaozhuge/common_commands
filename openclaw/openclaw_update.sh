@@ -8,4 +8,5 @@ openclaw update status
 openclaw gateway stop
 
 # 4. 官方内置 update
+openclaw update
 
