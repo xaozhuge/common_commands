@@ -10,3 +10,5 @@ openclaw gateway stop
 # 4. 官方内置 update
 openclaw update
 
+# 5. 重启服务 & 验证
+
