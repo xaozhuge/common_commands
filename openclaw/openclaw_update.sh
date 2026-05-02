@@ -11,4 +11,5 @@ openclaw gateway stop
 openclaw update
 
 # 5. 重启服务 & 验证
+openclaw gateway restart
 
