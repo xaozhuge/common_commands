@@ -3,4 +3,5 @@
 # 按量付费的baseUrl
 baseUrl: https://ark.cn-beijing.volces.com/api/v3
 # coding plan的baseUrl
+baseUrl: https://ark.cn-beijing.volces.com/api/coding/v3
 
