@@ -2,4 +2,5 @@
 # 注意: openclaw里配置的模型是 bailian/qwen3.5-plus, 但是对于背后的模型接收到的是 qwen3.5-plus
 # 按量付费的baseUrl
 baseUrl: https://ark.cn-beijing.volces.com/api/v3
+# coding plan的baseUrl
 
