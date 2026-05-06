@@ -6,4 +6,5 @@ baseUrl: https://ark.cn-beijing.volces.com/api/v3
 baseUrl: https://ark.cn-beijing.volces.com/api/coding/v3
 apiKey: xxx
 api: openai-completions 或者 anthropic-messages
+model: bailian/qwen3.5-plus
 
