@@ -8,3 +8,5 @@ apiKey: xxx
 api: openai-completions 或者 anthropic-messages
 model: bailian/qwen3.5-plus
 
+# 2. 配置的参数是如何发送请求
+
