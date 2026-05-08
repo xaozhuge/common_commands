@@ -30,4 +30,22 @@ curl https://ark.cn-beijing.volces.com/api/v3/chat/completions \
 }'
 
 # coding plan, 拼接上了 chat/completions
+curl https://ark.cn-beijing.volces.com/api/coding/v3/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer xxx" \
+  -d $'{
+    "messages": [
+        {
+            "content": "你是人工智能助手。",
+            "role": "system"
+        },
+        {
+            "content": "今天北京天气怎么样",
+            "role": "user"
+        }
+    ],
+    "model": "doubao-seed-2-0-lite-260215",
+    "reasoning_effort": "medium",
+    "stream": true
+}'
 
