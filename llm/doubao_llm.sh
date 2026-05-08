@@ -29,3 +29,5 @@ curl https://ark.cn-beijing.volces.com/api/v3/chat/completions \
     "stream": true
 }'
 
+# coding plan, 拼接上了 chat/completions
+
