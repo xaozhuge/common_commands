@@ -3,4 +3,5 @@
 uname -m
 # 输出 x86_64 => 是 AMD/Intel (x86 架构)
 # 输出 aarch64 或 arm64 => 是 ARM 64 位
+# 输出 armv7l => 是 ARM 32 位
 
