@@ -2,4 +2,5 @@
 # 在 Linux 下看是 AMD (Intel) 还是 ARM
 uname -m
 # 输出 x86_64 => 是 AMD/Intel (x86 架构)
+# 输出 aarch64 或 arm64 => 是 ARM 64 位
 
