@@ -6,4 +6,5 @@ uname -m
 # 输出 armv7l => 是 ARM 32 位
 
 # 2. Linux AMD 64位
+wget https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_linux_amd64.tar.gz
 
