@@ -5,3 +5,5 @@ uname -m
 # 输出 aarch64 或 arm64 => 是 ARM 64 位
 # 输出 armv7l => 是 ARM 32 位
 
+# 2. Linux AMD 64位
+
