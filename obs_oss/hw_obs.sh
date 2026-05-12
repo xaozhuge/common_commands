@@ -10,4 +10,5 @@ wget https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsu
 # 在软件包所在目录, 执行以下解压命令
 tar -xzvf obsutil_linux_amd64.tar.gz
 # 进入obsutil所在目录。“x.x.x”表示obsutil的版本号
+cd obsutil_linux_amd64_x.x.x
 
