@@ -13,4 +13,5 @@ tar -xzvf obsutil_linux_amd64.tar.gz
 cd obsutil_linux_amd64_x.x.x
 # 执行以下命令，为obsutil增加可执行权限
 chmod 755 obsutil
+# 继续在目录中执行以下命令, 如果能顺利返回obsutil版本号, 说明安装成功
 
