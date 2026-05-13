@@ -11,4 +11,5 @@ wget https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsu
 tar -xzvf obsutil_linux_amd64.tar.gz
 # 进入obsutil所在目录。“x.x.x”表示obsutil的版本号
 cd obsutil_linux_amd64_x.x.x
+# 执行以下命令，为obsutil增加可执行权限
 
