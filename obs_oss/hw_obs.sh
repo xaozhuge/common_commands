@@ -17,4 +17,5 @@ chmod 755 obsutil
 ./obsutil version
 
 # 3. 将本地 test.txt 文件上传至 bucket-test 桶中
+./obsutil cp /temp/test.txt obs://bucket-test/test.txt
 
