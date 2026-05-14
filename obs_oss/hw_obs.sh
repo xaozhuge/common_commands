@@ -16,3 +16,5 @@ chmod 755 obsutil
 # 继续在目录中执行以下命令, 如果能顺利返回obsutil版本号, 说明安装成功
 ./obsutil version
 
+# 3. 将本地 test.txt 文件上传至 bucket-test 桶中
+
