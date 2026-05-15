@@ -22,3 +22,5 @@ chmod 755 obsutil
 # 4. 下载 bucket-test 桶中的 test.txt 文件
 ./obsutil cp obs://bucket-test/test.txt test.txt
 
+# 2. 参考文档
+
