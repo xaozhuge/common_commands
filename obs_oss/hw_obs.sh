@@ -20,4 +20,5 @@ chmod 755 obsutil
 ./obsutil cp /temp/test.txt obs://bucket-test/test.txt
 
 # 4. 下载 bucket-test 桶中的 test.txt 文件
+./obsutil cp obs://bucket-test/test.txt test.txt
 
