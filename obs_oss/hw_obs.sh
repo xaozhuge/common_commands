@@ -25,4 +25,5 @@ https://bucket-test.obs.cn-north-4.myhuaweicloud.com/test.txt
 ./obsutil cp obs://bucket-test/test.txt test.txt
 
 # 5. 参考文档
+https://support.huaweicloud.com/utiltg-obs/obs_11_0003.html
 
