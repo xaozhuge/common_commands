@@ -18,9 +18,10 @@ chmod 755 obsutil
 
 # 3. 将本地 test.txt 文件上传至 bucket-test 桶中
 ./obsutil cp /temp/test.txt obs://bucket-test/test.txt
+# 对应的下载地址
 
 # 4. 下载 bucket-test 桶中的 test.txt 文件
 ./obsutil cp obs://bucket-test/test.txt test.txt
 
-# 2. 参考文档
+# 5. 参考文档
 
