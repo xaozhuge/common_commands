@@ -27,3 +27,5 @@ https://bucket-test.obs.cn-north-4.myhuaweicloud.com/test.txt
 # 5. 参考文档
 https://support.huaweicloud.com/utiltg-obs/obs_11_0003.html
 
+# 6. 初始化obs配置
+
