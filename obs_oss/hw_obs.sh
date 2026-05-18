@@ -31,4 +31,5 @@ https://support.huaweicloud.com/utiltg-obs/obs_11_0003.html
 obsutil config -i=永久或者临时访问密钥中的AK -k=永久或者临时访问密钥中的SK -e=obs.cn-north-4.myhuaweicloud.com
 # 生成的配置文件位置
 /root/.obsutilconfig
+# 检查连通性
 
