@@ -11,4 +11,5 @@
 
 # 举例
 curl https://www.baidu.com/404
+echo $?
 
