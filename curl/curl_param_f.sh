@@ -12,4 +12,5 @@
 # 举例
 curl https://www.baidu.com/404
 echo $?
+# 返回值为0, 表示成功
 
