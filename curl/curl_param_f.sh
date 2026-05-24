@@ -15,4 +15,6 @@ echo $?
 # 返回值为0, 表示成功
 
 curl -f https://www.baidu.com/404
+echo $?
+# 返回值为22, 表示失败
 
