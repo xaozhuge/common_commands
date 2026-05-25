@@ -5,4 +5,5 @@ curl -s http://example.com
 curl -O 一个下载链接
 
 # 3. 加 -s: 永远只输出内容，不输出任何多余信息
+curl -Os 一个下载链接
 
