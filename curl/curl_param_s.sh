@@ -2,4 +2,5 @@
 curl -s http://example.com
 
 # 2. 不加 -s: 可能输出进度条、连接信息、杂项
+curl -O 一个下载链接
 
