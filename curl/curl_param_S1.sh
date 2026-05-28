@@ -7,4 +7,5 @@
 
 # 3. 基础用法(只在失败时打印错误)
 curl -sS https://httpbin.org/get
+# 请求成功：无任何输出
 
