@@ -12,4 +12,5 @@ curl -sS https://httpbin.org/get
 
 # 4. 把正常结果保存到文件, 只输出错误
 curl -sS -o output.json https://httpbin.org/get
+# 成功: 文件写入, 终端无输出
 
