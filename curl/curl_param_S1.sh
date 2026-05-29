@@ -11,4 +11,5 @@ curl -sS https://httpbin.org/get
 # 请求失败(如 404/500 / 断网): 会输出错误信息
 
 # 4. 把正常结果保存到文件, 只输出错误
+curl -sS -o output.json https://httpbin.org/get
 
