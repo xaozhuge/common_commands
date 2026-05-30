@@ -16,4 +16,15 @@ curl -sS -o output.json https://httpbin.org/get
 # 失败: 终端打印错误(如 Connection refused)
 
 # 5.  脚本中最常用(推荐)
+```
+#!/bin/bash
+response=$(curl -sS "https://httpbin.org/get")
+
+if [ $? -ne 0 ]; then
+  echo "请求失败！"
+  exit 1
+fi
+
+echo "请求成功：$response"
+```
 
