@@ -15,3 +15,5 @@ curl -sS -o output.json https://httpbin.org/get
 # 成功: 文件写入, 终端无输出
 # 失败: 终端打印错误(如 Connection refused)
 
+# 5.  脚本中最常用(推荐)
+
