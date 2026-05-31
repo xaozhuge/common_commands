@@ -29,4 +29,5 @@ echo "请求成功：$response"
 ```
 
 # 6. 配合超时、失败重试(生产级)
+curl -sS --max-time 10 --retry 3 https://your-api.com
 
