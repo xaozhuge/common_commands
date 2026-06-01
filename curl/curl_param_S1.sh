@@ -32,4 +32,5 @@ echo "请求成功：$response"
 curl -sS --max-time 10 --retry 3 https://your-api.com
 # 安静执行
 # 10 秒超时
+# 失败自动重试 3 次
 
