@@ -5,4 +5,5 @@
 
 # 3. 基础跟随重定向(最常用)
 # 示例: github 会自动重定向到 HTTPS
+curl -L http://github.com
 
