@@ -7,3 +7,5 @@
 # 示例: github 会自动重定向到 HTTPS
 curl -L http://github.com
 
+# 4. 查看重定向路径(不下载内容)
+
