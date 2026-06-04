@@ -9,4 +9,5 @@ curl -L http://github.com
 
 # 4. 查看重定向路径(不下载内容)
 # 配合 -I 只看响应头, 清晰看到跳转过程
+curl -L -I http://baidu.com
 
