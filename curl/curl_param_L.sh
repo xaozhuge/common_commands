@@ -12,4 +12,5 @@ curl -L http://github.com
 curl -L -I http://baidu.com
 
 # 5. 下载文件(自动跟随重定向)
+# 很多下载链接会重定向到真实文件地址, 必须加 -L 才能下载成功
 
