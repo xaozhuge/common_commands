@@ -11,3 +11,5 @@ curl -L http://github.com
 # 配合 -I 只看响应头, 清晰看到跳转过程
 curl -L -I http://baidu.com
 
+# 5. 下载文件(自动跟随重定向)
+
