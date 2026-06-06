@@ -16,4 +16,5 @@ curl -L -I http://baidu.com
 # 下载 Node.js 安装包(链接会重定向)
 # -O: 自动使用远程文件名保存
 # -L: 处理下载链接的重定向
+curl -L -O https://nodejs.org/dist/v20.0.0/node-v20.0.0-linux-x64.tar.xz
 
