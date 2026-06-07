@@ -18,3 +18,5 @@ curl -L -I http://baidu.com
 # -L: 处理下载链接的重定向
 curl -L -O https://nodejs.org/dist/v20.0.0/node-v20.0.0-linux-x64.tar.xz
 
+# 6. 限制最大重定向次数（防止死循环）
+
