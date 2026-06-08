@@ -23,3 +23,5 @@ curl -L -O https://nodejs.org/dist/v20.0.0/node-v20.0.0-linux-x64.tar.xz
 # 最多跟随 10 次重定向
 curl -L --max-redirs 10 https://example.com
 
+# 7. 不加 -L 会怎样？
+
