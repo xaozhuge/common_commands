@@ -21,4 +21,5 @@ curl -L -O https://nodejs.org/dist/v20.0.0/node-v20.0.0-linux-x64.tar.xz
 # 6. 限制最大重定向次数（防止死循环）
 # 默认最多跟随 50 次重定向，可手动修改：
 # 最多跟随 10 次重定向
+curl -L --max-redirs 10 https://example.com
 
