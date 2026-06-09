@@ -25,4 +25,5 @@ curl -L --max-redirs 10 https://example.com
 
 # 7. 不加 -L 会怎样？
 # 直接访问重定向链接，只会返回重定向信息，不跳转：
+# 不加 -L
 
