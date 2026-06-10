@@ -2,4 +2,5 @@
 docker exec -it sentry-self-hosted-redis-1 redis-cli
 
 # 2. 清除redis
+FLUSHDB ASYNC
 
