@@ -12,4 +12,5 @@ curl -o [本地自定义文件名] [远程文件URL]
 
 # 4. 基础下载(指定文件名)
 # 下载百度首页, 保存为 baidu.html
+curl -o baidu.html https://www.baidu.com
 
