@@ -16,4 +16,5 @@ curl -o baidu.html https://www.baidu.com
 
 # 下载图片/安装包(自定义名称)
 # 下载一张图片, 保存为 logo.png
+curl -o logo.png https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d5572076ee.png
 
