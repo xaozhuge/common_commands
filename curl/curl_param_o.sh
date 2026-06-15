@@ -14,3 +14,5 @@ curl -o [本地自定义文件名] [远程文件URL]
 # 下载百度首页, 保存为 baidu.html
 curl -o baidu.html https://www.baidu.com
 
+# 下载图片/安装包(自定义名称)
+
