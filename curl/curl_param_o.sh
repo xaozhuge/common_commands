@@ -15,4 +15,5 @@ curl -o [本地自定义文件名] [远程文件URL]
 curl -o baidu.html https://www.baidu.com
 
 # 下载图片/安装包(自定义名称)
+# 下载一张图片, 保存为 logo.png
 
