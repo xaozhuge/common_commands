@@ -24,4 +24,5 @@ curl -o ~/Downloads/test.zip https://example.com/test.zip
 
 # 静默下载(不显示进度条)
 # 加 -s 参数隐藏下载过程, 只保留结果
+curl -s -o readme.txt https://example.com/README.md
 
