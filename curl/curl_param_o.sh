@@ -23,4 +23,5 @@ curl -o logo.png https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d5572076ee
 curl -o ~/Downloads/test.zip https://example.com/test.zip
 
 # 静默下载(不显示进度条)
+# 加 -s 参数隐藏下载过程, 只保留结果
 
