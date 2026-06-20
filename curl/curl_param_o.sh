@@ -28,4 +28,5 @@ curl -s -o readme.txt https://example.com/README.md
 
 # 5. curl -o 自定义文件名 URL → 下载文件并自己命名
 # 小写 -o 自定义, 大写 -O 用原名
+# 会直接覆盖本地同名文件, 使用时注意
 
