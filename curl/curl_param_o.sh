@@ -26,3 +26,5 @@ curl -o ~/Downloads/test.zip https://example.com/test.zip
 # 加 -s 参数隐藏下载过程, 只保留结果
 curl -s -o readme.txt https://example.com/README.md
 
+# 5. curl -o 自定义文件名 URL → 下载文件并自己命名
+
