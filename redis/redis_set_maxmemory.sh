@@ -5,4 +5,5 @@ CONFIG SET maxmemory 8gb
 # 防止 Redis 无限占用服务器内存, 避免把系统内存打满导致 OOM、系统卡死、Redis 被系统强制杀掉
 # 建议配置值小于服务器物理内存, 预留操作系统、其他业务进程内存
 # 不设置 maxmemory(默认 0): 64 位系统下 Redis 不会主动淘汰数据, 内存会持续上涨直到被 OOM kill
+# 单位支持:gb/mb/kb, 大小写不敏感
 
