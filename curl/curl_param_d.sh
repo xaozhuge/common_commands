@@ -4,4 +4,5 @@
 # 2. 常用等价写法
 curl -d "key1=val1&key2=val2" baidu.com
 curl --data "key1=val1&key2=val2" baidu.com
+curl -X POST -d "key1=val1" baidu.com
 
