@@ -2,4 +2,5 @@
 # 默认请求头: Content-Type: application/x-www-form-urlencoded(表单格式)
 
 # 2. 常用等价写法
+curl -d "key1=val1&key2=val2" baidu.com
 
