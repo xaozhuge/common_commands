@@ -7,4 +7,5 @@ curl --data "key1=val1&key2=val2" baidu.com
 curl -X POST -d "key1=val1" baidu.com
 
 # 3. 基础语法
+curl -d "参数1=值1&参数2=值2" 请求地址
 
