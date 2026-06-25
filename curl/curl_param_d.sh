@@ -9,3 +9,5 @@ curl -X POST -d "key1=val1" baidu.com
 # 3. 基础语法
 curl -d "参数1=值1&参数2=值2" 请求地址
 
+# 4. 普通表单提交(urlencoded)
+
