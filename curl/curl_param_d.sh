@@ -11,4 +11,5 @@ curl -d "参数1=值1&参数2=值2" 请求地址
 
 # 4. 普通表单提交(urlencoded)
 # 提交用户名、密码
+curl -d "username=admin&password=123456" http://127.0.0.1:8080/login
 
