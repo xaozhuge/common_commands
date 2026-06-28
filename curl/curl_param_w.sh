@@ -5,4 +5,5 @@
 # 2. 常用内置变量(核心)
 # %{http_code}: HTTP 状态码 (200/404/500)
 # %{time_total}: 整个请求总耗时(秒, 浮点)
+# %{time_connect}: TCP 连接耗时
 
