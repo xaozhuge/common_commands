@@ -6,4 +6,5 @@
 # %{http_code}: HTTP 状态码 (200/404/500)
 # %{time_total}: 整个请求总耗时(秒, 浮点)
 # %{time_connect}: TCP 连接耗时
+# %{time_starttransfer}: 从请求发起到收到第一个字节的耗时(TTFB)
 
