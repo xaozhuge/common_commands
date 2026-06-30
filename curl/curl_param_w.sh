@@ -9,4 +9,5 @@
 # %{time_starttransfer}: 从请求发起到收到第一个字节的耗时(TTFB)
 # %{size_download}: 下载字节数
 # %{remote_ip}: 服务端 IP
+# %{redirect_url}: 重定向地址
 
