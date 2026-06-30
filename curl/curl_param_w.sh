@@ -11,3 +11,5 @@
 # %{remote_ip}: 服务端 IP
 # %{redirect_url}: 重定向地址
 
+# 3. 语法两种写法:
+
