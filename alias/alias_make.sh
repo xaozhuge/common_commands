@@ -14,4 +14,5 @@ source /etc/bashrc
 
 # 二、配置流程
 mkdir -p /data/script/
+echo "echo 'server'" >> /data/script/bak.sh
 
