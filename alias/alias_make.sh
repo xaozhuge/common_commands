@@ -13,4 +13,5 @@ echo "alias remark='cat /alidata/www/script.com/remark'" >> /etc/bashrc
 source /etc/bashrc
 
 # 二、配置流程
+mkdir -p /data/script/
 
