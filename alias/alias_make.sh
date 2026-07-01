@@ -12,3 +12,5 @@ echo "alias remark='cat /alidata/www/script.com/remark'" >> /etc/bashrc
 # 4. 加载配置
 source /etc/bashrc
 
+# 二、配置流程
+
