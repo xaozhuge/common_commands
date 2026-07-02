@@ -18,3 +18,5 @@ echo "echo 'server'" >> /data/script/bak.sh
 echo "alias bak='source /data/script/bak.sh'" >> /etc/profile
 source /etc/profile
 
+# 三、常见 bak.sh 的配置
+
