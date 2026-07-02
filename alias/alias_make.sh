@@ -16,4 +16,5 @@ source /etc/bashrc
 mkdir -p /data/script/
 echo "echo 'server'" >> /data/script/bak.sh
 echo "alias bak='source /data/script/bak.sh'" >> /etc/profile
+source /etc/profile
 
