@@ -20,3 +20,11 @@ source /etc/profile
 
 # 三、常见 bak.sh 的配置
 
+#!/bin/sh
+
+echo "服务器
+公网:
+内网:
+8:前往docker的日志目录
+"
+
