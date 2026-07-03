@@ -27,4 +27,5 @@ echo "服务器
 内网:
 8:前往docker的日志目录
 "
+read -p "where code you will go?": NUM
 
