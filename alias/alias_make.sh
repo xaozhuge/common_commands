@@ -29,3 +29,10 @@ echo "服务器
 "
 read -p "where code you will go?": NUM
 
+case $NUM in
+    8)
+    cd $(docker inspect --format='{{.LogPath}}' $name | xargs dirname)
+    pwd;
+    ;;
+esac
+
