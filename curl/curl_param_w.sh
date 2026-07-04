@@ -16,4 +16,5 @@
 curl -w "格式字符串"
 
 # 外部文件:
+curl -w @filename
 
