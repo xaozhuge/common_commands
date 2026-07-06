@@ -24,3 +24,5 @@ curl -w @filename
 curl -w "状态码：%{http_code}, 总耗时：%{time_total}s\n" \
 -o /dev/null -s https://www.baidu.com
 
+# 5. 完整性能指标(最常用)
+
