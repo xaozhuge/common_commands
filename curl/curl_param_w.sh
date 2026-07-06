@@ -22,4 +22,5 @@ curl -w @filename
 # -s: 静默模式，不输出进度
 # -o /dev/null: 丢弃响应正文, 只看 -w 统计信息
 curl -w "状态码：%{http_code}, 总耗时：%{time_total}s\n" \
+-o /dev/null -s https://www.baidu.com
 
