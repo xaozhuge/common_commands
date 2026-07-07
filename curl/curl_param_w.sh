@@ -26,4 +26,5 @@ curl -w "状态码：%{http_code}, 总耗时：%{time_total}s\n" \
 
 # 5. 完整性能指标(最常用)
 curl -s -o /dev/null \
+-w "
 
