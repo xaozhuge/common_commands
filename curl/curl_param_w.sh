@@ -29,4 +29,5 @@ curl -s -o /dev/null \
 -w "
 HTTP状态码: %{http_code}
 TCP连接耗时: %{time_connect}s
+首字节TTFB: %{time_starttransfer}s
 
