@@ -28,4 +28,5 @@ curl -w "状态码：%{http_code}, 总耗时：%{time_total}s\n" \
 curl -s -o /dev/null \
 -w "
 HTTP状态码: %{http_code}
+TCP连接耗时: %{time_connect}s
 
