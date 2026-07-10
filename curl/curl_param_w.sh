@@ -34,4 +34,5 @@ TCP连接耗时: %{time_connect}s
 下载字节: %{size_download} bytes
 服务端IP: %{remote_ip}
 \n" \
+https://www.baidu.com
 
