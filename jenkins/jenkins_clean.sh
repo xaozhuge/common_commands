@@ -2,4 +2,5 @@
 /jenkins/data/workspace
 
 # 2. 查看最早的不维护的目录
+ls -alt|grep -v tmp
 
