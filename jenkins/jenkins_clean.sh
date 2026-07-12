@@ -7,3 +7,5 @@ ls -alt|grep -v tmp
 # 3. 选最新的几个文件
 ls -lt|grep -v tmp|tail -n 5|awk '{print $9}'
 
+# 4. 然后将刚才的文件进行删除
+
