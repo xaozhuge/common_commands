@@ -5,4 +5,5 @@
 ls -alt|grep -v tmp
 
 # 3. 选最新的几个文件
+ls -lt|grep -v tmp|tail -n 5|awk '{print $9}'
 
