@@ -36,3 +36,5 @@ TCP连接耗时: %{time_connect}s
 \n" \
 https://www.baidu.com
 
+# 6. 输出 JSON 格式(方便脚本 jq 解析)
+
