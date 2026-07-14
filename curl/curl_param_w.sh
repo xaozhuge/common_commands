@@ -39,4 +39,5 @@ https://www.baidu.com
 # 6. 输出 JSON 格式(方便脚本 jq 解析)
 curl -s -o /dev/null \
 -w '{"code":%{http_code},"cost":%{time_total},"ip":"%{remote_ip}"}' \
+https://www.baidu.com
 
