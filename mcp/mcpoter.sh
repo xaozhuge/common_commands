@@ -6,3 +6,5 @@ mcporter list
 # 知道这个 Server 有哪些工具
 mcporter list <mcp_server_name>
 
+# 3. 查看 Tool 的 JSON Schema(LLM 真正需要看的内容)
+
