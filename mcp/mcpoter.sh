@@ -10,3 +10,5 @@ mcporter list <mcp_server_name>
 # 知道工具的完整接口定义(名称、描述、参数 Schema), 供 Agent 或 LLM 自动选择和调用工具
 mcporter list <server> --schema
 
+# 4. 把名为 sheetdata 的 HTTP MCP Server 注册到 mcporter 的全局(Home)配置中,
+
