@@ -11,4 +11,5 @@ mcporter list <mcp_server_name>
 mcporter list <server> --schema
 
 # 4. 把名为 sheetdata 的 HTTP MCP Server 注册到 mcporter 的全局(Home)配置中,
+# 以后可以直接通过 mcpname 这个名称访问 https://xxx.com/mcp/sheetdata, 
 
