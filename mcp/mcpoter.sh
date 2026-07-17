@@ -8,4 +8,5 @@ mcporter list <mcp_server_name>
 
 # 3. 查看 Tool 的 JSON Schema(LLM 真正需要看的内容)
 # 知道工具的完整接口定义(名称、描述、参数 Schema), 供 Agent 或 LLM 自动选择和调用工具
+mcporter list <server> --schema
 
