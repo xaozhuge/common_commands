@@ -14,4 +14,5 @@ mcporter list <server> --schema
 # 以后可以直接通过 mcpname 这个名称访问 https://xxx.com/mcp/sheetdata, 
 # 并且所有请求都会自动携带 Authorization 请求头
 mcporter config add sheetdata \
+--url "https://xxx.com/mcp/sheetdata" \
 
