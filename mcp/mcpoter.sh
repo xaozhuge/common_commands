@@ -16,4 +16,5 @@ mcporter list <server> --schema
 mcporter config add sheetdata \
 --url "https://xxx.com/mcp/sheetdata" \
 --header "Authorization=69f5a68cd6ad0397478a89012dq" \
+--transport http 
 
