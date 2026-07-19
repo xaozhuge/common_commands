@@ -15,4 +15,5 @@ mcporter list <server> --schema
 # 并且所有请求都会自动携带 Authorization 请求头
 mcporter config add sheetdata \
 --url "https://xxx.com/mcp/sheetdata" \
+--header "Authorization=69f5a68cd6ad0397478a89012dq" \
 
