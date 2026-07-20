@@ -19,3 +19,5 @@ mcporter config add sheetdata \
 --transport http 
 --scope home
 
+# mcporter config add: 添加一个 MCP Server 配置, 配置会写入 mcporter 配置文件, 而不是临时使用
+
