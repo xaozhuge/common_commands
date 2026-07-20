@@ -20,4 +20,5 @@ mcporter config add sheetdata \
 --scope home
 
 # mcporter config add: 添加一个 MCP Server 配置, 配置会写入 mcporter 配置文件, 而不是临时使用
+# sheetdata: MCP Server 的名称(Name), 以后通过 mcporter list sheetdata 、 mcporter call sheetdata.xxx 等命令引用它
 
