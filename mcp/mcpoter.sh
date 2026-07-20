@@ -21,4 +21,5 @@ mcporter config add sheetdata \
 
 # mcporter config add: 添加一个 MCP Server 配置, 配置会写入 mcporter 配置文件, 而不是临时使用
 # sheetdata: MCP Server 的名称(Name), 以后通过 mcporter list sheetdata 、 mcporter call sheetdata.xxx 等命令引用它
+# --url "https://xxx.com/mcp/sheetdata": MCP Server 的 HTTP 地址, 也就是 Streamable HTTP MCP Endpoint
 
