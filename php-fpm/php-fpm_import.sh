@@ -8,4 +8,5 @@ cat /usr/local/etc/php-fpm.d/www.conf|grep -v ';'|grep -v '^$'
 pm.max_children = 100
 pm.start_servers = 20
 pm.min_spare_servers = 5
+pm.max_spare_servers = 35
 
