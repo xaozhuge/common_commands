@@ -6,4 +6,5 @@ cat /usr/local/etc/php-fpm.d/www.conf|grep -v ';'|grep -v '^$'
 
 # 3. 需要修改的配置
 pm.max_children = 100
+pm.start_servers = 20
 
