@@ -24,4 +24,5 @@ mcporter config add sheetdata \
 # --url "https://xxx.com/mcp/sheetdata": MCP Server 的 HTTP 地址, 也就是 Streamable HTTP MCP Endpoint
 # --header "Authorization=69f5a68cd6ad0397478a89012dq": 给所有请求自动添加 HTTP Header: Authorization: 69f5a68cd6ad0397478a89012dq, 通常用于 Token 或 API Key 认证
 # --transport http: 指定使用 HTTP Transport, 而不是 stdio 或 SSE
+# --scope home: 将配置保存到 用户级(Home) 配置, 而不是当前项目(Project)配置, Home 配置默认位于 ~/.mcporter/mcporter.json
 
