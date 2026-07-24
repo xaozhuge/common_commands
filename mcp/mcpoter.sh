@@ -23,4 +23,5 @@ mcporter config add sheetdata \
 # sheetdata: MCP Server 的名称(Name), 以后通过 mcporter list sheetdata 、 mcporter call sheetdata.xxx 等命令引用它
 # --url "https://xxx.com/mcp/sheetdata": MCP Server 的 HTTP 地址, 也就是 Streamable HTTP MCP Endpoint
 # --header "Authorization=69f5a68cd6ad0397478a89012dq": 给所有请求自动添加 HTTP Header: Authorization: 69f5a68cd6ad0397478a89012dq, 通常用于 Token 或 API Key 认证
+# --transport http: 指定使用 HTTP Transport, 而不是 stdio 或 SSE
 
