@@ -27,4 +27,5 @@ mcporter config add sheetdata \
 # --scope home: 将配置保存到 用户级(Home) 配置, 而不是当前项目(Project)配置, Home 配置默认位于 ~/.mcporter/mcporter.json
 
 # 5. --scope home 与 project 的区别, mcporter 支持两种配置作用域: 
+# 5.1 --scope home 
 
