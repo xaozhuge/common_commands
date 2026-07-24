@@ -26,3 +26,5 @@ mcporter config add sheetdata \
 # --transport http: 指定使用 HTTP Transport, 而不是 stdio 或 SSE
 # --scope home: 将配置保存到 用户级(Home) 配置, 而不是当前项目(Project)配置, Home 配置默认位于 ~/.mcporter/mcporter.json
 
+# 5. --scope home 与 project 的区别, mcporter 支持两种配置作用域: 
+
