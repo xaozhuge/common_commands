@@ -29,4 +29,5 @@ mcporter config add sheetdata \
 # 5. --scope home 与 project 的区别, mcporter 支持两种配置作用域: 
 # 5.1 --scope home 
 # 保存到用户配置
+# 当前用户所有项目都能使用
 
