@@ -30,4 +30,5 @@ mcporter config add sheetdata \
 # 5.1 --scope home 
 # 保存到用户配置
 # 当前用户所有项目都能使用
+# 适合公共、长期使用的 MCP Server
 
