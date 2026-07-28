@@ -5,3 +5,5 @@
 
 # 3. TXT: 指定查询记录类型为 TXT 文本记录, 证书验证、SPF、DKIM、DMARC 都用 TXT 记录
 
+# 4. +short: 精简输出参数
+
