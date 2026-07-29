@@ -33,4 +33,5 @@ mcporter config add sheetdata \
 # 适合公共、长期使用的 MCP Server
 
 # 5.2 --scope project
+# 保存到当前项目的 config/mcporter.json
 
