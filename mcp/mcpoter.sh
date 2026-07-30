@@ -37,3 +37,5 @@ mcporter config add sheetdata \
 # 仅当前项目可见
 # 适合项目专用的 MCP Server
 
+# 配置时需要注意默认配置项目的, 如果切换目录 mcp配置就需要重新配置
+
