@@ -34,4 +34,5 @@ mcporter config add sheetdata \
 
 # 5.2 --scope project
 # 保存到当前项目的 config/mcporter.json
+# 仅当前项目可见
 
