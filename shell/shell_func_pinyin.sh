@@ -5,4 +5,5 @@ sublime ~/.bashrc
 # 汉字转拼音(无声调空格分隔)
 han2py() {
 python3 - <<PY
+from pypinyin import lazy_pinyin
 
