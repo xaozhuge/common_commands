@@ -6,4 +6,5 @@ sublime ~/.bashrc
 han2py() {
 python3 - <<PY
 from pypinyin import lazy_pinyin
+text = """$1"""
 
