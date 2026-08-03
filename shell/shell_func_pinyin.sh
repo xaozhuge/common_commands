@@ -11,3 +11,5 @@ print("".join(lazy_pinyin(text)))
 PY
 }
 
+# 3. 加载生效 ~/.bashrc
+
