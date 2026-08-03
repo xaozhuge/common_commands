@@ -12,4 +12,5 @@ PY
 }
 
 # 3. 加载生效 ~/.bashrc
+source ~/.bashrc
 
