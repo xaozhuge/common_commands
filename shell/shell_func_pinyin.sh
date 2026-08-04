@@ -14,3 +14,5 @@ PY
 # 3. 加载生效 ~/.bashrc
 source ~/.bashrc
 
+# 4. 安装 pypinyin 包, pypinyin 官方兼容 Python 3.6+
+
