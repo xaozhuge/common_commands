@@ -18,3 +18,5 @@ source ~/.bashrc
 python3 --version
 pip3 install pypinyin
 
+# 5. 命令说明
+
