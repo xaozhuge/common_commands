@@ -20,4 +20,5 @@ pip3 install pypinyin
 
 # 5. 命令说明
 # 内嵌 Python 执行
+# HereDoc 内嵌脚本: 把 `PY` 标记间的代码直接传给 python3 运行, 无需单独 py 文件
 
