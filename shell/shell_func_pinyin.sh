@@ -19,4 +19,5 @@ python3 --version
 pip3 install pypinyin
 
 # 5. 命令说明
+# 内嵌 Python 执行
 
