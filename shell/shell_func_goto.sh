@@ -3,3 +3,5 @@ goto() {
   cd "$(dirname "$1")"
 }
 
+# 1. goto() { ... }
+
