@@ -25,3 +25,5 @@ python3 - <<PY
 # Python代码
 PY
 
+# 导入拼音库核心函数 `lazy_pinyin`
+
