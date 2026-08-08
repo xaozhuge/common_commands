@@ -26,4 +26,5 @@ python3 - <<PY
 PY
 
 # 导入拼音库核心函数 `lazy_pinyin`
+from pypinyin import lazy_pinyin
 
