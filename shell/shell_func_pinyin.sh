@@ -28,3 +28,5 @@ PY
 # 导入拼音库核心函数 `lazy_pinyin`
 from pypinyin import lazy_pinyin
 
+# `$1`: Shell 函数 第一个传入参数(要转拼音的中文文本)
+
