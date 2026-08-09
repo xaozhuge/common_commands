@@ -29,4 +29,5 @@ PY
 from pypinyin import lazy_pinyin
 
 # `$1`: Shell 函数 第一个传入参数(要转拼音的中文文本)
+# 三引号 `""""""`: 兼容参数内换行、空格、特殊符号, 避免引号转义报错
 
