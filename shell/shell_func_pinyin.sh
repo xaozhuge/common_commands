@@ -33,4 +33,5 @@ from pypinyin import lazy_pinyin
 text = """$1"""
 
 # `lazy_pinyin(text)`: 返回 拼音列表, 例：`中国` → `["zhong", "guo"]`
+# `"".join(列表)`: 把拼音拼接、无空格连接
 
