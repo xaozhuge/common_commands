@@ -32,3 +32,5 @@ from pypinyin import lazy_pinyin
 # 三引号 `""""""`: 兼容参数内换行、空格、特殊符号, 避免引号转义报错
 text = """$1"""
 
+# `lazy_pinyin(text)`: 返回 拼音列表, 例：`中国` → `["zhong", "guo"]`
+
