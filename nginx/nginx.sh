@@ -7,3 +7,5 @@ cat $now.log|awk '{print $2, $8}'|awk -F '##' '$2 >= 3'
 
 # 3. nginx重启
 sudo nginx -s reload
+# 容器内的nginx语法检查
+
