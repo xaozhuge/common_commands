@@ -10,4 +10,5 @@ sudo nginx -s reload
 # 容器内的nginx语法检查
 docker exec nginx122_c nginx -t
 # 容器内的nginx重新加载
+docker exec nginx122_c nginx -s reload
 
