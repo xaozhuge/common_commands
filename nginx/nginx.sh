@@ -9,4 +9,5 @@ cat $now.log|awk '{print $2, $8}'|awk -F '##' '$2 >= 3'
 sudo nginx -s reload
 # 容器内的nginx语法检查
 docker exec nginx122_c nginx -t
+# 容器内的nginx重新加载
 
