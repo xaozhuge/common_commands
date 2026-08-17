@@ -7,3 +7,5 @@ cd $HOME/目录/bin
 
 "程序的启动命令"
 
+sleep 2
+
