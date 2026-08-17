@@ -3,3 +3,5 @@
 # 关闭已有进程
 pkill -9 -f "程序"
 
+cd $HOME/目录/bin
+
