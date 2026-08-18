@@ -9,3 +9,5 @@ cd $HOME/目录/bin
 
 sleep 2
 
+pid=$(ps aux|grep '程序'|grep -v grep|awk '{print $2}')
+
