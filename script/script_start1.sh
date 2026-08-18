@@ -13,3 +13,5 @@ pid=$(ps aux|grep '程序'|grep -v grep|awk '{print $2}')
 
 port=$(sudo lsof -i -n -P|grep LISTEN|grep '程序'|awk -F ':' '{print $2}')
 
+echo "启动成功, pid是"$pid ",监听端口是" $port "  "
+
