@@ -18,4 +18,5 @@ ssh -N
 ssh -N -L 8080:127.0.0.1:80 user@remote-server
 # 访问本机 127.0.0.1:8080 等价于访问远程机器的 80 端口
 # 想要放到后台运行, 加 -f
+ssh -fN -L 8080:127.0.0.1:80 user@remote-server
 
