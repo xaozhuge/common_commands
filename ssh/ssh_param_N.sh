@@ -22,4 +22,5 @@ ssh -fN -L 8080:127.0.0.1:80 user@remote-server
 
 # 4. 远程端口转发 (-R + -N)
 # 远程机器的 9000 端口, 转发回本机的 3306 (mysql)
+ssh -N -R 9000:127.0.0.1:3306 user@remote-server
 
