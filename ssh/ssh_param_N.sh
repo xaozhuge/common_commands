@@ -24,4 +24,5 @@ ssh -fN -L 8080:127.0.0.1:80 user@remote-server
 # 远程机器的 9000 端口, 转发回本机的 3306 (mysql)
 ssh -N -R 9000:127.0.0.1:3306 user@remote-server
 ssh -fN -R 9000:127.0.0.1:3306 user@remote-server
+# 在 remote‑server 访问 127.0.0.1:9000 就等于访问你本机 3306
 
