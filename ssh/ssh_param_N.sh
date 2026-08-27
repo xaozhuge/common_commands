@@ -26,3 +26,5 @@ ssh -N -R 9000:127.0.0.1:3306 user@remote-server
 ssh -fN -R 9000:127.0.0.1:3306 user@remote-server
 # 在 remote‑server 访问 127.0.0.1:9000 就等于访问你本机 3306
 
+# 5. SOCKS5 动态代理(-D + -N)
+
