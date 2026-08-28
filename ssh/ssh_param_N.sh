@@ -31,3 +31,5 @@ ssh -fN -R 9000:127.0.0.1:3306 user@remote-server
 ssh -N -D 1080 user@remote-server
 ssh -fN -D 1080 user@remote-server
 
+# 6. 关闭后台 ssh -fN 进程
+
