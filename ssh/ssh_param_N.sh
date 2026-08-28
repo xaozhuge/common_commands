@@ -29,4 +29,5 @@ ssh -fN -R 9000:127.0.0.1:3306 user@remote-server
 # 5. SOCKS5 动态代理(-D + -N)
 # 本机 1080 端口开启 socks5 代理, 流量全部走远程机器网络
 ssh -N -D 1080 user@remote-server
+ssh -fN -D 1080 user@remote-server
 
