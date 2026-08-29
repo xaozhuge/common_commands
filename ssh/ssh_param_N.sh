@@ -32,4 +32,5 @@ ssh -N -D 1080 user@remote-server
 ssh -fN -D 1080 user@remote-server
 
 # 6. 关闭后台 ssh -fN 进程
+# -f放到后台后, 不会自动退出, 需要手动 kill
 
