@@ -35,4 +35,5 @@ ssh -fN -D 1080 user@remote-server
 # -f放到后台后, 不会自动退出, 需要手动 kill
 # 查找进程 并 kill pid
 ps aux | grep ssh
+kill 12345
 
