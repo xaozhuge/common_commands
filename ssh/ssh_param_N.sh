@@ -37,3 +37,5 @@ ssh -fN -D 1080 user@remote-server
 ps aux | grep ssh
 kill 12345
 
+# 7. 总结内容
+
