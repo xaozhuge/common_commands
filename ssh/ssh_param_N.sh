@@ -38,4 +38,5 @@ ps aux | grep ssh
 kill 12345
 
 # 7. 总结内容
+# -N: No command, 不执行远程命令, 专用于端口隧道转发
 
