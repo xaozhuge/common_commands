@@ -5,4 +5,5 @@ sudo lsof -i -n -P|grep LISTEN
 tcpdump -vvv >> temp.log
 
 # 3. 编辑配置文件 ~/.bashrc
+vim ~/.bashrc
 
