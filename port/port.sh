@@ -8,6 +8,8 @@ tcpdump -vvv >> temp.log
 vim ~/.bashrc
 # 将函数代码粘贴到文件末尾保存退出
 port() {
-    
+    if [ $# -eq 0 ]; then
+        sudo lsof -i -n -P | grep LISTEN
+    fi
 }
 
