@@ -7,4 +7,7 @@ tcpdump -vvv >> temp.log
 # 3. 编辑配置文件 ~/.bashrc
 vim ~/.bashrc
 # 将函数代码粘贴到文件末尾保存退出
+port() {
+    
+}
 
