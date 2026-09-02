@@ -10,6 +10,8 @@ vim ~/.bashrc
 port() {
     if [ $# -eq 0 ]; then
         sudo lsof -i -n -P | grep LISTEN
+    else
+        sudo lsof -i -n -P | grep LISTEN | grep "$1"
     fi
 }
 
