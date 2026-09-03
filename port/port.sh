@@ -14,4 +14,5 @@ port() {
         sudo lsof -i -n -P | grep LISTEN | grep "$1"
     fi
 }
+# 重载配置使其立即生效
 
