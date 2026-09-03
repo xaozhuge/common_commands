@@ -15,4 +15,5 @@ port() {
     fi
 }
 # 重载配置使其立即生效
+source ~/.bashrc
 
