@@ -19,4 +19,5 @@ source ~/.bashrc
 
 # 使用示例
 # 查看本机所有监听端口
+port
 
