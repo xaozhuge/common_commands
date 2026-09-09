@@ -8,3 +8,5 @@ sh -c '这里写一整条shell命令'
 # sudo 只作用于`echo`, 打开文件写权限依旧是普通用户, 会权限拒绝
 sudo echo "127.0.0.1 test.local" >> /etc/hosts
 
+# 3. 整条命令包括 `>>` 在 root 的 sh 里面运行
+
