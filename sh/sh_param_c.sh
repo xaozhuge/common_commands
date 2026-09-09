@@ -5,4 +5,5 @@ sh -c '这里写一整条shell命令'
 # 普通用户想往 `/etc/hosts` 追加一行, 下面错误：
 # 由当前用户shell打开文件, 权限不足 Permission denied
 # 原因: `>` 重定向是由 当前普通用户 shell 处理, 不是 sudo
+# sudo 只作用于`echo`, 打开文件写权限依旧是普通用户, 会权限拒绝
 
