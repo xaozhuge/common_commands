@@ -9,4 +9,5 @@ sh -c '这里写一整条shell命令'
 sudo echo "127.0.0.1 test.local" >> /etc/hosts
 
 # 3. 整条命令包括 `>>` 在 root 的 sh 里面运行
+# 就要用 `sudo sh -c '命令包含重定向'`
 
