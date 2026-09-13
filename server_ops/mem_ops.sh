@@ -5,4 +5,5 @@ free -h
 
 ## 2. 进程级: 一行找出 TOP 占用者
 ps aux --sort=-%mem | head -20
+ps -eo pid,user,%mem,rss,comm --sort=-rss | head -20
 
