@@ -7,4 +7,5 @@ free -h
 ps aux --sort=-%mem | head -20
 ps -eo pid,user,%mem,rss,comm --sort=-rss | head -20
 # RSS 单位是 KB, 方便直接对比 free 的输出
+# 重点关注 RSS 异常大、或单个进程吃掉30%+ 的条目
 
