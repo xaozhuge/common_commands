@@ -6,4 +6,5 @@ free -h
 ## 2. 进程级: 一行找出 TOP 占用者
 ps aux --sort=-%mem | head -20
 ps -eo pid,user,%mem,rss,comm --sort=-rss | head -20
+# RSS 单位是 KB, 方便直接对比 free 的输出
 
