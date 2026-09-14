@@ -15,4 +15,5 @@ sudo echo "127.0.0.1 test.local" >> /etc/hosts
 sudo sh -c 'echo "127.0.0.1 test.local" >> /etc/hosts'
 
 # 4. `sudo sh -c 'cmd'`：让 整条 cmd (含 > >> | 等重定向管道) 全部跑在 root 权限
+# 直接 `sudo cmd > file`, 重定向不会被 sudo 提升权限, 会权限报错, 这就是 sh‑c 存在的意义
 
