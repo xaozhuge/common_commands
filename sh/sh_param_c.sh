@@ -14,3 +14,5 @@ sudo echo "127.0.0.1 test.local" >> /etc/hosts
 # 这就是 `sudo sh -c` 最经典使用场景：需要 root 权限做重定向 / 管道操作
 sudo sh -c 'echo "127.0.0.1 test.local" >> /etc/hosts'
 
+# 4. `sudo sh -c 'cmd'`：让 整条 cmd (含 > >> | 等重定向管道) 全部跑在 root 权限
+
