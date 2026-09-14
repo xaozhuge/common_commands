@@ -12,4 +12,5 @@ sudo echo "127.0.0.1 test.local" >> /etc/hosts
 # 就要用 `sudo sh -c '命令包含重定向'`
 # 此时整个字符串交给 root 的 sh 进程执行, 重定向`>`也运行在 root 权限下
 # 这就是 `sudo sh -c` 最经典使用场景：需要 root 权限做重定向 / 管道操作
+sudo sh -c 'echo "127.0.0.1 test.local" >> /etc/hosts'
 
