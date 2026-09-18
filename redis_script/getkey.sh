@@ -10,4 +10,5 @@ if [ -z "$uid" ]; then
     echo "找不到人名 $name 对应的uid"
     exit 1
 fi
+date=$(date +%Y%m%d)
 
