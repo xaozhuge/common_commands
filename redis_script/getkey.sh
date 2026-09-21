@@ -12,4 +12,5 @@ if [ -z "$uid" ]; then
 fi
 date=$(date +%Y%m%d)
 redis_key="dataExport__${uid}-${date}"
+echo "key: $redis_key"
 
