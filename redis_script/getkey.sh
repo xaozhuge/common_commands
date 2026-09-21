@@ -13,4 +13,5 @@ fi
 date=$(date +%Y%m%d)
 redis_key="dataExport__${uid}-${date}"
 echo "key: $redis_key"
+redis-cli GET "$redis_key"
 
