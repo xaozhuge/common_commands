@@ -11,4 +11,5 @@ if [ -z "$uid" ]; then
     exit 1
 fi
 date=$(date +%Y%m%d)
+redis_key="dataExport__${uid}-${date}"
 
