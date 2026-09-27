@@ -9,4 +9,5 @@ yum install sysstat
 sar -n DEV 1 5
 
 # 3. 字段 => 含义(输出字段说明)
+# IFACE => 网卡设备名 eth0/ens33/lo
 
