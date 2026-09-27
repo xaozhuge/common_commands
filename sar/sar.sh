@@ -11,4 +11,5 @@ sar -n DEV 1 5
 # 3. 字段 => 含义(输出字段说明)
 # IFACE => 网卡设备名 eth0/ens33/lo
 # rxpck/s => 每秒接收数据包
+# txpck/s => 每秒发送数据包
 
