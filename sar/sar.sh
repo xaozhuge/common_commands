@@ -12,4 +12,5 @@ sar -n DEV 1 5
 # IFACE => 网卡设备名 eth0/ens33/lo
 # rxpck/s => 每秒接收数据包
 # txpck/s => 每秒发送数据包
+# rxkB/s => 每秒接收 KB
 
