@@ -14,4 +14,5 @@ sar -n DEV 1 5
 # txpck/s => 每秒发送数据包
 # rxkB/s => 每秒接收 KB
 # txkB/s => 每秒发送 KB
+# rxcmp/s => 每秒接收压缩包
 
