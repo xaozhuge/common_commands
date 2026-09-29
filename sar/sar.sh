@@ -17,4 +17,5 @@ sar -n DEV 1 5
 # rxcmp/s => 每秒接收压缩包
 # txcmp/s => 每秒发送压缩包
 # rxmcst/s => 每秒多播包
+# %ifutil => 网卡利用率(半双工有效, 全双工仅看单向)
 
