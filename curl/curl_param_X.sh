@@ -3,3 +3,5 @@
 # 语法: curl -X <METHOD> URL
 # 常用方法: GET、POST、PUT、DELETE、PATCH、HEAD
 
+# 2. -X GET 一般没必要写, curl 默认就是 GET
+
