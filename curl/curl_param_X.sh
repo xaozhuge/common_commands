@@ -9,4 +9,5 @@
 # 3. POST 示例(最常用)
 # -d: 携带请求体数据
 # 表单提交 application/x-www-form-urlencoded
+curl -X POST -d "name=zhangsan&age=20" https://a.com/post
 
