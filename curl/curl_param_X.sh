@@ -11,3 +11,5 @@
 # 表单提交 application/x-www-form-urlencoded
 curl -X POST -d "name=zhangsan&age=20" https://a.com/post
 
+# JSON提交, 需要手动加 Content-Type header
+
