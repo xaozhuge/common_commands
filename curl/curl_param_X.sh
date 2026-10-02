@@ -4,4 +4,5 @@
 # 常用方法: GET、POST、PUT、DELETE、PATCH、HEAD
 
 # 2. -X GET 一般没必要写, curl 默认就是 GET
+# -X 仅仅 修改请求方法, 不会自动携带请求体、header, POST 带数据还需要 -d/--data
 
