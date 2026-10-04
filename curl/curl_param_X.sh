@@ -15,4 +15,5 @@ curl -X POST -d "name=zhangsan&age=20" https://a.com/post
 curl -X POST -H "Content-Type: application/json" -d '{"name":"zhangsan"}' https://a.com/post
 
 # 4. PUT 示例(更新资源)
+curl -X PUT -H "Content-Type: application/json" -d '{"name":"lisi"}' https://a.com/put
 
