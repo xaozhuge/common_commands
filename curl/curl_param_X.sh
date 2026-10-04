@@ -14,3 +14,5 @@ curl -X POST -d "name=zhangsan&age=20" https://a.com/post
 # JSON提交, 需要手动加 Content-Type header
 curl -X POST -H "Content-Type: application/json" -d '{"name":"zhangsan"}' https://a.com/post
 
+# 4. PUT 示例(更新资源)
+
