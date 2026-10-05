@@ -20,3 +20,5 @@ curl -X PUT -H "Content-Type: application/json" -d '{"name":"lisi"}' https://a.c
 # 5. DELETE 示例(删除资源)
 curl -X DELETE https://a.com/delete
 
+# 6. PATCH 局部更新
+
