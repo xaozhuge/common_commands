@@ -17,3 +17,5 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"zhangsan"}' https:
 # 4. PUT 示例(更新资源)
 curl -X PUT -H "Content-Type: application/json" -d '{"name":"lisi"}' https://a.com/put
 
+# 5. DELETE 示例(删除资源)
+
