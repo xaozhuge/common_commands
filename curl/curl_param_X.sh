@@ -21,4 +21,5 @@ curl -X PUT -H "Content-Type: application/json" -d '{"name":"lisi"}' https://a.c
 curl -X DELETE https://a.com/delete
 
 # 6. PATCH 局部更新
+curl -X PATCH -H "Content-Type: application/json" -d '{"age":22}' https://a.com/patch
 
