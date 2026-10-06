@@ -24,4 +24,5 @@ curl -X DELETE https://a.com/delete
 curl -X PATCH -H "Content-Type: application/json" -d '{"age":22}' https://a.com/patch
 
 # 7. HEAD 只拿响应头, 不返回 body
+# 简写等价 curl -I https://a.com/get
 
