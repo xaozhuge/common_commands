@@ -27,3 +27,5 @@ curl -X PATCH -H "Content-Type: application/json" -d '{"age":22}' https://a.com/
 # 简写等价 curl -I https://a.com/get
 curl -X HEAD https://a.com/get
 
+# 8. GET(冗余写法，仅演示)
+
