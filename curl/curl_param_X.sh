@@ -31,3 +31,5 @@ curl -X HEAD https://a.com/get
 # 等价 curl https://a.com/get
 curl -X GET https://a.com/get
 
+# 9. 常用配套参数和 -X 一起用
+
