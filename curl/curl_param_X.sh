@@ -33,4 +33,5 @@ curl -X GET https://a.com/get
 
 # 9. 常用配套参数和 -X 一起用
 # -H "key: value"  设置请求头
+# -d "xxx"/--data  请求体
 
