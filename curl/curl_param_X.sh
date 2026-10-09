@@ -35,4 +35,5 @@ curl -X GET https://a.com/get
 # -H "key: value"  设置请求头
 # -d "xxx"/--data  请求体
 # -i  打印响应头 + 响应体
+# -v  verbose, 完整调试日志
 
