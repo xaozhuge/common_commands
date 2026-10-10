@@ -38,4 +38,5 @@ curl -X GET https://a.com/get
 # -v  verbose, 完整调试日志
 
 # 10. 完整示例
+curl -X POST -H "Content-Type: application/json" -d '{"username":"test"}' -i https://a.com/post
 
