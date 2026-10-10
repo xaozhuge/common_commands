@@ -37,3 +37,5 @@ curl -X GET https://a.com/get
 # -i  打印响应头 + 响应体
 # -v  verbose, 完整调试日志
 
+# 10. 完整示例
+
