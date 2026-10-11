@@ -1,2 +1,3 @@
 # 1. -H 全称 --header, 用于 自定义 HTTP 请求头, 可以添加 / 覆盖请求头, 多个请求头写多个 -H
+curl -H "Header名: Header值" URL
 
