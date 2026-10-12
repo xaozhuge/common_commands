@@ -5,3 +5,5 @@ curl -H "Header名: Header值" URL
 # 如果值包含空格, 一定要用引号包裹
 # -H 会覆盖 curl 默认自带的请求头(如 User-Agent)
 
+# 2. 设置 User-Agent
+
