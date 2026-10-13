@@ -9,4 +9,5 @@ curl -H "Header名: Header值" URL
 curl -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" https://a.com/headers
 
 # 3. 设置 Content-Type(POST 请求常用)
+curl -H "Content-Type: application/json" https://a.com/headers
 
