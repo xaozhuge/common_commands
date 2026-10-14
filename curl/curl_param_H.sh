@@ -12,4 +12,5 @@ curl -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit
 curl -H "Content-Type: application/json" https://a.com/headers
 
 # 4. 携带 Token / Authorization 认证头
+# Bearer token
 
