@@ -11,3 +11,5 @@ curl -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit
 # 3. 设置 Content-Type(POST 请求常用)
 curl -H "Content-Type: application/json" https://a.com/headers
 
+# 4. 携带 Token / Authorization 认证头
+
