@@ -13,4 +13,5 @@ curl -H "Content-Type: application/json" https://a.com/headers
 
 # 4. 携带 Token / Authorization 认证头
 # Bearer token
+curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." https://a.com/headers
 
