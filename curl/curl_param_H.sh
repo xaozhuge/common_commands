@@ -16,4 +16,5 @@ curl -H "Content-Type: application/json" https://a.com/headers
 curl -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." https://a.com/headers
 
 # Basic auth(简单认证，也可以用 -u, 这里用H演示)
+curl -H "Authorization: Basic YWRtaW46MTIzNDU2" https://a.com/headers
 
