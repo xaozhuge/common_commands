@@ -21,4 +21,5 @@ curl -H "Authorization: Basic YWRtaW46MTIzNDU2" https://a.com/headers
 # 5. 一次性传多个 Header(多个 -H)
 curl \
 -H "Content-Type: application/json" \
+-H "Authorization: Bearer abc123" \
 
