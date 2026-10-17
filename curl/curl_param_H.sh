@@ -22,4 +22,5 @@ curl -H "Authorization: Basic YWRtaW46MTIzNDU2" https://a.com/headers
 curl \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer abc123" \
+-H "Accept: application/json" \
 
