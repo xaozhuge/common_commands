@@ -23,4 +23,5 @@ curl \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer abc123" \
 -H "Accept: application/json" \
+-H "Referer: https://a.com" \
 
