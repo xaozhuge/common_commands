@@ -27,4 +27,5 @@ curl \
 https://a.com/headers
 
 # 6. 自定义 Cookie(也可以用 `-b` 参数, -H 方式)
+curl -H "Cookie: sessionid=abcd123; user=test" https://a.com/headers
 
