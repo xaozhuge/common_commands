@@ -26,3 +26,5 @@ curl \
 -H "Referer: https://a.com" \
 https://a.com/headers
 
+# 6. 自定义 Cookie(也可以用 `-b` 参数, -H 方式)
+
