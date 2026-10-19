@@ -32,4 +32,5 @@ curl -H "Cookie: sessionid=abcd123; user=test" https://a.com/headers
 # 7. 删除某个默认请求头
 # -H "Header名:" 冒号后面留空, 表示移除该头
 # 移除 Accept 请求头
+curl -H "Accept:" https://a.com/headers
 
