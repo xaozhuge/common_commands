@@ -34,3 +34,5 @@ curl -H "Cookie: sessionid=abcd123; user=test" https://a.com/headers
 # 移除 Accept 请求头
 curl -H "Accept:" https://a.com/headers
 
+# 8. POST JSON 完整示例(最常用组合)
+
