@@ -37,4 +37,5 @@ curl -H "Accept:" https://a.com/headers
 # 8. POST JSON 完整示例(最常用组合)
 curl -X POST \
 -H "Content-Type: application/json" \
+-H "Authorization: Bearer token123" \
 
