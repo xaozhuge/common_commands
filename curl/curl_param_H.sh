@@ -38,4 +38,5 @@ curl -H "Accept:" https://a.com/headers
 curl -X POST \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer token123" \
+-d '{"name":"test","age":20}' \
 
