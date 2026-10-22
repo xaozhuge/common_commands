@@ -41,3 +41,5 @@ curl -X POST \
 -d '{"name":"test","age":20}' \
 https://a.com/post
 
+# 9. 配套查看返回头(调试用)
+
