@@ -42,4 +42,5 @@ curl -X POST \
 https://a.com/post
 
 # 9. 配套查看返回头(调试用)
+# -I 只发送 HEAD 请求, 只看响应头
 
