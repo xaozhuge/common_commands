@@ -3,3 +3,5 @@ docker restart php56_c
 docker restart php73_c
 docker restart php85_c
 
+# 2. 查看php.ini的配置是否生效
+
