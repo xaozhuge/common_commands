@@ -7,3 +7,5 @@ docker restart php85_c
 docker exec -it php56_c php -i|grep memory_limit
 docker exec -it php73_c php -i|grep memory_limit
 
+# 3. 在 docker-compose.yml 里只构建 php85 镜像
+
