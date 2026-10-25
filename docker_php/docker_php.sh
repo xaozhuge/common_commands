@@ -5,4 +5,5 @@ docker restart php85_c
 
 # 2. 查看php.ini的配置是否生效
 docker exec -it php56_c php -i|grep memory_limit
+docker exec -it php73_c php -i|grep memory_limit
 
