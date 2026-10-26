@@ -11,4 +11,5 @@ docker exec -it php73_c php -i|grep memory_limit
 docker compose build php85
 
 # 4. 用新镜像启动 php85 容器
+docker compose up -d --no-deps php85
 
