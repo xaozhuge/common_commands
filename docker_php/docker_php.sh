@@ -14,4 +14,5 @@ docker compose build php85
 docker compose up -d --no-deps php85
 
 # 5. 删除旧的 php85_c 容器
+docker rm -f php85_c
 
