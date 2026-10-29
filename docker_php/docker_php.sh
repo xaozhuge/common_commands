@@ -20,3 +20,5 @@ docker-compose up -d --no-deps php85
 # 5. 删除旧的 php85_c 容器
 docker rm -f php85_c
 
+# 6. 验证 php85_c 容器里的 max_children 相关配置是否生效(容器内没有ps)
+
