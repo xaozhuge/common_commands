@@ -15,6 +15,7 @@ docker compose build --no-cache php85
 
 # 4. 用新镜像启动 php85 容器
 docker compose up -d --no-deps php85
+docker-compose up -d --no-deps php85
 
 # 5. 删除旧的 php85_c 容器
 docker rm -f php85_c
