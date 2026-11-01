@@ -4,6 +4,7 @@ sh bin/zookeeper-server-start.sh config/zookeeper.properties &
 
 # 2. 关闭 zookeeper
 sh bin/zookeeper-server-stop.sh
+sh bin/kafka-server-stop.sh
 
 # 3. 启动 kafka
 cd /data/kafka_2.13-3.1.1/
