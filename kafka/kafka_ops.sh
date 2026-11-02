@@ -28,4 +28,5 @@ $KAFKA_HOME/bin/zookeeper-server-stop.sh
 netstat -tuln | grep 2181
 
 # 5. 先启动 zookeeper, 再启动 kafka
+cd /data/kafka_2.13-3.1.1/
 
