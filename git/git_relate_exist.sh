@@ -4,4 +4,5 @@
 git init
 
 # 2. 添加所有文件到暂存区
+git add .
 
