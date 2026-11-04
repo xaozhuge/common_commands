@@ -6,3 +6,5 @@ git init
 # 2. 添加所有文件到暂存区
 git add .
 
+# 3. 提交本地, 写commit备注
+
