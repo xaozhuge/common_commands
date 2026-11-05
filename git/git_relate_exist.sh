@@ -9,3 +9,5 @@ git add .
 # 3. 提交本地, 写commit备注
 git commit -m "init: 初始化全部文件"
 
+# 4. 创建并切换到你想要的分支
+
