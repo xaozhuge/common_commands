@@ -7,4 +7,5 @@ git init
 git add .
 
 # 3. 提交本地, 写commit备注
+git commit -m "init: 初始化全部文件"
 
