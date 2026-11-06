@@ -15,3 +15,5 @@ git checkout -b server/ip
 # 5. 关联远端仓库(替换成你的git仓库地址)
 git remote add origin git@xxx.git
 
+# 6. 推送这个不存在的分支到远端服务器
+
