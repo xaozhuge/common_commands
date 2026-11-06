@@ -13,4 +13,5 @@ git commit -m "init: 初始化全部文件"
 git checkout -b server/ip
 
 # 5. 关联远端仓库(替换成你的git仓库地址)
+git remote add origin git@xxx.git
 
