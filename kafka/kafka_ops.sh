@@ -33,4 +33,5 @@ nohup ./bin/zookeeper-server-start.sh ./config/zookeeper.properties > /hwdata/se
 nohup ./bin/kafka-server-start.sh ./config/server.properties > /hwdata/server/kafka/log/kafka.out 2>&1 &
 
 # 6. 查看 Zookeeper 和 kafka 的端口是否正常监听
+sudo lsof -i -n -P|grep LISTEN
 
