@@ -32,3 +32,5 @@ cd /data/kafka_2.13-3.1.1/
 nohup ./bin/zookeeper-server-start.sh ./config/zookeeper.properties > /hwdata/server/kafka/log/zookeeper.out 2>&1 &
 nohup ./bin/kafka-server-start.sh ./config/server.properties > /hwdata/server/kafka/log/kafka.out 2>&1 &
 
+# 6. 查看 Zookeeper 和 kafka 的端口是否正常监听
+
