@@ -30,4 +30,5 @@ netstat -tuln | grep 2181
 # 5. 先启动 zookeeper, 再启动 kafka
 cd /data/kafka_2.13-3.1.1/
 nohup ./bin/zookeeper-server-start.sh ./config/zookeeper.properties > /hwdata/server/kafka/log/zookeeper.out 2>&1 &
+nohup ./bin/kafka-server-start.sh ./config/server.properties > /hwdata/server/kafka/log/kafka.out 2>&1 &
 
