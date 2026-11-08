@@ -16,4 +16,5 @@ git checkout -b server/ip
 git remote add origin git@xxx.git
 
 # 6. 推送这个不存在的分支到远端服务器
+git push -u origin server/ip
 
