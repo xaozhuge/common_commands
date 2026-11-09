@@ -20,4 +20,5 @@ git push -u origin server/ip
 
 # 7. 配置信息,用来显示,不校验
 git config user.name "serverip"
+git config user.email "user@email.com"
 
