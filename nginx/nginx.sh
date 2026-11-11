@@ -12,3 +12,5 @@ docker exec nginx122_c nginx -t
 # 容器内的nginx重新加载
 docker exec nginx122_c nginx -s reload
 
+# 4. nginx在容器内还是容器外的区别
+
