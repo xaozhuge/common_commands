@@ -3,4 +3,5 @@ https://help.aliyun.com/zh/oss/user-guide/upload-files-using-presigned-urls?spm=
 
 # 2. 先是微服务提供预签名的URL
 # 然后使用put方式, 将指定的文件put到对应的OSS地址
+curl -X PUT -T 1.png "http://bucket.oss-cn-beijing.aliyuncs.com/1.png?Expires=&OSSAccessKeyId=&Signature="
 
