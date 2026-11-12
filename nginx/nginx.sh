@@ -13,4 +13,5 @@ docker exec nginx122_c nginx -t
 docker exec nginx122_c nginx -s reload
 
 # 4. nginx在容器内还是容器外的区别
+# 容器外: 如果是微服务的代理, 最好在容器外, 因为有很多的端口
 
