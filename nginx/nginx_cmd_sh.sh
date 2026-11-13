@@ -2,4 +2,5 @@
 # nginx Startup script for the Nginx HTTP Server
 
 nginxd=/alidata/server/nginx/sbin/nginx
+nginx_config=/alidata/server/nginx/conf/nginx.conf
 
