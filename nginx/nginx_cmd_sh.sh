@@ -9,4 +9,5 @@ RETVAL=0
 prog="nginx"
 
 # shell 测试, 判断这个文件是否存在并且拥有可执行权限
+[ -x $nginxd ] || exit 0
 
