@@ -12,4 +12,5 @@ prog="nginx"
 [ -x $nginxd ] || exit 0
 
 # Start nginx daemons functions.
+start() {
 
