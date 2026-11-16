@@ -13,4 +13,5 @@ prog="nginx"
 
 # Start nginx daemons functions.
 start() {
+    # -e: exists, 判断文件是否存在
 
