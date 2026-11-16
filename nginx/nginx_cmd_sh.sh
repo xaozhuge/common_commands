@@ -14,4 +14,5 @@ prog="nginx"
 # Start nginx daemons functions.
 start() {
     # -e: exists, 判断文件是否存在
+    # 如果 nginx 的 pid 文件存在, 并且 netstat 能查到 nginx 监听端口
 
