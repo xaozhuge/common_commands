@@ -17,4 +17,6 @@ start() {
     # 如果 nginx 的 pid 文件存在, 并且 netstat 能查到 nginx 监听端口
     if [ -e $nginx_pid ] && netstat -tunpl | grep nginx &> /dev/null;then
         echo "nginx already running...."
-
+        exit 1
+    fi
+        
