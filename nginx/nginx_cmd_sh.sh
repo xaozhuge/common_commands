@@ -19,4 +19,7 @@ start() {
         echo "nginx already running...."
         exit 1
     fi
-        
+    
+    # 不换行打印 "Starting nginx!", 预留位置后面打印启动成功 / 失败标记
+    
+    
