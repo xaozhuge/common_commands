@@ -23,5 +23,7 @@ start() {
     # 不换行打印 "Starting nginx!", 预留位置后面打印启动成功 / 失败标记
     # echo -n: echo 默认末尾输出换行, -n 取消最后的换行符, 输出后光标不换到下一行
     echo -n $"Starting $prog!"
-
+    
+    # 等价直接写 /alidata/server/nginx/sbin/nginx -c /alidata/server/nginx/conf/nginx.conf
+    
     
