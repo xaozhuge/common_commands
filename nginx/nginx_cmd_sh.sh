@@ -25,5 +25,6 @@ start() {
     echo -n $"Starting $prog!"
     
     # 等价直接写 /alidata/server/nginx/sbin/nginx -c /alidata/server/nginx/conf/nginx.conf
+    # 执行 nginx, -c 参数作用: 指定加载自定义配置文件
     
     
