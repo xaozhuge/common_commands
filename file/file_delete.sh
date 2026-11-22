@@ -8,4 +8,5 @@ ls -lid
 # .: 在当前目录开始查找
 # maxdepth 1: 只查当前目录, 不递归进入子目录(非常关键, 避免误删子目录里同 inode 硬链接)
 # -inum 2891604: 匹配 inode 等于 2891604 的对象
+find . -maxdepth 1 -inum 2891604
 
