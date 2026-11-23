@@ -12,4 +12,5 @@ find . -maxdepth 1 -inum 2891604
 
 # 4. 文件删除
 # -delete: find 内置删除动作
+find . -maxdepth 1 -inum 2891604 -delete
 
