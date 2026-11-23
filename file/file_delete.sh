@@ -10,3 +10,5 @@ ls -lid
 # -inum 2891604: 匹配 inode 等于 2891604 的对象
 find . -maxdepth 1 -inum 2891604
 
+# 4. 文件删除
+
