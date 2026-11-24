@@ -16,4 +16,5 @@ find . -maxdepth 1 -inum 2891604 -delete
 
 # 5. 目录删除
 # -type d: 限定只匹配 目录类型
+# -delete: 删除目录前提：目录必须是空目录
 
