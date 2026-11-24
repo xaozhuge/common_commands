@@ -14,3 +14,5 @@ find . -maxdepth 1 -inum 2891604
 # -delete: find 内置删除动作
 find . -maxdepth 1 -inum 2891604 -delete
 
+# 5. 目录删除
+
