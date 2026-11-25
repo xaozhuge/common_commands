@@ -28,3 +28,5 @@ start() {
     # 执行 nginx, -c 参数作用: 指定加载自定义配置文件
     $nginxd -c ${nginx_config}
     
+    # $?: shell 内置变量, 保存 上一条命令的退出码
+
