@@ -29,4 +29,5 @@ start() {
     $nginxd -c ${nginx_config}
     
     # $?: shell 内置变量, 保存 上一条命令的退出码
+    # 赋值给 `RETVAL` 保存结果, 后面用来判断 nginx 命令成功 / 失败
 
