@@ -32,4 +32,5 @@ start() {
     # 赋值给 `RETVAL` 保存结果, 后面用来判断 nginx 命令成功 / 失败
     RETVAL=$?
     echo
+    [ $RETVAL = 0 ] && touch /var/lock/nginx
 
