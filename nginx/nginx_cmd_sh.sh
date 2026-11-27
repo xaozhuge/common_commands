@@ -36,3 +36,5 @@ start() {
     return $RETVAL
 }
 
+# Stop nginx daemons functions
+
