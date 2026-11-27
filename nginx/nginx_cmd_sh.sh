@@ -37,4 +37,5 @@ start() {
 }
 
 # Stop nginx daemons functions
+stop() {
 
