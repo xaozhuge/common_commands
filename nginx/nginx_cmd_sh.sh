@@ -33,4 +33,6 @@ start() {
     RETVAL=$?
     echo
     [ $RETVAL = 0 ] && touch /var/lock/nginx
+    return $RETVAL
+}
 
