@@ -38,4 +38,5 @@ start() {
 
 # Stop nginx daemons functions
 stop() {
+    echo -n $"Stopping $prog!"
 
