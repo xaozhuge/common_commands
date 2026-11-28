@@ -40,4 +40,5 @@ start() {
 stop() {
     echo -n $"Stopping $prog!"
     $nginxd -s stop
+    RETVAL=$?
 
